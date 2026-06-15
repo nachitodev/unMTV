@@ -216,6 +216,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     const [showPlaylist, setShowPlaylist] = useState(false);
     const playlistTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const [transitionVideo, setTransitionVideo] = useState<string | null>(null);
 
     function handleNext() {
         if (mediaList.length <= 1) {
@@ -224,6 +225,14 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 setPlaying(true);
             }
             return;
+        }
+
+        const nextIdx = historyIndex < history.length - 1 ? history[historyIndex + 1] : upcomingQueue[0];
+        const nextVideoObj = mediaList[nextIdx];
+        if (nextVideoObj?.artist === "enzocerobulto" && current?.artist !== "enzocerobulto") {
+            setTransitionVideo(Math.random() > 0.5 ? "/transitions/MTV to OTG - 1.mp4" : "/transitions/MTV to OTG - 2.mp4");
+        } else if (nextVideoObj?.artist !== "enzocerobulto" && current?.artist === "enzocerobulto") {
+            setTransitionVideo(Math.random() > 0.5 ? "/transitions/OTG to MTV - 1.mp4" : "/transitions/OTG to MTV - 2.mp4");
         }
 
         if (historyIndex < history.length - 1) {
@@ -240,6 +249,13 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     function handlePrev() {
         if (historyIndex > 0) {
+            const prevIdx = history[historyIndex - 1];
+            const prevVideoObj = mediaList[prevIdx];
+            if (prevVideoObj?.artist === "enzocerobulto" && current?.artist !== "enzocerobulto") {
+                setTransitionVideo(Math.random() > 0.5 ? "/transitions/MTV to OTG - 1.mp4" : "/transitions/MTV to OTG - 2.mp4");
+            } else if (prevVideoObj?.artist !== "enzocerobulto" && current?.artist === "enzocerobulto") {
+                setTransitionVideo(Math.random() > 0.5 ? "/transitions/OTG to MTV - 1.mp4" : "/transitions/OTG to MTV - 2.mp4");
+            }
             setHistoryIndex(prev => prev - 1);
         } else {
             if (playerRef.current) {
@@ -272,6 +288,9 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const showUpNext = duration > 10 && (duration - currentTime <= 5) && mediaList.length > 1;
     const showNowPlaying = currentTime <= 5 && duration > 0 && !showUpNext;
     const showMidBumper = duration > 45 && currentTime >= 45 && currentTime < 55;
+
+    const isEnzo = current?.artist === "enzocerobulto";
+    const currentLogo = isEnzo ? "/OTG-Logo.svg" : "/MTV-Logo.svg";
 
     if (!current) return null;
 
@@ -331,43 +350,57 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 />
             </div>
 
-            <img
-                src="/MTV-Logo.svg"
-                alt="MTV"
-                className="absolute top-16 right-24 w-24 pointer-events-none opacity-90 z-20"
-            />
+            {!transitionVideo ? (
+                <img
+                    src={currentLogo}
+                    alt={isEnzo ? "OTG" : "MTV"}
+                    className="absolute top-4 right-4 sm:top-16 sm:right-24 w-14 sm:w-24 pointer-events-none opacity-90 z-20 transition-all duration-500"
+                />
+            ) : (
+                <video
+                    src={transitionVideo}
+                    autoPlay
+                    playsInline
+                    className="absolute top-4 right-4 sm:top-16 sm:right-24 w-14 sm:w-24 object-cover z-20"
+                    onEnded={() => setTransitionVideo(null)}
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        setTransitionVideo(null); // click to skip transition
+                    }}
+                />
+            )}
 
             <div
-                className="absolute bottom-16 left-32 pointer-events-none text-white text-3xl font-black tracking-tighter leading-tight flex items-center gap-3 opacity-90 z-20"
+                className="absolute bottom-4 left-4 sm:bottom-16 sm:left-32 pointer-events-none text-white text-xl sm:text-3xl font-black tracking-tighter leading-tight flex items-center gap-2 sm:gap-3 opacity-90 z-20"
                 style={{
                     fontFamily: "'Anton', sans-serif",
                     textShadow: "3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
                 }}
             >
-                <span className="w-16">{time}</span>
+                <span className="w-12 sm:w-16">{time}</span>
                 {temp !== null && (
                     <span>{temp.toFixed(1)}°</span>
                 )}
             </div>
 
             {isMuted && (
-                <div className="absolute top-8 right-8 bg-[#ec1c5e] text-white font-black text-sm px-4 py-2 pointer-events-none animate-pulse z-20"
+                <div className="absolute top-4 right-4 sm:top-8 sm:right-8 bg-[#ec1c5e] text-white font-black text-xs sm:text-sm px-3 py-1.5 sm:px-4 sm:py-2 pointer-events-none animate-pulse z-20"
                     style={{ fontFamily: "'Anton', sans-serif" }}>
                     CLICK ANYWHERE TO UNMUTE
                 </div>
             )}
 
             {/* MTV Bumper Overlay */}
-            <div className={`absolute bottom-24 right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
-                <div className="flex items-center gap-3 bg-black/80 p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[350px]">
+            <div className={`absolute bottom-6 right-4 sm:bottom-24 sm:right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
+                <div className="flex items-center gap-3 bg-black/80 p-2.5 sm:p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[260px] sm:max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pl-2">
-                        <span className="text-[#ec1c5e] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
+                        <span className="text-[#ec1c5e] font-black text-[9px] sm:text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
                             {showUpNext ? "UP NEXT" : "NOW PLAYING"}
                         </span>
-                        <span className="text-white font-bold text-sm leading-tight truncate">
+                        <span className="text-white font-bold text-xs sm:text-sm leading-tight truncate">
                             {getTitle(showUpNext ? (mediaList[upcomingQueue[0]] ?? current) : current)}
                         </span>
-                        <span className="text-white/60 text-xs truncate">
+                        <span className="text-white/60 text-[10px] sm:text-xs truncate">
                             {(showUpNext ? (mediaList[upcomingQueue[0]] ?? current).artist : current.artist) || 'Unknown Artist'}
                         </span>
                     </div>
@@ -375,16 +408,16 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             </div>
 
             {/* Mid Bumper Overlay (45s mark) */}
-            <div className={`absolute top-24 left-24 transition-all duration-700 pointer-events-none z-30 ${showMidBumper ? "translate-x-0 opacity-100" : "-translate-x-[150%] opacity-0"}`}>
-                <div className="flex items-center gap-3 bg-black/80 p-3 border-l-4 border-[#ec1c5e] shadow-xl backdrop-blur-md rounded-r-lg max-w-[350px]">
+            <div className={`absolute top-16 sm:top-24 left-4 sm:left-24 transition-all duration-700 pointer-events-none z-30 ${showMidBumper ? "translate-x-0 opacity-100" : "-translate-x-[150%] opacity-0"}`}>
+                <div className="flex items-center gap-3 bg-black/80 p-2.5 sm:p-3 border-l-4 border-[#ec1c5e] shadow-xl backdrop-blur-md rounded-r-lg max-w-[260px] sm:max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pl-2 pr-4">
-                        <span className="text-[#5bc6e8] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
+                        <span className="text-[#5bc6e8] font-black text-[9px] sm:text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
                             NOW PLAYING
                         </span>
-                        <span className="text-white font-bold text-sm leading-tight truncate">
+                        <span className="text-white font-bold text-xs sm:text-sm leading-tight truncate">
                             {getTitle(current)}
                         </span>
-                        <span className="text-white/60 text-xs truncate">
+                        <span className="text-white/60 text-[10px] sm:text-xs truncate">
                             {current.artist || 'Unknown Artist'}
                         </span>
                     </div>
@@ -393,35 +426,35 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
             {/* Left Hover Area - Rewind */}
             <div
-                className="absolute left-0 top-0 bottom-0 w-32 flex items-center justify-start px-4 opacity-0 hover:opacity-100 transition-opacity bg-gradient-to-r from-black/60 to-transparent cursor-pointer z-40"
+                className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 flex items-center justify-start px-2 sm:px-4 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity bg-gradient-to-r from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
                     e.stopPropagation();
                     handleGlobalClick();
                     handlePrev();
                 }}
             >
-                <SkipBack className="w-12 h-12 text-white drop-shadow-lg" />
+                <SkipBack className="w-8 h-8 sm:w-12 sm:h-12 text-white drop-shadow-lg" />
             </div>
 
             {/* Right Hover Area - Skip */}
             <div
-                className="absolute right-0 top-0 bottom-0 w-32 flex items-center justify-end px-4 opacity-0 hover:opacity-100 transition-opacity bg-gradient-to-l from-black/60 to-transparent cursor-pointer z-40"
+                className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 flex items-center justify-end px-2 sm:px-4 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity bg-gradient-to-l from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
                     e.stopPropagation();
                     handleGlobalClick();
                     handleNext();
                 }}
             >
-                <SkipForward className="w-12 h-12 text-white drop-shadow-lg" />
+                <SkipForward className="w-8 h-8 sm:w-12 sm:h-12 text-white drop-shadow-lg" />
             </div>
 
             {/* Volume Control */}
             <div
-                className="absolute bottom-10 right-10 z-50 flex items-center gap-3 bg-black/40 p-3 rounded-full backdrop-blur-md opacity-30 hover:opacity-100 transition-opacity"
+                className="absolute bottom-4 right-4 sm:bottom-10 sm:right-10 z-50 flex items-center gap-2 sm:gap-3 bg-black/40 p-2 sm:p-3 rounded-full backdrop-blur-md sm:opacity-30 hover:opacity-100 transition-opacity"
                 onClick={(e) => e.stopPropagation()}
             >
                 <div onClick={() => setIsMuted(!isMuted)} className="cursor-pointer text-white drop-shadow-md hover:text-[#ec1c5e] transition-colors">
-                    {isMuted || volume === 0 ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+                    {isMuted || volume === 0 ? <VolumeX className="w-4 h-4 sm:w-5 sm:h-5" /> : <Volume2 className="w-4 h-4 sm:w-5 sm:h-5" />}
                 </div>
                 <input
                     type="range"
@@ -435,7 +468,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                         if (val > 0) setIsMuted(false);
                         else setIsMuted(true);
                     }}
-                    className="w-24 accent-[#ec1c5e] cursor-pointer"
+                    className="w-16 sm:w-24 accent-[#ec1c5e] cursor-pointer"
                 />
             </div>
 
@@ -448,12 +481,12 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 <div className="flex justify-center mb-2">
                     <ChevronUp className="w-6 h-6 text-white/50 animate-bounce" />
                 </div>
-                <div className="bg-gradient-to-t from-black via-black/95 to-transparent pt-10 pb-6 px-8">
-                    <div className="flex items-center gap-2 mb-4 ml-2">
+                <div className="bg-gradient-to-t from-black via-black/95 to-transparent pt-10 pb-4 sm:pb-6 px-3 sm:px-8">
+                    <div className="flex items-center gap-2 mb-3 sm:mb-4 ml-1 sm:ml-2">
                         <span className="text-[#ec1c5e] font-black text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "'Anton', sans-serif" }}>UP NEXT</span>
                         <div className="flex-1 h-px bg-white/10" />
                     </div>
-                    <div className="grid grid-cols-8 gap-3">
+                    <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-2 sm:gap-3">
                         {upcomingQueue.map((qIdx, i) => {
                             const entry = mediaList[qIdx];
                             if (!entry) return null;

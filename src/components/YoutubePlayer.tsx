@@ -258,7 +258,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             <div className="w-full h-full pointer-events-none">
                 <ReactPlayer
                     ref={playerRef}
-                    src={current.src}
+                    src={`${current.src}${current.src.includes('?') ? '&' : '?'}cc_load_policy=1&cc_lang_pref=zz&iv_load_policy=3`}
                     playing={playing}
                     autoPlay
                     muted={isMuted}
@@ -276,7 +276,6 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                             disablekb: 1,
                             fs: 0,
                             playsinline: 1,
-                            cc_load_policy: 0,
                             vq: 'hd1080'
                         } as any
                     }}

@@ -1,0 +1,327 @@
+import { useEffect, useRef, useState } from "react";
+import { SkipBack, SkipForward } from "lucide-react";
+
+interface MediaEntry {
+    src: string;
+    aspect: "4:3" | "16:9" | "other";
+}
+
+interface PlayerProps {
+    mediaList: MediaEntry[];
+}
+
+function getNextUnplayedIndex(length: number, history: number[]) {
+    if (length <= 1) return 0;
+    
+    const playedInCurrentCycleCount = history.length % length;
+    const playedInCurrentCycle = playedInCurrentCycleCount === 0 
+        ? [] 
+        : history.slice(-playedInCurrentCycleCount);
+        
+    const available = [];
+    for (let i = 0; i < length; i++) {
+        if (!playedInCurrentCycle.includes(i)) {
+            available.push(i);
+        }
+    }
+    
+    let nextIdx = available[Math.floor(Math.random() * available.length)];
+    
+    // Prevent back-to-back repeats when starting a new cycle
+    if (playedInCurrentCycleCount === 0 && nextIdx === history[history.length - 1]) {
+        const idxInAvailable = available.indexOf(nextIdx);
+        nextIdx = available[(idxInAvailable + 1) % available.length];
+    }
+    
+    return nextIdx;
+}
+
+function getTitle(src: string) {
+    const parts = src.split("/");
+    const filename = parts[parts.length - 1];
+    return decodeURIComponent(filename).replace(/\.webm$/, "").replace(/\.mp4$/, "");
+}
+
+function useClock() {
+    const [time, setTime] = useState(() => new Date());
+
+    useEffect(() => {
+        const id = setInterval(() => setTime(new Date()), 1000);
+        return () => clearInterval(id);
+    }, []);
+
+    return time.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+    });
+}
+
+function useTemperature() {
+    const [temp, setTemp] = useState<number | null>(null);
+
+    useEffect(() => {
+        async function load() {
+            try {
+                // 1. Check cached weather
+                const cachedW = localStorage.getItem("mtv_weather");
+                if (cachedW) {
+                    const data = JSON.parse(cachedW);
+                    // Use cache if less than 1 hour old
+                    if (Date.now() - data.time < 3600000) {
+                        setTemp(data.temp);
+                        return;
+                    }
+                }
+
+                // 2. Get coordinates (cache, fetch, or default to Buenos Aires)
+                let lat = -34.6037;
+                let lon = -58.3816;
+                const cachedGeo = localStorage.getItem("mtv_geo");
+
+                if (cachedGeo) {
+                    const geo = JSON.parse(cachedGeo);
+                    lat = geo.lat;
+                    lon = geo.lon;
+                } else {
+                    try {
+                        const geoRes = await fetch("https://ipapi.co/json/");
+                        if (geoRes.ok) {
+                            const geo = await geoRes.json();
+                            if (geo.latitude && geo.longitude) {
+                                lat = geo.latitude;
+                                lon = geo.longitude;
+                                localStorage.setItem("mtv_geo", JSON.stringify({ lat, lon }));
+                            }
+                        }
+                    } catch (e) {
+                        // Ignore geo error and use default Buenos Aires
+                    }
+                }
+
+                // 3. Fetch weather
+                const weatherRes = await fetch(
+                    `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m`
+                );
+                if (weatherRes.ok) {
+                    const weather = await weatherRes.json();
+                    const t = weather.current.temperature_2m;
+                    setTemp(t);
+                    localStorage.setItem("mtv_weather", JSON.stringify({ temp: t, time: Date.now() }));
+                } else if (cachedW) {
+                    // Fallback to stale cache if offline/error
+                    setTemp(JSON.parse(cachedW).temp);
+                }
+            } catch {
+                const cachedW = localStorage.getItem("mtv_weather");
+                if (cachedW) {
+                    setTemp(JSON.parse(cachedW).temp);
+                } else {
+                    setTemp(null);
+                }
+            }
+        }
+
+        load();
+    }, []);
+
+    return temp;
+}
+
+export default function Player({ mediaList }: PlayerProps) {
+    const videoRef = useRef<HTMLVideoElement>(null);
+    
+    // Keep track of watched videos to allow skipping backwards
+    const [history, setHistory] = useState<number[]>(() => [Math.floor(Math.random() * mediaList.length)]);
+    const [historyIndex, setHistoryIndex] = useState(0);
+
+    const index = history[historyIndex];
+    const current = mediaList[index];
+    const isFourThree = current.aspect === "4:3";
+
+    const time = useClock();
+    const temp = useTemperature();
+    const [isMuted, setIsMuted] = useState(false);
+
+    const [currentTime, setCurrentTime] = useState(0);
+    const [duration, setDuration] = useState(0);
+    const [nextPreload, setNextPreload] = useState<number>(0);
+
+    useEffect(() => {
+        if (historyIndex === history.length - 1) {
+            setNextPreload(getNextUnplayedIndex(mediaList.length, history));
+        }
+    }, [historyIndex, history, mediaList.length]);
+
+    const nextIndex = historyIndex < history.length - 1 ? history[historyIndex + 1] : nextPreload;
+    const nextVideo = mediaList.length > 1 ? mediaList[nextIndex] : current;
+
+    function handleNext() {
+        if (mediaList.length <= 1) {
+            if (videoRef.current) {
+                videoRef.current.currentTime = 0;
+                videoRef.current.load(); // Force reload if webm is unseekable
+                videoRef.current.play().catch(() => {});
+            }
+            return;
+        }
+
+        if (historyIndex < history.length - 1) {
+            setHistoryIndex(prev => prev + 1);
+        } else {
+            setHistory(prev => [...prev, nextPreload]);
+            setHistoryIndex(prev => prev + 1);
+        }
+    }
+
+    function handlePrev() {
+        if (historyIndex > 0) {
+            setHistoryIndex(prev => prev - 1);
+        } else {
+            // If we're at the start of history, just restart the current video
+            if (videoRef.current) {
+                videoRef.current.currentTime = 0;
+                videoRef.current.load(); 
+                videoRef.current.play().catch(() => {});
+            }
+        }
+    }
+
+    function handleEnded() {
+        handleNext();
+    }
+
+    function handleError(e: React.SyntheticEvent<HTMLVideoElement, Event>) {
+        console.error("Video error on:", current.src, e);
+        // If a video fails to load or decode, skip to the next one automatically
+        handleNext();
+    }
+
+    useEffect(() => {
+        setCurrentTime(0);
+        setDuration(0);
+        const video = videoRef.current;
+        if (video) {
+            video.muted = false;
+            setIsMuted(false);
+            video.play().catch(() => {
+                // If autoplay with sound is blocked, fallback to muted autoplay
+                video.muted = true;
+                setIsMuted(true);
+                video.play().catch(() => { });
+            });
+        }
+    }, [index]);
+
+    function handleGlobalClick() {
+        if (videoRef.current) {
+            videoRef.current.muted = false;
+            setIsMuted(false);
+        }
+    }
+
+    const showUpNext = duration > 10 && (duration - currentTime <= 5) && mediaList.length > 1;
+    const showNowPlaying = currentTime <= 5 && duration > 0 && !showUpNext;
+
+    return (
+        <div
+            className="fixed inset-0 bg-black overflow-hidden flex items-center justify-center cursor-pointer"
+            onClick={handleGlobalClick}
+        >
+            {isFourThree && (
+                <>
+                    <div
+                        className="absolute inset-y-0 left-0 w-[16.66%] bg-cover bg-center"
+                        style={{ backgroundImage: "url(/border.png)" }}
+                    />
+                    <div
+                        className="absolute inset-y-0 right-0 w-[16.66%] bg-cover bg-center"
+                        style={{ backgroundImage: "url(/border.png)" }}
+                    />
+                </>
+            )}
+
+            <video
+                ref={videoRef}
+                src={current.src}
+                autoPlay
+                playsInline
+                onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
+                onDurationChange={(e) => setDuration(e.currentTarget.duration)}
+                onEnded={handleEnded}
+                onError={handleError}
+                className="w-full h-full object-contain pointer-events-none"
+            />
+
+            <img
+                src="/MTV-Logo.svg"
+                alt="MTV"
+                className="absolute top-16 right-24 w-24 pointer-events-none opacity-90"
+            />
+
+            <div
+                className="absolute bottom-16 left-24 pointer-events-none text-white text-3xl font-black tracking-tighter leading-tight flex items-center gap-3 opacity-90"
+                style={{
+                    fontFamily: "'Impact', 'Arial Black', sans-serif",
+                    textShadow: "3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
+                }}
+            >
+                <span>{time}</span>
+                {temp !== null && (
+                    <span>{temp.toFixed(1)}°</span>
+                )}
+            </div>
+
+            {isMuted && (
+                <div className="absolute top-8 right-8 bg-[#ec1c5e] text-white font-black text-sm px-4 py-2 pointer-events-none animate-pulse"
+                    style={{ fontFamily: "'Arial Black', sans-serif" }}>
+                    CLICK ANYWHERE TO UNMUTE
+                </div>
+            )}
+
+            {/* MTV Bumper Overlay */}
+            <div className={`absolute bottom-24 right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
+                <div className="flex items-center gap-3 bg-black/80 p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[350px]">
+                    <video 
+                        key={showUpNext ? "next" : "current"}
+                        src={showUpNext ? nextVideo.src : current.src} 
+                        className="w-24 h-16 object-cover bg-gray-900 shadow-md rounded-sm" 
+                        preload="metadata"
+                    />
+                    <div className="flex flex-col flex-1 overflow-hidden pr-2">
+                        <span className="text-[#ec1c5e] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Arial Black', sans-serif" }}>
+                            {showUpNext ? "UP NEXT" : "NOW PLAYING"}
+                        </span>
+                        <span className="text-white font-bold text-sm leading-tight truncate">
+                            {getTitle(showUpNext ? nextVideo.src : current.src)}
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            {/* Left Hover Area - Rewind */}
+            <div 
+                className="absolute left-0 top-0 bottom-0 w-32 flex items-center justify-start px-4 opacity-0 hover:opacity-100 transition-opacity bg-gradient-to-r from-black/60 to-transparent cursor-pointer z-20"
+                onClick={(e) => {
+                    e.stopPropagation();
+                    handleGlobalClick();
+                    handlePrev();
+                }}
+            >
+                <SkipBack className="w-12 h-12 text-white drop-shadow-lg" />
+            </div>
+
+            {/* Right Hover Area - Skip */}
+            <div 
+                className="absolute right-0 top-0 bottom-0 w-32 flex items-center justify-end px-4 opacity-0 hover:opacity-100 transition-opacity bg-gradient-to-l from-black/60 to-transparent cursor-pointer z-20"
+                onClick={(e) => {
+                    e.stopPropagation();
+                    handleGlobalClick();
+                    handleNext();
+                }}
+            >
+                <SkipForward className="w-12 h-12 text-white drop-shadow-lg" />
+            </div>
+        </div>
+    );
+}

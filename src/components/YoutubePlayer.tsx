@@ -98,7 +98,7 @@ function useTemperature() {
                 const cachedW = localStorage.getItem("mtv_weather");
                 if (cachedW) {
                     const data = JSON.parse(cachedW);
-                    if (Date.now() - data.time < 3600000) {
+                    if (Date.now() - data.time < 900000) {
                         setTemp(data.temp);
                         return;
                     }
@@ -148,6 +148,10 @@ function useTemperature() {
         }
 
         load();
+
+        // Refresh weather automatically every 15 minutes
+        const id = setInterval(load, 900000);
+        return () => clearInterval(id);
     }, []);
 
     return temp;

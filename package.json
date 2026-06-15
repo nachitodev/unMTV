@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "bun run scripts/generate-youtube-media.ts scripts/artists.txt && tsc -b && vite build",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/anton": "^5.2.7",
     "@tailwindcss/vite": "^4.3.1",
+    "@vercel/analytics": "^2.0.1",
     "lucide-react": "^1.18.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",

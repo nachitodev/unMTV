@@ -4,7 +4,6 @@ import ReactPlayer from "react-player";
 
 interface MediaEntry {
     src: string;
-    aspect: "4:3" | "16:9" | "other";
     title?: string;
     duration?: number;
     thumbnail?: string;
@@ -155,7 +154,7 @@ function useTemperature() {
 }
 
 export default function YoutubePlayer({ mediaList }: PlayerProps) {
-    const playerRef = useRef<HTMLVideoElement>(null);
+    const playerRef = useRef<any>(null);
 
     const [history, setHistory] = useState<number[]>(() => {
         // Pick the first video to play
@@ -166,7 +165,6 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     const index = history[historyIndex];
     const current = mediaList[index];
-    const isFourThree = current?.aspect === "4:3";
 
     const time = useClock();
     const temp = useTemperature();
@@ -218,7 +216,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     function handleNext() {
         if (mediaList.length <= 1) {
             if (playerRef.current) {
-                playerRef.current.currentTime = 0;
+                playerRef.current.seekTo(0);
                 setPlaying(true);
             }
             return;
@@ -241,7 +239,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             setHistoryIndex(prev => prev - 1);
         } else {
             if (playerRef.current) {
-                playerRef.current.currentTime = 0;
+                playerRef.current.seekTo(0);
                 setPlaying(true);
             }
         }
@@ -288,23 +286,10 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 }
             }}
         >
-            {isFourThree && (
-                <>
-                    <div
-                        className="absolute inset-y-0 left-0 w-[16.66%] bg-cover bg-center z-10"
-                        style={{ backgroundImage: "url(/border.png)" }}
-                    />
-                    <div
-                        className="absolute inset-y-0 right-0 w-[16.66%] bg-cover bg-center z-10"
-                        style={{ backgroundImage: "url(/border.png)" }}
-                    />
-                </>
-            )}
-
             <div className="w-full h-full pointer-events-none">
                 <ReactPlayer
                     ref={playerRef}
-                    src={`${current.src}${current.src.includes('?') ? '&' : '?'}cc_load_policy=1&cc_lang_pref=zz&iv_load_policy=3`}
+                    src={`${current.src}${current.src.includes('?') ? '&' : '?'}cc_load_policy=0`}
                     playing={playing}
                     autoPlay
                     muted={isMuted}
@@ -314,21 +299,31 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                     style={{ pointerEvents: 'none', objectFit: 'contain' }}
                     config={{
                         youtube: {
-                            controls: 0,
-                            modestbranding: 1,
-                            rel: 0,
-                            showinfo: 0,
-                            iv_load_policy: 3,
-                            disablekb: 1,
-                            fs: 0,
-                            playsinline: 1,
-                            vq: 'hd1080'
+                            playerVars: {
+                                controls: 0,
+                                modestbranding: 1,
+                                rel: 0,
+                                showinfo: 0,
+                                iv_load_policy: 3,
+                                cc_load_policy: 0,
+                                disablekb: 1,
+                                fs: 0,
+                                playsinline: 1,
+                                vq: 'hd1080'
+                            }
                         } as any
                     }}
                     onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
                     onDurationChange={(e) => setDuration(e.currentTarget.duration)}
                     onEnded={handleEnded}
                     onError={handleError}
+                    onReady={() => {
+                        const internalPlayer = playerRef.current?.getInternalPlayer() as any;
+                        if (internalPlayer?.unloadModule) {
+                            internalPlayer.unloadModule('captions');
+                            internalPlayer.unloadModule('cc');
+                        }
+                    }}
                 />
             </div>
 

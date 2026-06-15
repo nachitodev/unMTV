@@ -57,7 +57,6 @@ for (const url of urls) {
 
             return {
                 src: entry.url || (entry.id ? `https://www.youtube.com/watch?v=${entry.id}` : ""),
-                aspect: "16:9" as const,
                 title: entry.title,
                 duration: entry.duration || 0,
                 thumbnail: thumb,
@@ -125,7 +124,6 @@ allValidMediaList = Array.from(uniqueVideos.values());
 
 const fileContent = `export interface MediaEntry {
   src: string;
-  aspect: "4:3" | "16:9" | "other";
   title?: string;
   duration?: number;
   thumbnail?: string;

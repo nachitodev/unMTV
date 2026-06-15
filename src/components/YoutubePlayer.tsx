@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { SkipBack, SkipForward } from "lucide-react";
+import { SkipBack, SkipForward, Volume2, VolumeX } from "lucide-react";
 import ReactPlayer from "react-player";
 
 interface MediaEntry {
@@ -157,7 +157,19 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const time = useClock();
     const temp = useTemperature();
     const [isMuted, setIsMuted] = useState(true);
+    const [volume, setVolume] = useState(1);
     const [playing, setPlaying] = useState(true);
+
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                setPlaying(prev => !prev);
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, []);
 
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
@@ -250,6 +262,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                     playing={playing}
                     autoPlay
                     muted={isMuted}
+                    volume={volume}
                     width="100%"
                     height="100%"
                     style={{ pointerEvents: 'none', objectFit: 'contain' }}
@@ -336,6 +349,30 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 }}
             >
                 <SkipForward className="w-12 h-12 text-white drop-shadow-lg" />
+            </div>
+
+            {/* Volume Control */}
+            <div 
+                className="absolute bottom-10 right-10 z-50 flex items-center gap-3 bg-black/40 p-3 rounded-full backdrop-blur-md opacity-30 hover:opacity-100 transition-opacity"
+                onClick={(e) => e.stopPropagation()}
+            >
+                <div onClick={() => setIsMuted(!isMuted)} className="cursor-pointer text-white drop-shadow-md hover:text-[#ec1c5e] transition-colors">
+                    {isMuted || volume === 0 ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+                </div>
+                <input 
+                    type="range" 
+                    min={0} 
+                    max={1} 
+                    step={0.01} 
+                    value={isMuted ? 0 : volume}
+                    onChange={(e) => {
+                        const val = parseFloat(e.target.value);
+                        setVolume(val);
+                        if (val > 0) setIsMuted(false);
+                        else setIsMuted(true);
+                    }}
+                    className="w-24 accent-[#ec1c5e] cursor-pointer"
+                />
             </div>
         </div>
     );

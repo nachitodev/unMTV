@@ -50,11 +50,20 @@ for (const url of urls) {
             continue;
         }
 
-        const mediaList = entries.map((entry: any) => ({
-            src: entry.url || (entry.id ? `https://www.youtube.com/watch?v=${entry.id}` : ""),
-            aspect: "16:9", // Most YouTube videos are 16:9, and react-player handles 4:3 perfectly fine anyway
-            title: entry.title
-        }));
+        const mediaList = entries.map((entry: any) => {
+            // Get the best thumbnail
+            const thumbnails = entry.thumbnails || [];
+            const thumb = thumbnails.length > 0 ? thumbnails[thumbnails.length - 1].url : `https://i.ytimg.com/vi/${entry.id}/hqdefault.jpg`;
+
+            return {
+                src: entry.url || (entry.id ? `https://www.youtube.com/watch?v=${entry.id}` : ""),
+                aspect: "16:9" as const,
+                title: entry.title,
+                duration: entry.duration || 0,
+                thumbnail: thumb,
+                artist: data.channel || data.uploader || ""
+            };
+        });
 
         // Filter out invalid entries and visualizers
         const validMediaList = mediaList.filter((m: any) => {
@@ -118,6 +127,9 @@ const fileContent = `export interface MediaEntry {
   src: string;
   aspect: "4:3" | "16:9" | "other";
   title?: string;
+  duration?: number;
+  thumbnail?: string;
+  artist?: string;
 }
 
 export const mediaList: MediaEntry[] = ${JSON.stringify(allValidMediaList, null, 2)};

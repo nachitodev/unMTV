@@ -1,11 +1,14 @@
 import { useEffect, useRef, useState } from "react";
-import { SkipBack, SkipForward, Volume2, VolumeX } from "lucide-react";
+import { SkipBack, SkipForward, Volume2, VolumeX, ChevronUp } from "lucide-react";
 import ReactPlayer from "react-player";
 
 interface MediaEntry {
     src: string;
     aspect: "4:3" | "16:9" | "other";
     title?: string;
+    duration?: number;
+    thumbnail?: string;
+    artist?: string;
 }
 
 interface PlayerProps {
@@ -63,6 +66,13 @@ function getTitle(entry: MediaEntry) {
         // Not a valid URL, maybe it's just an ID
     }
     return "YouTube Video";
+}
+
+function formatDuration(seconds?: number): string {
+    if (!seconds || seconds <= 0) return "--:--";
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
 }
 
 function useClock() {
@@ -147,7 +157,11 @@ function useTemperature() {
 export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const playerRef = useRef<HTMLVideoElement>(null);
 
-    const [history, setHistory] = useState<number[]>(() => [getNextUnplayedIndex(mediaList.length, [], mediaList)]);
+    const [history, setHistory] = useState<number[]>(() => {
+        // Pick the first video to play
+        const firstIdx = getNextUnplayedIndex(mediaList.length, [], mediaList);
+        return [firstIdx];
+    });
     const [historyIndex, setHistoryIndex] = useState(0);
 
     const index = history[historyIndex];
@@ -173,16 +187,33 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
-    const [nextPreload, setNextPreload] = useState<number>(0);
 
-    useEffect(() => {
-        if (historyIndex === history.length - 1) {
-            setNextPreload(getNextUnplayedIndex(mediaList.length, history, mediaList));
+    // upcomingQueue is the single source of truth for what plays next.
+    // It is initialized once and slides forward like a conveyor belt.
+    const [upcomingQueue, setUpcomingQueue] = useState<number[]>(() => {
+        const firstIdx = getNextUnplayedIndex(mediaList.length, [], mediaList);
+        const queue: number[] = [firstIdx];
+        let simHistory = [firstIdx];
+        while (queue.length < 8) {
+            const next = getNextUnplayedIndex(mediaList.length, simHistory, mediaList);
+            queue.push(next);
+            simHistory = [...simHistory, next];
         }
-    }, [historyIndex, history, mediaList.length]);
+        return queue;
+    });
 
-    const nextIndex = historyIndex < history.length - 1 ? history[historyIndex + 1] : nextPreload;
-    const nextVideo = mediaList.length > 1 ? mediaList[nextIndex] : current;
+    // Slides the queue forward by 1 and appends a fresh pick at the tail.
+    function advanceQueue() {
+        setUpcomingQueue(q => {
+            const newQ = q.slice(1);
+            const simHistory = [...newQ];
+            const next = getNextUnplayedIndex(mediaList.length, simHistory, mediaList);
+            return [...newQ, next];
+        });
+    }
+
+    const [showPlaylist, setShowPlaylist] = useState(false);
+    const playlistTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
     function handleNext() {
         if (mediaList.length <= 1) {
@@ -194,10 +225,14 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         }
 
         if (historyIndex < history.length - 1) {
+            // Going forward in existing back-history — don't touch the queue
             setHistoryIndex(prev => prev + 1);
         } else {
-            setHistory(prev => [...prev, nextPreload]);
+            // Playing fresh: use upcomingQueue[0] as the next song
+            const next = upcomingQueue[0];
+            setHistory(prev => [...prev, next]);
             setHistoryIndex(prev => prev + 1);
+            advanceQueue();
         }
     }
 
@@ -234,6 +269,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     const showUpNext = duration > 10 && (duration - currentTime <= 5) && mediaList.length > 1;
     const showNowPlaying = currentTime <= 5 && duration > 0 && !showUpNext;
+    const showMidBumper = duration > 45 && currentTime >= 45 && currentTime < 55;
 
     if (!current) return null;
 
@@ -241,6 +277,16 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         <div
             className="fixed inset-0 bg-black overflow-hidden flex items-center justify-center cursor-pointer"
             onClick={handleGlobalClick}
+            onWheel={(e) => {
+                if (e.deltaY > 0) {
+                    setShowPlaylist(true);
+                    if (playlistTimeoutRef.current) clearTimeout(playlistTimeoutRef.current);
+                    playlistTimeoutRef.current = setTimeout(() => setShowPlaylist(false), 5000);
+                } else if (e.deltaY < 0) {
+                    setShowPlaylist(false);
+                    if (playlistTimeoutRef.current) clearTimeout(playlistTimeoutRef.current);
+                }
+            }}
         >
             {isFourThree && (
                 <>
@@ -315,12 +361,32 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             {/* MTV Bumper Overlay */}
             <div className={`absolute bottom-24 right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
                 <div className="flex items-center gap-3 bg-black/80 p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[350px]">
-                    <div className="flex flex-col flex-1 overflow-hidden pr-2">
+                    <div className="flex flex-col flex-1 overflow-hidden pl-2">
                         <span className="text-[#ec1c5e] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
                             {showUpNext ? "UP NEXT" : "NOW PLAYING"}
                         </span>
                         <span className="text-white font-bold text-sm leading-tight truncate">
-                            {getTitle(showUpNext ? nextVideo : current)}
+                            {getTitle(showUpNext ? (mediaList[upcomingQueue[0]] ?? current) : current)}
+                        </span>
+                        <span className="text-white/60 text-xs truncate">
+                            {(showUpNext ? (mediaList[upcomingQueue[0]] ?? current).artist : current.artist) || 'Unknown Artist'}
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            {/* Mid Bumper Overlay (45s mark) */}
+            <div className={`absolute top-24 left-24 transition-all duration-700 pointer-events-none z-30 ${showMidBumper ? "translate-x-0 opacity-100" : "-translate-x-[150%] opacity-0"}`}>
+                <div className="flex items-center gap-3 bg-black/80 p-3 border-l-4 border-[#ec1c5e] shadow-xl backdrop-blur-md rounded-r-lg max-w-[350px]">
+                    <div className="flex flex-col flex-1 overflow-hidden pl-2 pr-4">
+                        <span className="text-[#5bc6e8] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
+                            NOW PLAYING
+                        </span>
+                        <span className="text-white font-bold text-sm leading-tight truncate">
+                            {getTitle(current)}
+                        </span>
+                        <span className="text-white/60 text-xs truncate">
+                            {current.artist || 'Unknown Artist'}
                         </span>
                     </div>
                 </div>
@@ -351,18 +417,18 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             </div>
 
             {/* Volume Control */}
-            <div 
+            <div
                 className="absolute bottom-10 right-10 z-50 flex items-center gap-3 bg-black/40 p-3 rounded-full backdrop-blur-md opacity-30 hover:opacity-100 transition-opacity"
                 onClick={(e) => e.stopPropagation()}
             >
                 <div onClick={() => setIsMuted(!isMuted)} className="cursor-pointer text-white drop-shadow-md hover:text-[#ec1c5e] transition-colors">
                     {isMuted || volume === 0 ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
                 </div>
-                <input 
-                    type="range" 
-                    min={0} 
-                    max={1} 
-                    step={0.01} 
+                <input
+                    type="range"
+                    min={0}
+                    max={1}
+                    step={0.01}
                     value={isMuted ? 0 : volume}
                     onChange={(e) => {
                         const val = parseFloat(e.target.value);
@@ -372,6 +438,53 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                     }}
                     className="w-24 accent-[#ec1c5e] cursor-pointer"
                 />
+            </div>
+
+            {/* Playlist Viewer */}
+            <div
+                className={`absolute bottom-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${showPlaylist ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}
+                onClick={(e) => e.stopPropagation()}
+            >
+                {/* Scroll hint arrow */}
+                <div className="flex justify-center mb-2">
+                    <ChevronUp className="w-6 h-6 text-white/50 animate-bounce" />
+                </div>
+                <div className="bg-gradient-to-t from-black via-black/95 to-transparent pt-10 pb-6 px-8">
+                    <div className="flex items-center gap-2 mb-4 ml-2">
+                        <span className="text-[#ec1c5e] font-black text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "'Anton', sans-serif" }}>UP NEXT</span>
+                        <div className="flex-1 h-px bg-white/10" />
+                    </div>
+                    <div className="grid grid-cols-8 gap-3">
+                        {upcomingQueue.map((qIdx, i) => {
+                            const entry = mediaList[qIdx];
+                            if (!entry) return null;
+                            const videoId = entry.src.includes('v=') ? entry.src.split('v=')[1]?.split('&')[0] : '';
+                            const thumbUrl = entry.thumbnail || (videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : '');
+                            return (
+                                <div key={`${qIdx}-${i}`} className="group min-w-0">
+                                    <div className="relative rounded-lg overflow-hidden mb-2">
+                                        <img
+                                            src={thumbUrl}
+                                            alt={entry.title || 'Video'}
+                                            className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+                                            loading="lazy"
+                                        />
+                                        <div className="absolute bottom-1 right-1 bg-black/80 text-white text-[10px] font-mono px-1.5 py-0.5 rounded">
+                                            {formatDuration(entry.duration)}
+                                        </div>
+                                        {i === 0 && (
+                                            <div className="absolute top-1 left-1 bg-[#ec1c5e] text-white text-[9px] font-black px-1.5 py-0.5 rounded uppercase tracking-wider">
+                                                Next
+                                            </div>
+                                        )}
+                                    </div>
+                                    <p className="text-white text-xs font-semibold leading-tight truncate">{entry.title || 'Unknown'}</p>
+                                    <p className="text-white/40 text-[10px] mt-0.5 truncate">{entry.artist || 'Unknown Artist'}</p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
             </div>
         </div>
     );

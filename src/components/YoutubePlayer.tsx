@@ -12,29 +12,38 @@ interface PlayerProps {
     mediaList: MediaEntry[];
 }
 
-function getNextUnplayedIndex(length: number, history: number[]) {
+function getNextUnplayedIndex(length: number, history: number[], mediaList: MediaEntry[]) {
     if (length <= 1) return 0;
-    
+
     const playedInCurrentCycleCount = history.length % length;
-    const playedInCurrentCycle = playedInCurrentCycleCount === 0 
-        ? [] 
+    const playedInCurrentCycle = playedInCurrentCycleCount === 0
+        ? []
         : history.slice(-playedInCurrentCycleCount);
-        
+
     const available = [];
     for (let i = 0; i < length; i++) {
         if (!playedInCurrentCycle.includes(i)) {
             available.push(i);
         }
     }
-    
-    let nextIdx = available[Math.floor(Math.random() * available.length)];
-    
+
+    // Prioritize "Video Oficial" or "Official Video"
+    const officialAvailable = available.filter(idx => {
+        const title = mediaList[idx].title?.toLowerCase() || "";
+        return title.includes("oficial") || title.includes("official");
+    });
+
+    // If there are official videos left in the cycle, only pick from those!
+    const poolToPickFrom = officialAvailable.length > 0 ? officialAvailable : available;
+
+    let nextIdx = poolToPickFrom[Math.floor(Math.random() * poolToPickFrom.length)];
+
     // Prevent back-to-back repeats when starting a new cycle
     if (playedInCurrentCycleCount === 0 && nextIdx === history[history.length - 1]) {
-        const idxInAvailable = available.indexOf(nextIdx);
-        nextIdx = available[(idxInAvailable + 1) % available.length];
+        const idxInPool = poolToPickFrom.indexOf(nextIdx);
+        nextIdx = poolToPickFrom[(idxInPool + 1) % poolToPickFrom.length];
     }
-    
+
     return nextIdx;
 }
 
@@ -137,8 +146,8 @@ function useTemperature() {
 
 export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const playerRef = useRef<HTMLVideoElement>(null);
-    
-    const [history, setHistory] = useState<number[]>(() => [Math.floor(Math.random() * mediaList.length)]);
+
+    const [history, setHistory] = useState<number[]>(() => [getNextUnplayedIndex(mediaList.length, [], mediaList)]);
     const [historyIndex, setHistoryIndex] = useState(0);
 
     const index = history[historyIndex];
@@ -156,7 +165,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     useEffect(() => {
         if (historyIndex === history.length - 1) {
-            setNextPreload(getNextUnplayedIndex(mediaList.length, history));
+            setNextPreload(getNextUnplayedIndex(mediaList.length, history, mediaList));
         }
     }, [historyIndex, history, mediaList.length]);
 
@@ -253,7 +262,9 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                             iv_load_policy: 3,
                             disablekb: 1,
                             fs: 0,
-                            playsinline: 1
+                            playsinline: 1,
+                            cc_load_policy: 0,
+                            vq: 'hd1080'
                         } as any
                     }}
                     onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
@@ -270,13 +281,13 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             />
 
             <div
-                className="absolute bottom-16 left-24 pointer-events-none text-white text-3xl font-black tracking-tighter leading-tight flex items-center gap-3 opacity-90 z-20"
+                className="absolute bottom-16 left-32 pointer-events-none text-white text-3xl font-black tracking-tighter leading-tight flex items-center gap-3 opacity-90 z-20"
                 style={{
-                    fontFamily: "'Impact', 'Arial Black', sans-serif",
+                    fontFamily: "'Anton', sans-serif",
                     textShadow: "3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
                 }}
             >
-                <span>{time}</span>
+                <span className="w-16">{time}</span>
                 {temp !== null && (
                     <span>{temp.toFixed(1)}°</span>
                 )}
@@ -284,7 +295,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
             {isMuted && (
                 <div className="absolute top-8 right-8 bg-[#ec1c5e] text-white font-black text-sm px-4 py-2 pointer-events-none animate-pulse z-20"
-                    style={{ fontFamily: "'Arial Black', sans-serif" }}>
+                    style={{ fontFamily: "'Anton', sans-serif" }}>
                     CLICK ANYWHERE TO UNMUTE
                 </div>
             )}
@@ -293,7 +304,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             <div className={`absolute bottom-24 right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
                 <div className="flex items-center gap-3 bg-black/80 p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pr-2">
-                        <span className="text-[#ec1c5e] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Arial Black', sans-serif" }}>
+                        <span className="text-[#ec1c5e] font-black text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
                             {showUpNext ? "UP NEXT" : "NOW PLAYING"}
                         </span>
                         <span className="text-white font-bold text-sm leading-tight truncate">
@@ -304,7 +315,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             </div>
 
             {/* Left Hover Area - Rewind */}
-            <div 
+            <div
                 className="absolute left-0 top-0 bottom-0 w-32 flex items-center justify-start px-4 opacity-0 hover:opacity-100 transition-opacity bg-gradient-to-r from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
                     e.stopPropagation();
@@ -316,7 +327,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
             </div>
 
             {/* Right Hover Area - Skip */}
-            <div 
+            <div
                 className="absolute right-0 top-0 bottom-0 w-32 flex items-center justify-end px-4 opacity-0 hover:opacity-100 transition-opacity bg-gradient-to-l from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
                     e.stopPropagation();

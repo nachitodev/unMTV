@@ -30,8 +30,7 @@ let allValidMediaList: any[] = [];
 
 for (const url of urls) {
     let fetchUrl = url;
-    // If it's a channel URL without /videos, /playlist, or /watch, yt-dlp might only fetch the Home tab. 
-    // Appending /videos ensures we get all uploads.
+
     if (fetchUrl.includes("youtube.com") && !fetchUrl.includes("/videos") && !fetchUrl.includes("/playlist") && !fetchUrl.includes("/watch")) {
         if (fetchUrl.endsWith("/")) fetchUrl = fetchUrl.slice(0, -1);
         fetchUrl += "/videos";
@@ -39,19 +38,19 @@ for (const url of urls) {
 
     console.log(`\nFetching videos from: ${fetchUrl} ...`);
     try {
-        // Run yt-dlp to get a flat JSON playlist. MaxBuffer is increased for very large channels.
+
         const output = execSync(`yt-dlp --flat-playlist -J "${fetchUrl}"`, { maxBuffer: 1024 * 1024 * 100 }).toString();
         const data = JSON.parse(output);
 
         const entries = data.entries || [];
-        
+
         if (entries.length === 0) {
             console.log(`No videos found for ${url}.`);
             continue;
         }
 
         const mediaList = entries.map((entry: any) => {
-            // Get the best thumbnail
+
             const thumbnails = entry.thumbnails || [];
             const thumb = thumbnails.length > 0 ? thumbnails[thumbnails.length - 1].url : `https://i.ytimg.com/vi/${entry.id}/hqdefault.jpg`;
 
@@ -64,12 +63,16 @@ for (const url of urls) {
             };
         });
 
-        // Filter out invalid entries and visualizers
         const validMediaList = mediaList.filter((m: any) => {
             if (!m.src || m.src.endsWith("undefined")) return false;
+
+            if (m.duration > 1200) {
+                return false;
+            }
+
             if (m.title) {
                 const lower = m.title.toLowerCase();
-                // Exclude visualizers
+
                 if (lower.includes("visual")) {
                     return false;
                 }
@@ -90,7 +93,6 @@ if (allValidMediaList.length === 0) {
     process.exit(0);
 }
 
-// Deduplicate videos by base title, preferring "Video Oficial"
 const uniqueVideos = new Map<string, any>();
 
 for (const video of allValidMediaList) {
@@ -99,7 +101,6 @@ for (const video of allValidMediaList) {
         continue;
     }
 
-    // Strip out parentheses, brackets, and non-alphanumeric characters to get a raw base title
     let baseTitle = video.title.replace(/\([^)]+\)/g, '').replace(/\[[^\]]+\]/g, '').replace(/[^a-z0-9]/gi, '').toLowerCase();
     if (!baseTitle) baseTitle = video.src;
 
@@ -109,11 +110,10 @@ for (const video of allValidMediaList) {
         const existing = uniqueVideos.get(baseTitle);
         const existingTitle = existing.title.toLowerCase();
         const newTitle = video.title.toLowerCase();
-        
+
         const existingIsOfficial = existingTitle.includes("oficial") || existingTitle.includes("official");
         const newIsOfficial = newTitle.includes("oficial") || newTitle.includes("official");
 
-        // Overwrite if the new one is official and the existing one isn't
         if (newIsOfficial && !existingIsOfficial) {
             uniqueVideos.set(baseTitle, video);
         }

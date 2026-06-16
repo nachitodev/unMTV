@@ -29,22 +29,34 @@ function getNextUnplayedIndex(length: number, history: number[], mediaList: Medi
         }
     }
 
-    // Prioritize "Video Oficial" or "Official Video"
     const officialAvailable = available.filter(idx => {
         const title = mediaList[idx].title?.toLowerCase() || "";
         return title.includes("oficial") || title.includes("official");
     });
 
-    // If there are official videos left in the cycle, only pick from those!
     const poolToPickFrom = officialAvailable.length > 0 ? officialAvailable : available;
 
-    let nextIdx = poolToPickFrom[Math.floor(Math.random() * poolToPickFrom.length)];
-
-    // Prevent back-to-back repeats when starting a new cycle
-    if (playedInCurrentCycleCount === 0 && nextIdx === history[history.length - 1]) {
-        const idxInPool = poolToPickFrom.indexOf(nextIdx);
-        nextIdx = poolToPickFrom[(idxInPool + 1) % poolToPickFrom.length];
+    const artistGroups: Record<string, number[]> = {};
+    for (const idx of poolToPickFrom) {
+        const artist = mediaList[idx].artist || "Unknown";
+        if (!artistGroups[artist]) artistGroups[artist] = [];
+        artistGroups[artist].push(idx);
     }
+
+    let availableArtists = Object.keys(artistGroups);
+
+    if (history.length > 0) {
+        const lastPlayedIdx = history[history.length - 1];
+        const lastArtist = mediaList[lastPlayedIdx].artist || "Unknown";
+        if (availableArtists.length > 1 && availableArtists.includes(lastArtist)) {
+            availableArtists = availableArtists.filter(a => a !== lastArtist);
+        }
+    }
+
+    const selectedArtist = availableArtists[Math.floor(Math.random() * availableArtists.length)];
+
+    const artistVideos = artistGroups[selectedArtist];
+    let nextIdx = artistVideos[Math.floor(Math.random() * artistVideos.length)];
 
     return nextIdx;
 }
@@ -52,9 +64,7 @@ function getNextUnplayedIndex(length: number, history: number[], mediaList: Medi
 function getTitle(entry: MediaEntry) {
     if (entry.title) return entry.title;
     const src = entry.src;
-    // For YouTube, src might be a URL. Try to extract a video ID or provide a fallback
-    // Since YouTube URLs don't have human readable filenames, ideally you'd add a 'title' to MediaEntry
-    // But as a fallback, we can try to extract the video ID or just show a generic string
+
     try {
         const url = new URL(src);
         const v = url.searchParams.get("v");
@@ -62,7 +72,7 @@ function getTitle(entry: MediaEntry) {
         const path = url.pathname.replace("/", "");
         if (path) return `YouTube Video (${path})`;
     } catch {
-        // Not a valid URL, maybe it's just an ID
+
     }
     return "YouTube Video";
 }
@@ -149,7 +159,6 @@ function useTemperature() {
 
         load();
 
-        // Refresh weather automatically every 15 minutes
         const id = setInterval(load, 900000);
         return () => clearInterval(id);
     }, []);
@@ -161,7 +170,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const playerRef = useRef<any>(null);
 
     const [history, setHistory] = useState<number[]>(() => {
-        // Pick the first video to play
+
         const firstIdx = getNextUnplayedIndex(mediaList.length, [], mediaList);
         return [firstIdx];
     });
@@ -190,8 +199,6 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
 
-    // upcomingQueue is the single source of truth for what plays next.
-    // It is initialized once and slides forward like a conveyor belt.
     const [upcomingQueue, setUpcomingQueue] = useState<number[]>(() => {
         const firstIdx = getNextUnplayedIndex(mediaList.length, [], mediaList);
         const queue: number[] = [firstIdx];
@@ -204,7 +211,6 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         return queue;
     });
 
-    // Slides the queue forward by 1 and appends a fresh pick at the tail.
     function advanceQueue() {
         setUpcomingQueue(q => {
             const newQ = q.slice(1);
@@ -236,10 +242,10 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         }
 
         if (historyIndex < history.length - 1) {
-            // Going forward in existing back-history — don't touch the queue
+
             setHistoryIndex(prev => prev + 1);
         } else {
-            // Playing fresh: use upcomingQueue[0] as the next song
+
             const next = upcomingQueue[0];
             setHistory(prev => [...prev, next]);
             setHistoryIndex(prev => prev + 1);
@@ -285,9 +291,11 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         setPlaying(true);
     }
 
-    const showUpNext = duration > 10 && (duration - currentTime <= 5) && mediaList.length > 1;
-    const showNowPlaying = currentTime <= 5 && duration > 0 && !showUpNext;
-    const showMidBumper = duration > 45 && currentTime >= 45 && currentTime < 55;
+    const activeDuration = duration || current.duration || 0;
+
+    const showUpNext = activeDuration > 10 && (activeDuration - currentTime <= 5) && mediaList.length > 1;
+    const showNowPlaying = currentTime <= 5 && activeDuration > 0 && !showUpNext;
+    const showMidBumper = activeDuration > 45 && currentTime >= 45 && currentTime < 55;
 
     const isEnzo = current?.artist === "enzocerobulto";
     const currentLogo = isEnzo ? "/OTG-Logo.svg" : "/MTV-Logo.svg";
@@ -311,6 +319,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         >
             <div className="w-full h-full pointer-events-none">
                 <ReactPlayer
+                    key={current.src}
                     ref={playerRef}
                     src={`${current.src}${current.src.includes('?') ? '&' : '?'}cc_load_policy=0`}
                     playing={playing}
@@ -336,8 +345,9 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                             }
                         } as any
                     }}
-                    onTimeUpdate={(e) => setCurrentTime(e.currentTarget.currentTime)}
-                    onDurationChange={(e) => setDuration(e.currentTarget.duration)}
+                    {...({ progressInterval: 500 } as any)}
+                    onProgress={(e: any) => setCurrentTime(e.playedSeconds)}
+                    onDuration={(d: number) => setDuration(d)}
                     onEnded={handleEnded}
                     onError={handleError}
                     onReady={() => {
@@ -365,7 +375,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                     onEnded={() => setTransitionVideo(null)}
                     onClick={(e) => {
                         e.stopPropagation();
-                        setTransitionVideo(null); // click to skip transition
+                        setTransitionVideo(null);
                     }}
                 />
             )}
@@ -390,7 +400,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 </div>
             )}
 
-            {/* MTV Bumper Overlay */}
+            {}
             <div className={`absolute bottom-6 right-4 sm:bottom-24 sm:right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
                 <div className="flex items-center gap-3 bg-black/80 p-2.5 sm:p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[260px] sm:max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pl-2">
@@ -407,7 +417,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 </div>
             </div>
 
-            {/* Mid Bumper Overlay (45s mark) */}
+            {}
             <div className={`absolute top-16 sm:top-24 left-4 sm:left-24 transition-all duration-700 pointer-events-none z-30 ${showMidBumper ? "translate-x-0 opacity-100" : "-translate-x-[150%] opacity-0"}`}>
                 <div className="flex items-center gap-3 bg-black/80 p-2.5 sm:p-3 border-l-4 border-[#ec1c5e] shadow-xl backdrop-blur-md rounded-r-lg max-w-[260px] sm:max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pl-2 pr-4">
@@ -424,7 +434,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 </div>
             </div>
 
-            {/* Left Hover Area - Rewind */}
+            {}
             <div
                 className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 flex items-center justify-start px-2 sm:px-4 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity bg-gradient-to-r from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
@@ -436,7 +446,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 <SkipBack className="w-8 h-8 sm:w-12 sm:h-12 text-white drop-shadow-lg" />
             </div>
 
-            {/* Right Hover Area - Skip */}
+            {}
             <div
                 className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 flex items-center justify-end px-2 sm:px-4 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity bg-gradient-to-l from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
@@ -448,7 +458,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 <SkipForward className="w-8 h-8 sm:w-12 sm:h-12 text-white drop-shadow-lg" />
             </div>
 
-            {/* Volume Control */}
+            {}
             <div
                 className="absolute bottom-4 right-4 sm:bottom-10 sm:right-10 z-50 flex items-center gap-2 sm:gap-3 bg-black/40 p-2 sm:p-3 rounded-full backdrop-blur-md sm:opacity-30 hover:opacity-100 transition-opacity"
                 onClick={(e) => e.stopPropagation()}
@@ -472,12 +482,12 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 />
             </div>
 
-            {/* Playlist Viewer */}
+            {}
             <div
                 className={`absolute bottom-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${showPlaylist ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}
                 onClick={(e) => e.stopPropagation()}
             >
-                {/* Scroll hint arrow */}
+                {}
                 <div className="flex justify-center mb-2">
                     <ChevronUp className="w-6 h-6 text-white/50 animate-bounce" />
                 </div>

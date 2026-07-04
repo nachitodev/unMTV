@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { SkipBack, SkipForward, Volume2, VolumeX, ChevronUp } from "lucide-react";
+import { SkipBack, SkipForward, Volume2, VolumeX, ChevronUp, Maximize, Minimize } from "lucide-react";
 import ReactPlayer from "react-player";
 
 interface MediaEntry {
@@ -17,14 +17,12 @@ interface PlayerProps {
 function getNextUnplayedIndex(length: number, history: number[], mediaList: MediaEntry[]) {
     if (length <= 1) return 0;
 
-    const playedInCurrentCycleCount = history.length % length;
-    const playedInCurrentCycle = playedInCurrentCycleCount === 0
-        ? []
-        : history.slice(-playedInCurrentCycleCount);
+    const blockCount = Math.min(50, length - 1);
+    const playedRecently = history.slice(-blockCount);
 
     const available = [];
     for (let i = 0; i < length; i++) {
-        if (!playedInCurrentCycle.includes(i)) {
+        if (!playedRecently.includes(i)) {
             available.push(i);
         }
     }
@@ -184,6 +182,26 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const [isMuted, setIsMuted] = useState(true);
     const [volume, setVolume] = useState(1);
     const [playing, setPlaying] = useState(true);
+    const [isFullscreen, setIsFullscreen] = useState(false);
+    const containerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const handleFullscreenChange = () => {
+            setIsFullscreen(!!document.fullscreenElement);
+        };
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    }, []);
+
+    const toggleFullscreen = () => {
+        if (!document.fullscreenElement) {
+            containerRef.current?.requestFullscreen().catch(err => {
+                console.error(`Error attempting to enable fullscreen: ${err.message}`);
+            });
+        } else {
+            document.exitFullscreen();
+        }
+    };
 
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
@@ -304,6 +322,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
 
     return (
         <div
+            ref={containerRef}
             className="fixed inset-0 bg-black overflow-hidden flex items-center justify-center cursor-pointer"
             onClick={handleGlobalClick}
             onWheel={(e) => {
@@ -400,12 +419,12 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 </div>
             )}
 
-            {}
+            { }
             <div className={`absolute bottom-6 right-4 sm:bottom-24 sm:right-24 transition-all duration-700 pointer-events-none z-30 ${showNowPlaying || showUpNext ? "translate-x-0 opacity-100" : "translate-x-[150%] opacity-0"}`}>
                 <div className="flex items-center gap-3 bg-black/80 p-2.5 sm:p-3 border-l-4 border-[#5bc6e8] shadow-xl backdrop-blur-md rounded-r-lg max-w-[260px] sm:max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pl-2">
                         <span className="text-[#ec1c5e] font-black text-[9px] sm:text-[10px] tracking-widest uppercase mb-1" style={{ fontFamily: "'Anton', sans-serif" }}>
-                            {showUpNext ? "UP NEXT" : "NOW PLAYING"}
+                            {showUpNext ? "SIGUIENTE" : "SONANDO AHORA"}
                         </span>
                         <span className="text-white font-bold text-xs sm:text-sm leading-tight truncate">
                             {getTitle(showUpNext ? (mediaList[upcomingQueue[0]] ?? current) : current)}
@@ -417,7 +436,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 </div>
             </div>
 
-            {}
+            { }
             <div className={`absolute top-16 sm:top-24 left-4 sm:left-24 transition-all duration-700 pointer-events-none z-30 ${showMidBumper ? "translate-x-0 opacity-100" : "-translate-x-[150%] opacity-0"}`}>
                 <div className="flex items-center gap-3 bg-black/80 p-2.5 sm:p-3 border-l-4 border-[#ec1c5e] shadow-xl backdrop-blur-md rounded-r-lg max-w-[260px] sm:max-w-[350px]">
                     <div className="flex flex-col flex-1 overflow-hidden pl-2 pr-4">
@@ -434,7 +453,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 </div>
             </div>
 
-            {}
+            { }
             <div
                 className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 flex items-center justify-start px-2 sm:px-4 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity bg-gradient-to-r from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
@@ -446,7 +465,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 <SkipBack className="w-8 h-8 sm:w-12 sm:h-12 text-white drop-shadow-lg" />
             </div>
 
-            {}
+            { }
             <div
                 className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 flex items-center justify-end px-2 sm:px-4 opacity-0 hover:opacity-100 active:opacity-100 transition-opacity bg-gradient-to-l from-black/60 to-transparent cursor-pointer z-40"
                 onClick={(e) => {
@@ -458,7 +477,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                 <SkipForward className="w-8 h-8 sm:w-12 sm:h-12 text-white drop-shadow-lg" />
             </div>
 
-            {}
+            { }
             <div
                 className="absolute bottom-4 right-4 sm:bottom-10 sm:right-10 z-50 flex items-center gap-2 sm:gap-3 bg-black/40 p-2 sm:p-3 rounded-full backdrop-blur-md sm:opacity-30 hover:opacity-100 transition-opacity"
                 onClick={(e) => e.stopPropagation()}
@@ -480,20 +499,29 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                     }}
                     className="w-16 sm:w-24 accent-[#ec1c5e] cursor-pointer"
                 />
+                <div
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        toggleFullscreen();
+                    }}
+                    className="cursor-pointer text-white drop-shadow-md hover:text-[#ec1c5e] transition-colors ml-1 sm:ml-2"
+                >
+                    {isFullscreen ? <Minimize className="w-4 h-4 sm:w-5 sm:h-5" /> : <Maximize className="w-4 h-4 sm:w-5 sm:h-5" />}
+                </div>
             </div>
 
-            {}
+            { }
             <div
                 className={`absolute bottom-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${showPlaylist ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}
                 onClick={(e) => e.stopPropagation()}
             >
-                {}
+                { }
                 <div className="flex justify-center mb-2">
                     <ChevronUp className="w-6 h-6 text-white/50 animate-bounce" />
                 </div>
                 <div className="bg-gradient-to-t from-black via-black/95 to-transparent pt-10 pb-4 sm:pb-6 px-3 sm:px-8">
                     <div className="flex items-center gap-2 mb-3 sm:mb-4 ml-1 sm:ml-2">
-                        <span className="text-[#ec1c5e] font-black text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "'Anton', sans-serif" }}>UP NEXT</span>
+                        <span className="text-[#ec1c5e] font-black text-xs tracking-[0.3em] uppercase" style={{ fontFamily: "'Anton', sans-serif" }}>SIGUIENTE</span>
                         <div className="flex-1 h-px bg-white/10" />
                     </div>
                     <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-2 sm:gap-3">
@@ -516,7 +544,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                                         </div>
                                         {i === 0 && (
                                             <div className="absolute top-1 left-1 bg-[#ec1c5e] text-white text-[9px] font-black px-1.5 py-0.5 rounded uppercase tracking-wider">
-                                                Next
+                                                SIGUIENTE
                                             </div>
                                         )}
                                     </div>
@@ -525,6 +553,21 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                                 </div>
                             );
                         })}
+                    </div>
+
+                    { }
+                    <div className="mt-6 sm:mt-8 pt-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div className="text-white/50 text-xs font-medium">
+                            Creado con ❤️ por <span className="text-[#ec1c5e] font-bold">@nachitofm</span>
+                        </div>
+                        <div className="flex items-center gap-4">
+                            <a href="https://github.com/nachitodev" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition-colors cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></svg>
+                            </a>
+                            <a href="https://instagram.com/nachitofm" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition-colors cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

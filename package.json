@@ -1,8 +1,11 @@
 {
-  "name": "unmtv",
-  "private": true,
-  "version": "0.0.0",
+  "name": "unMTV",
+  "author": "nachitodev",
+  "version": "0.1",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/nachitodev/unMTV"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -558,7 +558,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                     { }
                     <div className="mt-6 sm:mt-8 pt-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
                         <div className="text-white/50 text-xs font-medium">
-                            Creado con ❤️ por <span className="text-[#ec1c5e] font-bold">@nachitofm</span>
+                            Creado con ❤️ por <a href="https://instagram.com/nachitofm" target="_blank" rel="noopener noreferrer" className="text-[#ec1c5e] font-bold">@nachitofm</a>
                         </div>
                         <div className="flex items-center gap-4">
                             <a href="https://github.com/nachitodev" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition-colors cursor-pointer">

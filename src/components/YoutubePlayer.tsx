@@ -14,19 +14,26 @@ interface PlayerProps {
     mediaList: MediaEntry[];
 }
 
-function getNextUnplayedIndex(length: number, history: number[], mediaList: MediaEntry[]) {
-    if (length <= 1) return 0;
+function getNextUnplayedIndex(
+    length: number,
+    history: number[],
+    mediaList: MediaEntry[],
+    playedSet: Set<number>
+): { index: number; newPlayedSet: Set<number> } {
+    if (length <= 1) return { index: 0, newPlayedSet: new Set([0]) };
 
-    const blockCount = Math.min(50, length - 1);
-    const playedRecently = history.slice(-blockCount);
+    // If every video has been played, reset the cycle
+    let currentPlayed = playedSet.size >= length ? new Set<number>() : new Set(playedSet);
 
-    const available = [];
+    // Build available pool (not yet played in this cycle)
+    let available: number[] = [];
     for (let i = 0; i < length; i++) {
-        if (!playedRecently.includes(i)) {
+        if (!currentPlayed.has(i)) {
             available.push(i);
         }
     }
 
+    // Prefer official videos from the available pool
     const officialAvailable = available.filter(idx => {
         const title = mediaList[idx].title?.toLowerCase() || "";
         return title.includes("oficial") || title.includes("official");
@@ -34,6 +41,7 @@ function getNextUnplayedIndex(length: number, history: number[], mediaList: Medi
 
     const poolToPickFrom = officialAvailable.length > 0 ? officialAvailable : available;
 
+    // Group by artist for diversity
     const artistGroups: Record<string, number[]> = {};
     for (const idx of poolToPickFrom) {
         const artist = mediaList[idx].artist || "Unknown";
@@ -43,6 +51,7 @@ function getNextUnplayedIndex(length: number, history: number[], mediaList: Medi
 
     let availableArtists = Object.keys(artistGroups);
 
+    // Avoid repeating the same artist back-to-back
     if (history.length > 0) {
         const lastPlayedIdx = history[history.length - 1];
         const lastArtist = mediaList[lastPlayedIdx].artist || "Unknown";
@@ -52,11 +61,11 @@ function getNextUnplayedIndex(length: number, history: number[], mediaList: Medi
     }
 
     const selectedArtist = availableArtists[Math.floor(Math.random() * availableArtists.length)];
-
     const artistVideos = artistGroups[selectedArtist];
-    let nextIdx = artistVideos[Math.floor(Math.random() * artistVideos.length)];
+    const nextIdx = artistVideos[Math.floor(Math.random() * artistVideos.length)];
 
-    return nextIdx;
+    currentPlayed.add(nextIdx);
+    return { index: nextIdx, newPlayedSet: currentPlayed };
 }
 
 function getTitle(entry: MediaEntry) {
@@ -167,11 +176,12 @@ function useTemperature() {
 export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const playerRef = useRef<any>(null);
 
-    const [history, setHistory] = useState<number[]>(() => {
+    // playedSet tracks which videos have been played in the current cycle.
+    // Computed once on mount so both playedSetRef and history share the same first pick.
+    const initialPickRef = useRef(getNextUnplayedIndex(mediaList.length, [], mediaList, new Set()));
+    const playedSetRef = useRef<Set<number>>(initialPickRef.current.newPlayedSet);
 
-        const firstIdx = getNextUnplayedIndex(mediaList.length, [], mediaList);
-        return [firstIdx];
-    });
+    const [history, setHistory] = useState<number[]>([initialPickRef.current.index]);
     const [historyIndex, setHistoryIndex] = useState(0);
 
     const index = history[historyIndex];
@@ -217,14 +227,17 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
 
+    // upcomingQueue is seeded by simulating future picks with a shared simulated playedSet
     const [upcomingQueue, setUpcomingQueue] = useState<number[]>(() => {
-        const firstIdx = getNextUnplayedIndex(mediaList.length, [], mediaList);
+        const { index: firstIdx, newPlayedSet: ps0 } = getNextUnplayedIndex(mediaList.length, [], mediaList, new Set());
         const queue: number[] = [firstIdx];
         let simHistory = [firstIdx];
+        let simPlayed = ps0;
         while (queue.length < 8) {
-            const next = getNextUnplayedIndex(mediaList.length, simHistory, mediaList);
+            const { index: next, newPlayedSet } = getNextUnplayedIndex(mediaList.length, simHistory, mediaList, simPlayed);
             queue.push(next);
             simHistory = [...simHistory, next];
+            simPlayed = newPlayedSet;
         }
         return queue;
     });
@@ -233,7 +246,8 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         setUpcomingQueue(q => {
             const newQ = q.slice(1);
             const simHistory = [...newQ];
-            const next = getNextUnplayedIndex(mediaList.length, simHistory, mediaList);
+            const { index: next, newPlayedSet } = getNextUnplayedIndex(mediaList.length, simHistory, mediaList, playedSetRef.current);
+            playedSetRef.current = newPlayedSet;
             return [...newQ, next];
         });
     }

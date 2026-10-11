@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import ReactPlayer from "react-player";
 
 import type { PlayerProps } from "./player/types";
@@ -22,6 +22,7 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
     const [transitionVideo, setTransitionVideo] = useState<string | null>(null);
     const [showPlaylist, setShowPlaylist] = useState(false);
     const playlistTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const captionsUnloadedRef = useRef(false);
 
     const { containerRef, isFullscreen, toggleFullscreen } = useFullscreen();
     const time = useClock();
@@ -34,14 +35,13 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         setTransitionVideo
     );
 
-    // Reset playback state when video changes
     useEffect(() => {
         setCurrentTime(0);
         setDuration(0);
         setPlaying(true);
+        captionsUnloadedRef.current = false;
     }, [index]);
 
-    // Spacebar to play/pause
     useEffect(() => {
         const onKey = (e: KeyboardEvent) => {
             if (e.code === "Space") { e.preventDefault(); setPlaying(p => !p); }
@@ -49,6 +49,24 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
         window.addEventListener("keydown", onKey);
         return () => window.removeEventListener("keydown", onKey);
     }, []);
+
+    const unloadCaptions = useCallback(() => {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const ytPlayer = (playerRef.current as any)?.api;
+        if (!ytPlayer) return;
+        ytPlayer.unloadModule?.("captions");
+        ytPlayer.unloadModule?.("cc");
+    }, []);
+
+    const handleReady = useCallback(() => {
+        unloadCaptions();
+    }, [unloadCaptions]);
+
+    const handlePlay = useCallback(() => {
+        if (captionsUnloadedRef.current) return;
+        captionsUnloadedRef.current = true;
+        unloadCaptions();
+    }, [unloadCaptions]);
 
     if (!current) return null;
 
@@ -104,11 +122,14 @@ export default function YoutubePlayer({ mediaList }: PlayerProps) {
                         youtube: {
                             iv_load_policy: 3,
                             cc_load_policy: 0,
+                            cc_lang_pref: "xx",
                             disablekb: 1,
                             fs: 0,
                             rel: 0,
                         },
                     }}
+                    onReady={handleReady}
+                    onPlay={handlePlay}
                     onTimeUpdate={(e: React.SyntheticEvent<HTMLVideoElement>) =>
                         setCurrentTime(e.currentTarget.currentTime)
                     }

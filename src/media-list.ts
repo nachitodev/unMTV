@@ -11,252 +11,252 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=p-H5QTAY9UQ",
     "title": "piezita .            (yo    pray)",
     "duration": 159,
-    "thumbnail": "https://i.ytimg.com/vi/p-H5QTAY9UQ/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhJIGIoZTAPuAL3GA==&rs=AOn4CLBQlPjp9L6LoPs4C4rYxGgfEiF8hQ",
+    "thumbnail": "https://i.ytimg.com/vi/p-H5QTAY9UQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhJIGIoZTAP&rs=AOn4CLAQMShV40ZcAye7kLDNMtBvVSkStw",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=j3cGMCqaODc",
     "title": "a candado cerrado .            (yo    pray)",
     "duration": 162,
-    "thumbnail": "https://i.ytimg.com/vi/j3cGMCqaODc/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLB_lgn5TdPoais_oC7OkGZCZACiJA",
+    "thumbnail": "https://i.ytimg.com/vi/j3cGMCqaODc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPS7BtrqAsIDAj6SHqsWYd3zRF3A",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=dxal-3gYbLM",
     "title": "p4m .            (yo    pray)",
     "duration": 93,
-    "thumbnail": "https://i.ytimg.com/vi/dxal-3gYbLM/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIF0oSTAPuAL3GA==&rs=AOn4CLDzaDVWmHICT9rBH11BtsNEeKWcMg",
+    "thumbnail": "https://i.ytimg.com/vi/dxal-3gYbLM/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIF0oSTAP&rs=AOn4CLA81PJ-y7RJh3N8aw6UfqbdsO9dvg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=3Tj7Hu5PG1U",
     "title": "pañuelo .            (yo    pray)",
     "duration": 146,
-    "thumbnail": "https://i.ytimg.com/vi/3Tj7Hu5PG1U/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDuREyPIHqsOR7zfdytiNsP2Cg7Lw",
+    "thumbnail": "https://i.ytimg.com/vi/3Tj7Hu5PG1U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdkj8CU71Nw_Xiq3P0Wbn9h2LaQg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=XKOQ2eZpLfk",
     "title": "about            U           bby",
     "duration": 128,
-    "thumbnail": "https://i.ytimg.com/vi/XKOQ2eZpLfk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLB_akpatgeWMTfmX9n7grntBnXXwg",
+    "thumbnail": "https://i.ytimg.com/vi/XKOQ2eZpLfk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcKyz3qAc9udajOGd3L2T92CWYOA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=5DMLXKjYU9s",
     "title": "cielo        dibujado",
     "duration": 136,
-    "thumbnail": "https://i.ytimg.com/vi/5DMLXKjYU9s/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARh_ID4oGzAPuAL3GA==&rs=AOn4CLAwobNfW1cwlA03TyKYT67jNDFZaA",
+    "thumbnail": "https://i.ytimg.com/vi/5DMLXKjYU9s/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARh_ID4oGzAP&rs=AOn4CLDUmupBFou1vLRhgtcIbQrYipJz0g",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=dtZbAD1MOfI",
     "title": "dyng",
     "duration": 138,
-    "thumbnail": "https://i.ytimg.com/vi/dtZbAD1MOfI/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBpgiAAtAFigIMCAAQARhlIGUoZTAPuAL3GA==&rs=AOn4CLD7FdnxbieP23y0AgF3DYL3Cypa4A",
+    "thumbnail": "https://i.ytimg.com/vi/dtZbAD1MOfI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBpgiAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDrhSSKpGSbWk-P3fBnicwKBbqCLA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=m8khpbmJhQo",
     "title": "fuegos artificiales.",
     "duration": 151,
-    "thumbnail": "https://i.ytimg.com/vi/m8khpbmJhQo/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBvjbDpwktsdAxOyemZI5v4Q9BX9w",
+    "thumbnail": "https://i.ytimg.com/vi/m8khpbmJhQo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfqWu7Yoiy5lQIR_RiSsuaN6I_8Q",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=SO9ngqJddD8",
     "title": "Con frio y calor",
     "duration": 112,
-    "thumbnail": "https://i.ytimg.com/vi/SO9ngqJddD8/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoKjAPuAL3GA==&rs=AOn4CLDnZcdL99ESyvSWxjZJJIb-ygh6QQ",
+    "thumbnail": "https://i.ytimg.com/vi/SO9ngqJddD8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoKjAP&rs=AOn4CLChGCP4LgPLtOcKAKtH4jQ5Q4ozyQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=hK6PIgYMAUc",
     "title": "a donde vas¿ ft. @9huntr ",
     "duration": 167,
-    "thumbnail": "https://i.ytimg.com/vi/hK6PIgYMAUc/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDYoMjAPuAL3GA==&rs=AOn4CLDbZxMvPGoyGl8RReeuG7sRoCm_3A",
+    "thumbnail": "https://i.ytimg.com/vi/hK6PIgYMAUc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDYoMjAP&rs=AOn4CLAqQqTixzw2Dt2j4JKVpfpHw3YDgQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=Puet9c2Breo",
     "title": "las otras victorias, quedan chicas con lo que te anhelo.",
     "duration": 147,
-    "thumbnail": "https://i.ytimg.com/vi/Puet9c2Breo/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoKDAPuAL3GA==&rs=AOn4CLD0j_HE1eL-drQKiRf3pfBRHobVYg",
+    "thumbnail": "https://i.ytimg.com/vi/Puet9c2Breo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoKDAP&rs=AOn4CLD8gWjcsoOugnNhBnA7Xp1aBjCquQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=NTfPwcEwxSc",
     "title": "oki ft. @realpabloxo ",
     "duration": 175,
-    "thumbnail": "https://i.ytimg.com/vi/NTfPwcEwxSc/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_ID8oNTAPuAL3GA==&rs=AOn4CLCdLIlQxLE1ZfHYsSahCSNVL8gT6g",
+    "thumbnail": "https://i.ytimg.com/vi/NTfPwcEwxSc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_ID8oNTAP&rs=AOn4CLAx0zllZm3J5k7JGf8-B_DoAgNghw",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=aIg4tLT1vC4",
     "title": "Ye A 2 ft. @juicynise ",
     "duration": 178,
-    "thumbnail": "https://i.ytimg.com/vi/aIg4tLT1vC4/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEIoNDAPuAL3GA==&rs=AOn4CLBFedaKVo4mUJgEfKrONCTZWm4dnw",
+    "thumbnail": "https://i.ytimg.com/vi/aIg4tLT1vC4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEIoNDAP&rs=AOn4CLA_JiaRMWrI4HjcRFjTwX2MzgTEOg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=egjzuIhma5U",
     "title": "Ella",
     "duration": 93,
-    "thumbnail": "https://i.ytimg.com/vi/egjzuIhma5U/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFUoPTAPuAL3GA==&rs=AOn4CLCuLfa0U1tzYLw35hMPrNOtpjP1_g",
+    "thumbnail": "https://i.ytimg.com/vi/egjzuIhma5U/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFUoPTAP&rs=AOn4CLDKvb-7UCmOm8TwMYEDM9-Wd00IEg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=XJglrVX8Tvw",
     "title": "Sonajero",
     "duration": 106,
-    "thumbnail": "https://i.ytimg.com/vi/XJglrVX8Tvw/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFcoNzAPuAL3GA==&rs=AOn4CLAL8RQpeP3AqSqPiOWS_hHD9IsdZw",
+    "thumbnail": "https://i.ytimg.com/vi/XJglrVX8Tvw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFcoNzAP&rs=AOn4CLDnSFcbYDT38bz1c9SNHxbwLQprug",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=zlQbj1GA9ck",
     "title": "a correr",
     "duration": 113,
-    "thumbnail": "https://i.ytimg.com/vi/zlQbj1GA9ck/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEUoLTAPuAL3GA==&rs=AOn4CLDL-QIttsdeIfBth2-y-FQskGCRGQ",
+    "thumbnail": "https://i.ytimg.com/vi/zlQbj1GA9ck/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEUoLTAP&rs=AOn4CLD9INd3LraCRQBwVqlHx9g20cdjvA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=vJU2X7z7wss",
     "title": "10g",
     "duration": 109,
-    "thumbnail": "https://i.ytimg.com/vi/vJU2X7z7wss/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFIoQzAPuAL3GA==&rs=AOn4CLA4cF4coW6cQAadqFcT0sj64DLg0Q",
+    "thumbnail": "https://i.ytimg.com/vi/vJU2X7z7wss/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFIoQzAP&rs=AOn4CLACsDJgkktwMRSaTVIQjYkgXektEg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=nT4Dkr_foZI",
     "title": "huida. ft. @sexyboykevtk ",
     "duration": 156,
-    "thumbnail": "https://i.ytimg.com/vi/nT4Dkr_foZI/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_ID4oNzAPuAL3GA==&rs=AOn4CLB_FnYHLP8Od5aVURCr_tyPbYOLRA",
+    "thumbnail": "https://i.ytimg.com/vi/nT4Dkr_foZI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_ID4oNzAP&rs=AOn4CLBw7NbGKTC0bV-TLop-uscWd-EhYQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=mGhkseTNQdE",
     "title": "xq soy el villano ?",
     "duration": 119,
-    "thumbnail": "https://i.ytimg.com/vi/mGhkseTNQdE/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEsoPDAPuAL3GA==&rs=AOn4CLAdFwwIQc4sd64fI5mAHdYzpk8Utw",
+    "thumbnail": "https://i.ytimg.com/vi/mGhkseTNQdE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEsoPDAP&rs=AOn4CLBLCTxzMXHWH_49SmMPXEAJkliuMg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=-8a07PZhuOQ",
     "title": "5velas",
     "duration": 104,
-    "thumbnail": "https://i.ytimg.com/vi/-8a07PZhuOQ/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFkoPjAPuAL3GA==&rs=AOn4CLDiEngK8QPGMQzB2nC7jnEiq_scSQ",
+    "thumbnail": "https://i.ytimg.com/vi/-8a07PZhuOQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFkoPjAP&rs=AOn4CLCmb_GMLXw2xfLpyPQoNEa3lZJ0qA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=H3a1V7ueUTI",
     "title": "Plata tarada",
     "duration": 116,
-    "thumbnail": "https://i.ytimg.com/vi/H3a1V7ueUTI/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg6IFsoZTAPuAL3GA==&rs=AOn4CLBqaVCIpzXX_61wZElvKQ3HjTsKjg",
+    "thumbnail": "https://i.ytimg.com/vi/H3a1V7ueUTI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg6IFsoZTAP&rs=AOn4CLB00InG7iu-oJFxztPe5EejyxHf8Q",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=XcsoWBq4sDk",
     "title": "Plata dolida",
     "duration": 115,
-    "thumbnail": "https://i.ytimg.com/vi/XcsoWBq4sDk/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF4oKTAPuAL3GA==&rs=AOn4CLCYTVU3DGyXxDepahGEawmoTCZ4dA",
+    "thumbnail": "https://i.ytimg.com/vi/XcsoWBq4sDk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF4oKTAP&rs=AOn4CLBpKkCnltzMaBQ1wx38WztB_CGZ_Q",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=VMM4IpD8LhA",
     "title": "1234",
     "duration": 97,
-    "thumbnail": "https://i.ytimg.com/vi/VMM4IpD8LhA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCNW0do6z3-efXfVtebbhqeNDANRA",
+    "thumbnail": "https://i.ytimg.com/vi/VMM4IpD8LhA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDN1GbRiKvihFjBFeJo5qagVQq_6A",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=jKZ2VhI1s_0",
     "title": "t2o",
     "duration": 123,
-    "thumbnail": "https://i.ytimg.com/vi/jKZ2VhI1s_0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLB8cj-Z2EVKGIObb6ZokrrKsty8zA",
+    "thumbnail": "https://i.ytimg.com/vi/jKZ2VhI1s_0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLALCssyBYmkmD7SSMDDWukKB-8tlw",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=wUK7-C4TWdk",
     "title": "Cero* + @knak.  - TOA (Video Oficial)",
     "duration": 176,
-    "thumbnail": "https://i.ytimg.com/vi/wUK7-C4TWdk/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBtgiAAtAFigIMCAAQARhlIFgoQDAPuAL3GA==&rs=AOn4CLD7lm_VpdPS_1fcJzk4WUT4yUxEbQ",
+    "thumbnail": "https://i.ytimg.com/vi/wUK7-C4TWdk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAtAFigIMCAAQARhlIFgoQDAP&rs=AOn4CLCHQLc6LeR8nTgO-H486o1LThzP7Q",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=tRK8QpGIse0",
     "title": "como roe",
     "duration": 91,
-    "thumbnail": "https://i.ytimg.com/vi/tRK8QpGIse0/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIF0oQTAPuAL3GA==&rs=AOn4CLBrW-P0uRtMdWqEE2F3GC2ruBZmYA",
+    "thumbnail": "https://i.ytimg.com/vi/tRK8QpGIse0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIF0oQTAP&rs=AOn4CLDco7bWXO4RyJ2ILtNTOOGURMIpGw",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=yMZyGk5WhXI",
     "title": "de concierto en concierto ft. @enzocerobulto ",
     "duration": 167,
-    "thumbnail": "https://i.ytimg.com/vi/yMZyGk5WhXI/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAf5Kb9XNWy8QnLHybZhbCWLDDKiA",
+    "thumbnail": "https://i.ytimg.com/vi/yMZyGk5WhXI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANoprntyZLnkd8xwywX8XCoTQ9vg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=e_kr5Met_AM",
     "title": "Cero* - De moda (Video Oficial) #Mecanico",
     "duration": 172,
-    "thumbnail": "https://i.ytimg.com/vi/e_kr5Met_AM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDzGHIbSShFOflMbTaD-qNxqtxZjg",
+    "thumbnail": "https://i.ytimg.com/vi/e_kr5Met_AM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDV95oUC26uhx_weCTw9r45PaFwLQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=XaZzIbbXAA0",
     "title": "Cero* - Mr.wow (Video Oficial) #Mecanico",
     "duration": 137,
-    "thumbnail": "https://i.ytimg.com/vi/XaZzIbbXAA0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLC-i3SdUUF4Lcl2E2FLUya6DDwBSA",
+    "thumbnail": "https://i.ytimg.com/vi/XaZzIbbXAA0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_vkHDs_JuuTOn46cnmuh7zlrejg",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=DgQKqnhCLcg",
     "title": "Cero* - 2Sedas (Prod.@dogmurd ) #Mecanico",
     "duration": 132,
-    "thumbnail": "https://i.ytimg.com/vi/DgQKqnhCLcg/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDTGrA3_D2bmUOlBiFg1KdTTi0uew",
+    "thumbnail": "https://i.ytimg.com/vi/DgQKqnhCLcg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlr7HouInLoqFQEivz0DD5fZwECQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=gAQzSF9ME0I",
     "title": "Cero*  @pachuka1312 @enzocerobulto - yEye (edit. yahky)",
     "duration": 136,
-    "thumbnail": "https://i.ytimg.com/vi/gAQzSF9ME0I/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBwAaAAtAFigIMCAAQARhlIGEoUDAPuAL3GA==&rs=AOn4CLBnwc74ufHOOGPveI1MF8unpTg1UA",
+    "thumbnail": "https://i.ytimg.com/vi/gAQzSF9ME0I/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBwAaAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLC64HjOh_c2_ifyhsy5MD2ZpfhraA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=6djaIlkPmJw",
     "title": "Cero* x @66ixup - Palo (Video Oficial) #Mecanico",
     "duration": 162,
-    "thumbnail": "https://i.ytimg.com/vi/6djaIlkPmJw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCqVtTr1PB5p9JghapVqhtZp7E4Ag",
+    "thumbnail": "https://i.ytimg.com/vi/6djaIlkPmJw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkm8EPJ0vrHf2fSK03EfBsSaU5RA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=EHb7Gf0P-IY",
     "title": "Cero* - Drumkits en el pantalon @1millonusd @CoronaBeatz (Dir. italianfarmer) #Mecanico",
     "duration": 110,
-    "thumbnail": "https://i.ytimg.com/vi/EHb7Gf0P-IY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDuOFoFMFDLWdzmZ9GXqhvD8r4NKw",
+    "thumbnail": "https://i.ytimg.com/vi/EHb7Gf0P-IY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8oFBs4udq1ujZR8BnhmpLlOcBFQ",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=c4plRc589nU",
     "title": "Cero* - DEAM @kkkage  (Dir. highkey & italianfarmer) #Mecanico",
     "duration": 96,
-    "thumbnail": "https://i.ytimg.com/vi/c4plRc589nU/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhOIGUoZTAPuAL3GA==&rs=AOn4CLAcauho-fk85vIp1_PGagy09HEBWQ",
+    "thumbnail": "https://i.ytimg.com/vi/c4plRc589nU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhOIGUoZTAP&rs=AOn4CLDdNDT6nT2nimRLalCv_Z97ZtjZFA",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=03pVZRma10M",
     "title": "Cero* - #SurfTalk (Full Disco)",
     "duration": 1095,
-    "thumbnail": "https://i.ytimg.com/vi/03pVZRma10M/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhEIGUoWzAPuAL3GA==&rs=AOn4CLCJHqc8ud0IcLDITrMjMUWGYBq-pg",
+    "thumbnail": "https://i.ytimg.com/vi/03pVZRma10M/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhEIGUoWzAP&rs=AOn4CLD0IeAPgHMu--gaFUAF6YD-2-DfLw",
     "artist": "Cero*"
   },
   {
     "src": "https://www.youtube.com/watch?v=38wOjY1X6i4",
     "title": "Cero* - ##PERCC Ft. @mirkoagain @ciampazzz  (Video Oficial) #SurfTalk",
     "duration": 133,
-    "thumbnail": "https://i.ytimg.com/vi/38wOjY1X6i4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLATpxfYzAk9cFavt0Ob7m7UMWWe-Q",
+    "thumbnail": "https://i.ytimg.com/vi/38wOjY1X6i4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7V6N_QBW61CAC4NIAmgdI-1p4cQ",
     "artist": "Cero*"
   },
   {
@@ -2069,14 +2069,14 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=Z5nB7viPXmk",
     "title": "PROMO X CIERRE - ANIMALES SUELTOS (ft. HALPE)",
     "duration": 123,
-    "thumbnail": "https://i.ytimg.com/vi/Z5nB7viPXmk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAuw-Hrorlz7HrpxAQNse5UlzX_Q",
+    "thumbnail": "https://i.ytimg.com/vi/Z5nB7viPXmk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBhj3eRLTTkvlhjO1QqehsS8WhHNQ",
     "artist": "PROMO X CIERRE"
   },
   {
     "src": "https://www.youtube.com/watch?v=U_RfPWhjLkY",
     "title": "PROMO X CIERRE - PROMO X CIERRE (FULL EP)",
     "duration": 1010,
-    "thumbnail": "https://i.ytimg.com/vi/U_RfPWhjLkY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbHZpQDz8GOjHAdLS0klpVBan3gw",
+    "thumbnail": "https://i.ytimg.com/vi/U_RfPWhjLkY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAeURVHkILr3P9Yth1pcu4lTatgnw",
     "artist": "PROMO X CIERRE"
   },
   {
@@ -2230,14 +2230,14 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=DgHc5PHzE-o",
     "title": "EL WIFERRRr",
     "duration": 100,
-    "thumbnail": "https://i.ytimg.com/vi/DgHc5PHzE-o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFwoRzAP&rs=AOn4CLAUyD5p1dBPG9C3SgQdvJFLxNhXig&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/DgHc5PHzE-o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFwoRzAP&rs=AOn4CLAUyD5p1dBPG9C3SgQdvJFLxNhXig",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=-GdZga-A7WQ",
     "title": "la loca esa - pa2k, turrobaby (video oficial)",
     "duration": 134,
-    "thumbnail": "https://i.ytimg.com/vi/-GdZga-A7WQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATwgl3nziEwgSA3oRbrAmwohbyNQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/-GdZga-A7WQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATwgl3nziEwgSA3oRbrAmwohbyNQ",
     "artist": "pa2k"
   },
   {
@@ -2251,7 +2251,7 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=tNeZrnWbmow",
     "title": "A ver si ahora ft enzocerobulto (prod.San)",
     "duration": 129,
-    "thumbnail": "https://i.ytimg.com/vi/tNeZrnWbmow/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDEoFDAP&rs=AOn4CLBYNtF1SaGZC7KK4RGgDmqOlbb6XQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/tNeZrnWbmow/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDEoFDAP&rs=AOn4CLBYNtF1SaGZC7KK4RGgDmqOlbb6XQ",
     "artist": "pa2k"
   },
   {
@@ -2265,7 +2265,7 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=_fLL1R35Bw4",
     "title": "Fumando Afuera",
     "duration": 115,
-    "thumbnail": "https://i.ytimg.com/vi/_fLL1R35Bw4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzzsWuzcTns1h7u7cVaikjaxQeEQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/_fLL1R35Bw4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzzsWuzcTns1h7u7cVaikjaxQeEQ",
     "artist": "pa2k"
   },
   {
@@ -2279,49 +2279,49 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=V5F_G4dErgg",
     "title": "TODA PROD FRESKO",
     "duration": 153,
-    "thumbnail": "https://i.ytimg.com/vi/V5F_G4dErgg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCR2fC3IonmI4MrNBbtnfHkWtKYLg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/V5F_G4dErgg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCR2fC3IonmI4MrNBbtnfHkWtKYLg",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=ycfrnktO9Hw",
     "title": "BBY NO MIENTAS FT C.FAQU PROD FRESKO",
     "duration": 131,
-    "thumbnail": "https://i.ytimg.com/vi/ycfrnktO9Hw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOHeVrmzQHLmZMNDavJk6YFdfR6w&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/ycfrnktO9Hw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOHeVrmzQHLmZMNDavJk6YFdfR6w",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=6kqDOBsjJfU",
     "title": "LO QUE QUERES #EMOMUSIC ",
     "duration": 72,
-    "thumbnail": "https://i.ytimg.com/vi/6kqDOBsjJfU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoETAP&rs=AOn4CLBak3-3IoIBYyvW8k7DNRs0qFqkbA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/6kqDOBsjJfU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoETAP&rs=AOn4CLBak3-3IoIBYyvW8k7DNRs0qFqkbA",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=CwddRAyk6B8",
     "title": "DEMOLIENDO HOTELES prod MILLER",
     "duration": 77,
-    "thumbnail": "https://i.ytimg.com/vi/CwddRAyk6B8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhMIGUoZTAP&rs=AOn4CLBl55ab9qwj0ru2IvV7Ib7DiHEQ6A&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/CwddRAyk6B8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhMIGUoZTAP&rs=AOn4CLBl55ab9qwj0ru2IvV7Ib7DiHEQ6A",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=6AZYgHEvNuo",
     "title": "COMO EN EL COMIENZO (SHOT BY VIZZUALB)",
     "duration": 100,
-    "thumbnail": "https://i.ytimg.com/vi/6AZYgHEvNuo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHb-6xZEa1xkAd51FvJxuItcID1A&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/6AZYgHEvNuo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHb-6xZEa1xkAd51FvJxuItcID1A",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=utj_W1QXlls",
     "title": "Pa2k x Cero* - Rn (Video Oficial) #EnganchadosRomanticos",
     "duration": 180,
-    "thumbnail": "https://i.ytimg.com/vi/utj_W1QXlls/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhbIGUoUDAP&rs=AOn4CLDYZVvwJfJYif0sWroUaCdgjmPCFQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/utj_W1QXlls/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhbIGUoUDAP&rs=AOn4CLDYZVvwJfJYif0sWroUaCdgjmPCFQ",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=r5idkqDDgtc",
     "title": "Pa2k - A donde vas (shot by. @andrs71k)",
     "duration": 152,
-    "thumbnail": "https://i.ytimg.com/vi/r5idkqDDgtc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIFsoRDAP&rs=AOn4CLDDD5Np8TNetFxZFNmCOjwnLriVJg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/r5idkqDDgtc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIFsoRDAP&rs=AOn4CLDDD5Np8TNetFxZFNmCOjwnLriVJg",
     "artist": "pa2k"
   },
   {
@@ -2335,21 +2335,21 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=BYn4fV5-JXI",
     "title": "SEXY LOUNGE MUSIC FULL EP",
     "duration": 856,
-    "thumbnail": "https://i.ytimg.com/vi/BYn4fV5-JXI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcPl2XhuX-opsqAXwRlA9GI0wRzg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/BYn4fV5-JXI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcPl2XhuX-opsqAXwRlA9GI0wRzg",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=jsMhn7NVh_I",
     "title": "WET ###SLM",
     "duration": 141,
-    "thumbnail": "https://i.ytimg.com/vi/jsMhn7NVh_I/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARg9IFcocjAP&rs=AOn4CLACnmuMat4ShOOl-w5NejLVhjpr1Q&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/jsMhn7NVh_I/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARg9IFcocjAP&rs=AOn4CLACnmuMat4ShOOl-w5NejLVhjpr1Q",
     "artist": "pa2k"
   },
   {
     "src": "https://www.youtube.com/watch?v=zW-SDTipBSg",
     "title": "RICHARD GERE",
     "duration": 96,
-    "thumbnail": "https://i.ytimg.com/vi/zW-SDTipBSg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6ISrq6JZ1GXe6Kjh0Qx5gNJM2MQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/zW-SDTipBSg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6ISrq6JZ1GXe6Kjh0Qx5gNJM2MQ",
     "artist": "pa2k"
   },
   {
@@ -3189,35 +3189,35 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=whCmiMm2Ffc",
     "title": "Doly Flackko - ¿Te Acordas? (Audio) Prod. @Vinyltracker ",
     "duration": 130,
-    "thumbnail": "https://i.ytimg.com/vi/whCmiMm2Ffc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAARImqtaosCy0Jg10O9JSL_CySMg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/whCmiMm2Ffc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAARImqtaosCy0Jg10O9JSL_CySMg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=6U3SKf1oHqY",
     "title": "Doly Flackko - “Me Desvelo” [dir by. @lebrand_av]",
     "duration": 118,
-    "thumbnail": "https://i.ytimg.com/vi/6U3SKf1oHqY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0S-BSpgQxPbeNASqfZt25RlJ5HA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/6U3SKf1oHqY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0S-BSpgQxPbeNASqfZt25RlJ5HA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=PBREeyke5vU",
     "title": "Doly Flackko - MATEITTO PRESIDENTE 2k26 (Video Oficial)",
     "duration": 118,
-    "thumbnail": "https://i.ytimg.com/vi/PBREeyke5vU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLC3U-Ig_XrMQdXDW31Ses9kNzI6GQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/PBREeyke5vU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLC3U-Ig_XrMQdXDW31Ses9kNzI6GQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=oSFKtW6cwbI",
     "title": "Doly Flackko “SERAFINES 808” (Video Oficial) Prod. Emirsito",
     "duration": 120,
-    "thumbnail": "https://i.ytimg.com/vi/oSFKtW6cwbI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwh1QrGQq3GxrG4Oazbo9tw2Peag&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/oSFKtW6cwbI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwh1QrGQq3GxrG4Oazbo9tw2Peag",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=rI__0_g7goo",
     "title": "Doly Flackko “Mal & Pronto” (Video Oficial) Prod. Emirsito, Clúster ",
     "duration": 135,
-    "thumbnail": "https://i.ytimg.com/vi/rI__0_g7goo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvvDaRGH0jtbXp9MUu8MPexLDOpg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/rI__0_g7goo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvvDaRGH0jtbXp9MUu8MPexLDOpg",
     "artist": "Doly Flackko"
   },
   {
@@ -3238,91 +3238,91 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=oE2tVVhuq6c",
     "title": "Doly Flackko “Gwadalupe” (Video Oficial) Prod. Zecca",
     "duration": 160,
-    "thumbnail": "https://i.ytimg.com/vi/oE2tVVhuq6c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWjrzR5HGoKdRSMM0-GmcEx1RUIQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/oE2tVVhuq6c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWjrzR5HGoKdRSMM0-GmcEx1RUIQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=--yxpaRudjw",
     "title": "Doly Flackko ¨Diosito Cuidame De Los Ruchis¨ (Video Oficial) Prod. @Vinyltracker ",
     "duration": 109,
-    "thumbnail": "https://i.ytimg.com/vi/--yxpaRudjw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWdoKFmQNXrvby2YLYn9rRksNJEg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/--yxpaRudjw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWdoKFmQNXrvby2YLYn9rRksNJEg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=7224VD26DyE",
     "title": "DOLY FLACKKO, EMIRSITO  - #RONALDINHO  (VIDEO OFICIAL ) ",
     "duration": 131,
-    "thumbnail": "https://i.ytimg.com/vi/7224VD26DyE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHnMpmB0QZZ1vJUT5Uki9BJ8vF-A&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/7224VD26DyE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHnMpmB0QZZ1vJUT5Uki9BJ8vF-A",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=s092bEBNlOs",
     "title": "Doly Flackko, Emirsito - NO CENO (Official Video)",
     "duration": 154,
-    "thumbnail": "https://i.ytimg.com/vi/s092bEBNlOs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpYOHAx7f5VP5Czlxe-bI5Zn5Aog&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/s092bEBNlOs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpYOHAx7f5VP5Czlxe-bI5Zn5Aog",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=USRD0zNL6vI",
     "title": "Doly Flackko, Emirsito - D'DORAPA (Official Video)",
     "duration": 153,
-    "thumbnail": "https://i.ytimg.com/vi/USRD0zNL6vI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEeIcBQd9kXTQpfRH8KWyiPfR_MA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/USRD0zNL6vI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEeIcBQd9kXTQpfRH8KWyiPfR_MA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=iIIZNrxy6Vw",
     "title": "Doly Flackko, Emirsito, 0-600 - NEVERLAND (Official Video)",
     "duration": 133,
-    "thumbnail": "https://i.ytimg.com/vi/iIIZNrxy6Vw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcqilnWAgB9mwMw2WBt2cDySJGkw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/iIIZNrxy6Vw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcqilnWAgB9mwMw2WBt2cDySJGkw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=_9K3tEHKvik",
     "title": "Doly Flackko, Emirsito - EXXXTREMOS (Official Video)",
     "duration": 141,
-    "thumbnail": "https://i.ytimg.com/vi/_9K3tEHKvik/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu3HgbbIrF-Uf8d6d1fDl3u2UzPg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/_9K3tEHKvik/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu3HgbbIrF-Uf8d6d1fDl3u2UzPg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=LXaJtXXVhoI",
     "title": "Doly Flackko, Emirsito - RECORDATORIOS (Interludio) (Official Video)",
     "duration": 70,
-    "thumbnail": "https://i.ytimg.com/vi/LXaJtXXVhoI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6uhZwpp2ky11OODiglJzSU2wR5w&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/LXaJtXXVhoI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6uhZwpp2ky11OODiglJzSU2wR5w",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=4Z4wvSDwrcA",
     "title": "Doly Flackko, Emirsito - CURADO DE ESPANTO (Official Video) ft. Clúster, Malandro",
     "duration": 179,
-    "thumbnail": "https://i.ytimg.com/vi/4Z4wvSDwrcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkaHFAFPccw16Qa4mXoF6xiMO1ig&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/4Z4wvSDwrcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkaHFAFPccw16Qa4mXoF6xiMO1ig",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=ckIaT1tsJhc",
     "title": "Doly Flackko, Emirsito - CUANDO ENTRO (Official Video)",
     "duration": 262,
-    "thumbnail": "https://i.ytimg.com/vi/ckIaT1tsJhc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5Ic9DEP7MjA-AuOU_uGD37DQblQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/ckIaT1tsJhc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5Ic9DEP7MjA-AuOU_uGD37DQblQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=0roxjExb7iU",
     "title": "Doly Flackko, Emirsito - X EL SUR (Official Video)",
     "duration": 141,
-    "thumbnail": "https://i.ytimg.com/vi/0roxjExb7iU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8UaeFK-ceho6u9u7FY1yMghqiDQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/0roxjExb7iU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8UaeFK-ceho6u9u7FY1yMghqiDQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=iNcPPKkeVMM",
     "title": "Doly Flackko, KHEA - algo anda mal (Video Oficial) #AmorTigre🧡🐅",
     "duration": 157,
-    "thumbnail": "https://i.ytimg.com/vi/iNcPPKkeVMM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClik-hnxlbVJ2h8bgTsJ7SouHTpQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/iNcPPKkeVMM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClik-hnxlbVJ2h8bgTsJ7SouHTpQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=fva-FsXaO3g",
     "title": "Doly Flackko - swarovskiii (Video Oficial) #AmorTigre🧡🐅",
     "duration": 149,
-    "thumbnail": "https://i.ytimg.com/vi/fva-FsXaO3g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAD3yEuB8Cv2aSTBYvuKnpOFHj6nQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/fva-FsXaO3g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAD3yEuB8Cv2aSTBYvuKnpOFHj6nQ",
     "artist": "Doly Flackko"
   },
   {
@@ -3336,7 +3336,7 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=JAP9pXmAHR0",
     "title": "DOLY FLACKKO - ENTRENADOR (Video Oficial)",
     "duration": 125,
-    "thumbnail": "https://i.ytimg.com/vi/JAP9pXmAHR0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGjPDF6Hk7pD6ba3NwyJ5tXkG3yg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/JAP9pXmAHR0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGjPDF6Hk7pD6ba3NwyJ5tXkG3yg",
     "artist": "Doly Flackko"
   },
   {
@@ -3350,49 +3350,49 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=CBL7RyyPve0",
     "title": "Doly Flackko - SIN QUEJAS (Video Oficial)",
     "duration": 116,
-    "thumbnail": "https://i.ytimg.com/vi/CBL7RyyPve0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjqcVbWC2Zobawf24mLpDwoQl_ug&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/CBL7RyyPve0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjqcVbWC2Zobawf24mLpDwoQl_ug",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=cUiJ-Jlr-7g",
     "title": "Doly Flackko - INSOPORTABLEMENTE",
     "duration": 238,
-    "thumbnail": "https://i.ytimg.com/vi/cUiJ-Jlr-7g/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhLIFAoZTAP&rs=AOn4CLBoCTiftPVaWDqKWpMiLxWJEtJoDA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/cUiJ-Jlr-7g/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhLIFAoZTAP&rs=AOn4CLBoCTiftPVaWDqKWpMiLxWJEtJoDA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=kbP_M-Rrgj8",
     "title": "Doly Flackko, Emirsito - Nunca Alcanza (Video Oficial)",
     "duration": 125,
-    "thumbnail": "https://i.ytimg.com/vi/kbP_M-Rrgj8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUDyH2A5ctPM72qXApjzEA1gZPjw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/kbP_M-Rrgj8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUDyH2A5ctPM72qXApjzEA1gZPjw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=Ik9YN_LOl4k",
     "title": "Doly Flackko - IGNORANT/STEPPERS (Video Oficial)",
     "duration": 184,
-    "thumbnail": "https://i.ytimg.com/vi/Ik9YN_LOl4k/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF0oQzAP&rs=AOn4CLD2AP9bLmfY9kAKWl_m6v6fs1GEHw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/Ik9YN_LOl4k/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF0oQzAP&rs=AOn4CLD2AP9bLmfY9kAKWl_m6v6fs1GEHw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=lVGjDqzagoA",
     "title": "Doly Flackko, Sirya - DELFINES Y PECES FREESTYLE",
     "duration": 155,
-    "thumbnail": "https://i.ytimg.com/vi/lVGjDqzagoA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7huPktUBxXSGvnYJLakuS-PfxEg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/lVGjDqzagoA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7huPktUBxXSGvnYJLakuS-PfxEg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=hv_62tnC01w",
     "title": "Doly Flackko, Clúster - MATEO & LUCA (Video Oficial) Prod. Emirsito",
     "duration": 135,
-    "thumbnail": "https://i.ytimg.com/vi/hv_62tnC01w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVfAKkxVa7hWWCdV7deHE-BidrxQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/hv_62tnC01w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVfAKkxVa7hWWCdV7deHE-BidrxQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=u37zhcqLzvE",
     "title": "Doly Flackko - LEGENDARIO (Video Oficial)",
     "duration": 147,
-    "thumbnail": "https://i.ytimg.com/vi/u37zhcqLzvE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9dRLi_3yeFZP4JAtUp9AUPkceFw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/u37zhcqLzvE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9dRLi_3yeFZP4JAtUp9AUPkceFw",
     "artist": "Doly Flackko"
   },
   {
@@ -3406,21 +3406,21 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=57a_kN-Wnco",
     "title": "Doly Flackko, Emirsito - TRES TRISTES TIGUERES (Video Oficial) #PIOLAVAGO",
     "duration": 118,
-    "thumbnail": "https://i.ytimg.com/vi/57a_kN-Wnco/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAArULZNN1GT9wb8amTbLxZqcBzkQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/57a_kN-Wnco/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAArULZNN1GT9wb8amTbLxZqcBzkQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=xGVzHYTTPWc",
     "title": "Doly Flackko & Emirsito - PIOLA VAGO (Video Oficial)",
     "duration": 121,
-    "thumbnail": "https://i.ytimg.com/vi/xGVzHYTTPWc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCATrnhbW9sfoXG5C5om7pF9RUyUQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/xGVzHYTTPWc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCATrnhbW9sfoXG5C5om7pF9RUyUQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=e2rfPpJc1dA",
     "title": "Doly Flackko & Emirsito - UBER (Video Oficial) #PIOLAVAGO",
     "duration": 115,
-    "thumbnail": "https://i.ytimg.com/vi/e2rfPpJc1dA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC24syZbWIIkl3tFOJLZPCAPiPKNg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/e2rfPpJc1dA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC24syZbWIIkl3tFOJLZPCAPiPKNg",
     "artist": "Doly Flackko"
   },
   {
@@ -3434,70 +3434,70 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=S9wnRNZG_Ck",
     "title": "Doly Flackko - PIRAMIDALES (Video oficial) | Hotel Patagonia",
     "duration": 169,
-    "thumbnail": "https://i.ytimg.com/vi/S9wnRNZG_Ck/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoQzAP&rs=AOn4CLD-LdZAAcCbp34Y6zaedw0HDQRLRg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/S9wnRNZG_Ck/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoQzAP&rs=AOn4CLD-LdZAAcCbp34Y6zaedw0HDQRLRg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=Lddz0zCAdCU",
     "title": "Doly Flackko - FLEMA (Video Oficial) | Hotel Patagonia",
     "duration": 105,
-    "thumbnail": "https://i.ytimg.com/vi/Lddz0zCAdCU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPH35JfH_u7LiBdwP1YbrHkGIxrA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/Lddz0zCAdCU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPH35JfH_u7LiBdwP1YbrHkGIxrA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=XyqWxNC4-fo",
     "title": "Doly Flackko - 20 MILAGROS (Video Oficial) | Hotel Patagonia",
     "duration": 139,
-    "thumbnail": "https://i.ytimg.com/vi/XyqWxNC4-fo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuYCpOv9jivh3bpyAGS4k2rSLVeA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/XyqWxNC4-fo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuYCpOv9jivh3bpyAGS4k2rSLVeA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=-us63zA64Ok",
     "title": "Doly Flackko - BARRIO EVITA (Video Oficial) | Hotel Patagonia",
     "duration": 112,
-    "thumbnail": "https://i.ytimg.com/vi/-us63zA64Ok/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwzP39Z5vT61UO_WSDSWdQhRb9zQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/-us63zA64Ok/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwzP39Z5vT61UO_WSDSWdQhRb9zQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=xpwOy5VsryE",
     "title": "Doly Flackko - RIO G’ (Video Oficial) | Hotel Patagonia",
     "duration": 123,
-    "thumbnail": "https://i.ytimg.com/vi/xpwOy5VsryE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI5TqHT1GXojXD0EpFFOsZlsfrdQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/xpwOy5VsryE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI5TqHT1GXojXD0EpFFOsZlsfrdQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=TbNCiDTCSdk",
     "title": "Doly Flackko - Sangre X Sangre (Video Oficial) | Hotel Patagonia",
     "duration": 111,
-    "thumbnail": "https://i.ytimg.com/vi/TbNCiDTCSdk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4yGHJOk8lmPc9DruF3Ax94OV8aQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/TbNCiDTCSdk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4yGHJOk8lmPc9DruF3Ax94OV8aQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=C2yUNngTSME",
     "title": "Doly Flackko - JOYAS (Video oficial)",
     "duration": 91,
-    "thumbnail": "https://i.ytimg.com/vi/C2yUNngTSME/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdl3TmWL6IcGN60IOn-1MkaG6kSg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/C2yUNngTSME/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdl3TmWL6IcGN60IOn-1MkaG6kSg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=a5vzyHFZMjY",
     "title": "Doly Flackko - JURADO (Prod @1millonusd ) | Hotel Patagonia",
     "duration": 112,
-    "thumbnail": "https://i.ytimg.com/vi/a5vzyHFZMjY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1x3x5i6ddvziVnd48-A9j0X42EQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/a5vzyHFZMjY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1x3x5i6ddvziVnd48-A9j0X42EQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=oUmPwn8aGvw",
     "title": "Doly Flackko - 21 PILOTS [Sangre Fría Mixtape]",
     "duration": 107,
-    "thumbnail": "https://i.ytimg.com/vi/oUmPwn8aGvw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLBYdzPTFHJKP5-uo6cfmtQESCdfrw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/oUmPwn8aGvw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLBYdzPTFHJKP5-uo6cfmtQESCdfrw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=NXhY5TBN9nM",
     "title": "Doly Flackko - PAKETES / HABLAME CLARO [Sangre Fría Mixtape]",
     "duration": 140,
-    "thumbnail": "https://i.ytimg.com/vi/NXhY5TBN9nM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDx-70qLtJIEOL1Q72JFdPbY_ZUg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/NXhY5TBN9nM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDx-70qLtJIEOL1Q72JFdPbY_ZUg",
     "artist": "Doly Flackko"
   },
   {
@@ -3511,112 +3511,112 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=QkHXdxOvE4M",
     "title": "Doly Flackko, @kiddsamu  - SUZUKI (Prod. Emirsito)",
     "duration": 135,
-    "thumbnail": "https://i.ytimg.com/vi/QkHXdxOvE4M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACX0Cp6CDQTDU4P69kQeFt3nkfeQ&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/QkHXdxOvE4M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACX0Cp6CDQTDU4P69kQeFt3nkfeQ",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=N-Iv8diQHtI",
     "title": "Doly Flackko - BAJO CERO [Sangre Fría Mixtape]",
     "duration": 111,
-    "thumbnail": "https://i.ytimg.com/vi/N-Iv8diQHtI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuEjHtyMv4jqzEKJrmJAO1i_bAVg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/N-Iv8diQHtI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuEjHtyMv4jqzEKJrmJAO1i_bAVg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=BmKH3QUWFtQ",
     "title": "Doly Flackko & Emirsito - EL VALOR [video oficial]",
     "duration": 136,
-    "thumbnail": "https://i.ytimg.com/vi/BmKH3QUWFtQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhaIGUoHjAP&rs=AOn4CLCOJ2sXOKusD6g5VwyxDwBdHD4kbw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/BmKH3QUWFtQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhaIGUoHjAP&rs=AOn4CLCOJ2sXOKusD6g5VwyxDwBdHD4kbw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=XxyWmBJB0O0",
     "title": "Doly Flackko, 33Mobb - LUCA ACKERMAN [prod emirsito]",
     "duration": 110,
-    "thumbnail": "https://i.ytimg.com/vi/XxyWmBJB0O0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiXWIrmmVSfQ404_3kb-0xmqBi6Q&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/XxyWmBJB0O0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiXWIrmmVSfQ404_3kb-0xmqBi6Q",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=0Yw8F30TR4U",
     "title": "Doly Flackko - Ambidiestro [Audio Oficial]",
     "duration": 100,
-    "thumbnail": "https://i.ytimg.com/vi/0Yw8F30TR4U/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIEsoODAP&rs=AOn4CLA9Wfo--sTxg-O-Vl45lP2Gopl4Og&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/0Yw8F30TR4U/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIEsoODAP&rs=AOn4CLA9Wfo--sTxg-O-Vl45lP2Gopl4Og",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=_PKFOvNm7ag",
     "title": "Doly Flackko - PRIORITY [Audio oficial]",
     "duration": 155,
-    "thumbnail": "https://i.ytimg.com/vi/_PKFOvNm7ag/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhVIFwoZTAP&rs=AOn4CLBrmSMvOZi0d9NHKc1O_ZAYk9wj9w&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/_PKFOvNm7ag/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhVIFwoZTAP&rs=AOn4CLBrmSMvOZi0d9NHKc1O_ZAYk9wj9w",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=JC_Zkrjsgf8",
     "title": "Doly Flackko - Área (Prod. 1millonusd & emirsito)",
     "duration": 103,
-    "thumbnail": "https://i.ytimg.com/vi/JC_Zkrjsgf8/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYhXLsTXsFBY_j04U5DcFqc_vaKw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/JC_Zkrjsgf8/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYhXLsTXsFBY_j04U5DcFqc_vaKw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=kSHx89rreM8",
     "title": "Doly Flackko & Emirsito - INTRO #2021",
     "duration": 126,
-    "thumbnail": "https://i.ytimg.com/vi/kSHx89rreM8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACa2uJ1BQXZFbLdFzsAdFUYBFRrw&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/kSHx89rreM8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACa2uJ1BQXZFbLdFzsAdFUYBFRrw",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=fs8W-ztg2vE",
     "title": "Doly Flackko • Makineo (Audio) Prod. Boofpack Bishop",
     "duration": 155,
-    "thumbnail": "https://i.ytimg.com/vi/fs8W-ztg2vE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDA7vCUx6N1oXT3uWQoMz337icaBg&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/fs8W-ztg2vE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDA7vCUx6N1oXT3uWQoMz337icaBg",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=O_16veI-GS8",
     "title": "Doly Flackko - No Compro",
     "duration": 118,
-    "thumbnail": "https://i.ytimg.com/vi/O_16veI-GS8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcbo3X1ED-15jY9V5x1ACG5JXteA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/O_16veI-GS8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcbo3X1ED-15jY9V5x1ACG5JXteA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=slJNjlciQ4Y",
     "title": "Doly Flackko - Only Money",
     "duration": 170,
-    "thumbnail": "https://i.ytimg.com/vi/slJNjlciQ4Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNqQeAo44QdZgeKnXSPyZmDt9F6g&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/slJNjlciQ4Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNqQeAo44QdZgeKnXSPyZmDt9F6g",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=dUmQJZP9qO0",
     "title": "Doly Flackko - Offside (Prod. Tflames)",
     "duration": 133,
-    "thumbnail": "https://i.ytimg.com/vi/dUmQJZP9qO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5CxPt0QoZqkYld6uoDL7-aXgn9w&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/dUmQJZP9qO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5CxPt0QoZqkYld6uoDL7-aXgn9w",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=DMPZ7pia9L4",
     "title": "DOLY FLACKKO // LUIS BUITON  #MVP",
     "duration": 130,
-    "thumbnail": "https://i.ytimg.com/vi/DMPZ7pia9L4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDW0juHBfmIpsuNxyXiLt81sszK-g&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/DMPZ7pia9L4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDW0juHBfmIpsuNxyXiLt81sszK-g",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=U3G19k5MOeI",
     "title": "02) Doly Flackko • LOVE IS WAR (Prod. lock) [[Summertime sadness mixtape]]",
     "duration": 145,
-    "thumbnail": "https://i.ytimg.com/vi/U3G19k5MOeI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDm1jJ0ngh1aQyaCjdMBy_a6WQT2Q&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/U3G19k5MOeI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDm1jJ0ngh1aQyaCjdMBy_a6WQT2Q",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=63PcOMqnDS4",
     "title": "01) Doly Flackko • SUMMERTIME SADNESS (Prod. Rodger) [[Summertime sadness mixtape]]",
     "duration": 125,
-    "thumbnail": "https://i.ytimg.com/vi/63PcOMqnDS4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1jIyjbLUirOB2kUG0ImFiurGrEA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/63PcOMqnDS4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1jIyjbLUirOB2kUG0ImFiurGrEA",
     "artist": "Doly Flackko"
   },
   {
     "src": "https://www.youtube.com/watch?v=7QqPoSPaHE8",
     "title": "DOLY FLACKKO a.k.a MATTEITTO ANGUSTIA • EMBUSTEROS",
     "duration": 155,
-    "thumbnail": "https://i.ytimg.com/vi/7QqPoSPaHE8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJvOFJ_kpprvp-NVSRAYzH_kEPpA&usqp=CBQ",
+    "thumbnail": "https://i.ytimg.com/vi/7QqPoSPaHE8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJvOFJ_kpprvp-NVSRAYzH_kEPpA",
     "artist": "Doly Flackko"
   },
   {
@@ -4218,469 +4218,469 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=jJxY7vUVQTg",
     "title": "LOLO - YAMAL (VIDEO OFICIAL)",
     "duration": 163,
-    "thumbnail": "https://i.ytimg.com/vi/jJxY7vUVQTg/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCJmR50sWJxcj7GNcZMeXdiGZMeUQ",
+    "thumbnail": "https://i.ytimg.com/vi/jJxY7vUVQTg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7TPj_l4TbKQn4h-xnXxU7saZ1IQ&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=qsGXLpWGxK0",
     "title": "LOLO - LA SiTUACiON (ft slimesanti) *VIDEOCLIP OFICIAL*",
     "duration": 144,
-    "thumbnail": "https://i.ytimg.com/vi/qsGXLpWGxK0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBysQBJZP98-NAmvCQdzIraTRxaZg",
+    "thumbnail": "https://i.ytimg.com/vi/qsGXLpWGxK0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8tbD0xi4uKd_esI9yVk9ZAML2wA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=kxlLrzuUE9g",
     "title": "LOLO - PiEDRAS (VIDEOCLIP OFICIAL)",
     "duration": 93,
-    "thumbnail": "https://i.ytimg.com/vi/kxlLrzuUE9g/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBNmp5m4cOf5eF96WWGo13erCVQzA",
+    "thumbnail": "https://i.ytimg.com/vi/kxlLrzuUE9g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8nBGe9MkO3s2hXYsDu1krObbvjg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=hwOVvxzjqpk",
     "title": "LOLO - A DROGARME (ft. Rageylo) *VIDEO OFICIAL*",
     "duration": 185,
-    "thumbnail": "https://i.ytimg.com/vi/hwOVvxzjqpk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLD67o8Ws6SX2D04HyqDJwCdZB_g4A",
+    "thumbnail": "https://i.ytimg.com/vi/hwOVvxzjqpk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIo6d2SuyNltIxGKTdfY1PSi1aqw&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=oyWoElQH2XU",
     "title": "Y SI TE VAS. (VIDEO OFICIAL)",
     "duration": 122,
-    "thumbnail": "https://i.ytimg.com/vi/oyWoElQH2XU/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA4g71amWzU2plAYx6GDK5Q0B1V1Q",
+    "thumbnail": "https://i.ytimg.com/vi/oyWoElQH2XU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuH1DJdkBn4jJQSFzXmG9A7cgK9A&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=CoLf18Zx4pQ",
     "title": "LOLO - HOY ES MI DIA (VIDEO OFICIAL)",
     "duration": 136,
-    "thumbnail": "https://i.ytimg.com/vi/CoLf18Zx4pQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDoMnbpu9jzp-5yCJkygF7JNW8BOw",
+    "thumbnail": "https://i.ytimg.com/vi/CoLf18Zx4pQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWJtJ4wCZQhbw3dr9dLR2KaWGrwA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=NdyP8NsW-AQ",
     "title": "LOLO - VASO DE DOS (VIDEO OFICIAL)",
     "duration": 169,
-    "thumbnail": "https://i.ytimg.com/vi/NdyP8NsW-AQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDCpjFdXyLQ0-BgOuJWLALxQGS8ZA",
+    "thumbnail": "https://i.ytimg.com/vi/NdyP8NsW-AQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVPnQbakfr1NwYxdS1WlzUrcWzMg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=ffKakie53I8",
     "title": "LOLO - GASTEMOS MAS (VIDEO OFICIAL)",
     "duration": 107,
-    "thumbnail": "https://i.ytimg.com/vi/ffKakie53I8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA04AgaLt1T2ahVhY_-sBBSv9dkZA",
+    "thumbnail": "https://i.ytimg.com/vi/ffKakie53I8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCN6s4X1YWYXHpcAl4Ksns6Qd6cdg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=XX39hNmsJXo",
     "title": "LOLO - APHEX TWIN (Audio Oficial)",
     "duration": 110,
-    "thumbnail": "https://i.ytimg.com/vi/XX39hNmsJXo/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLC2pUBgkzyFCcug5HnYvJ4CCwLbiw",
+    "thumbnail": "https://i.ytimg.com/vi/XX39hNmsJXo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOCnFpRy4_qKPmfuGKvQnDQXXSmA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=XK_fxgQmbJo",
     "title": "LOLO - VASO DE A DOS (Audio Oficial)",
     "duration": 153,
-    "thumbnail": "https://i.ytimg.com/vi/XK_fxgQmbJo/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBKly5LfL6zJ5zhgLOmZS7aOZnThw",
+    "thumbnail": "https://i.ytimg.com/vi/XK_fxgQmbJo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCpq_uR5Gm3KKphckuSj4E1qNpAw&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=V9c44MhamDM",
     "title": "LOLO - QUIEN FUE (Audio Oficial)",
     "duration": 109,
-    "thumbnail": "https://i.ytimg.com/vi/V9c44MhamDM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBN8e_HSP39pj4jIxVKE61TLbUMoA",
+    "thumbnail": "https://i.ytimg.com/vi/V9c44MhamDM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZEzX7kg2-Zlg4BeIiadJJXuYkXQ&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=NdRV-Cz-dbU",
     "title": "LOLO - NO WAY (Audio Oficial)",
     "duration": 135,
-    "thumbnail": "https://i.ytimg.com/vi/NdRV-Cz-dbU/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLANcSY3lwQtKHMWmSxeM23Qg05jaw",
+    "thumbnail": "https://i.ytimg.com/vi/NdRV-Cz-dbU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwAOqGUAvB_JWckQeHCs_YFok57A&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=M1_BbGQTP20",
     "title": "LOLO - HATER (Audio Oficial)",
     "duration": 143,
-    "thumbnail": "https://i.ytimg.com/vi/M1_BbGQTP20/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDbKodNvyfByqMWpTQIJS8ky0hOhg",
+    "thumbnail": "https://i.ytimg.com/vi/M1_BbGQTP20/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJmj59lpXxG5s1hOfFZiQojsumIA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=8io01sqouKw",
     "title": "LOLO - FRIO EN DICIEMBRE (Audio Oficial)",
     "duration": 184,
-    "thumbnail": "https://i.ytimg.com/vi/8io01sqouKw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDflLzDYZuAODnM8GzpHuyjezLI-w",
+    "thumbnail": "https://i.ytimg.com/vi/8io01sqouKw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8KZWyC3YWfivbK1MIZzdgBt7bxA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=E1_QbXHHZew",
     "title": "LOLO - OG KUSH (Audio Oficial)",
     "duration": 143,
-    "thumbnail": "https://i.ytimg.com/vi/E1_QbXHHZew/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDFgnKjjdvYVkgdxHJp7ZwAZOabEw",
+    "thumbnail": "https://i.ytimg.com/vi/E1_QbXHHZew/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsxMJEnGmoqOIIwC1-TyTPhLoN-Q&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=BHnH8iep4UE",
     "title": "LOLO - SYDNEY (Audio Oficial)",
     "duration": 95,
-    "thumbnail": "https://i.ytimg.com/vi/BHnH8iep4UE/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAM7vY49gCAmLetBaYDiYhoXmCP8A",
+    "thumbnail": "https://i.ytimg.com/vi/BHnH8iep4UE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBF8FbY2AdLXl9lG8V9En8d2zLG6A&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=7sJzJOiD1hY",
     "title": "LOLO - GAS DE ENERO (Audio Oficial)",
     "duration": 115,
-    "thumbnail": "https://i.ytimg.com/vi/7sJzJOiD1hY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBaMm0ubHNATPRiAxbOP7Mp1nmWhw",
+    "thumbnail": "https://i.ytimg.com/vi/7sJzJOiD1hY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfUaE8xxW_jJ0FIzktY4oXTAjaMA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=3E7k9Kw4VqI",
     "title": "LOLO - HOY SI QUEMO (Audio Oficial)",
     "duration": 113,
-    "thumbnail": "https://i.ytimg.com/vi/3E7k9Kw4VqI/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLD-c78Ja1E7O2tRUMEiDN5vrC4fJA",
+    "thumbnail": "https://i.ytimg.com/vi/3E7k9Kw4VqI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAK5_3ByhKSNtBC9IsEFKY-tuvZ8A&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=0tYVrVXy0ak",
     "title": "LOLO - OSCUROoOo (Audio Oficial)",
     "duration": 98,
-    "thumbnail": "https://i.ytimg.com/vi/0tYVrVXy0ak/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA5GXCh_f11IAcAHcQytOQG8izVEA",
+    "thumbnail": "https://i.ytimg.com/vi/0tYVrVXy0ak/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_GGZhycj5vv97l2Y2p7lU0YqTrw&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=-Oib_EPVEs0",
     "title": "LOLO - ALEJO ISAKK (Audio Oficial)",
     "duration": 133,
-    "thumbnail": "https://i.ytimg.com/vi/-Oib_EPVEs0/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA6Kz2Io4mVkqZb9hpYQJ0fMJfK1w",
+    "thumbnail": "https://i.ytimg.com/vi/-Oib_EPVEs0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCjUNtbF8eIDJcoyM86q9wGQ9jCg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=Iy8c3cSnbg4",
     "title": "LOLO - FERNET HIELO (VIDEO OFICIAL)",
     "duration": 274,
-    "thumbnail": "https://i.ytimg.com/vi/Iy8c3cSnbg4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCX-V8394BIMBOLifTK6X07Nfn4IA",
+    "thumbnail": "https://i.ytimg.com/vi/Iy8c3cSnbg4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjSzFNmkiX_KA4TSrWcojG9QrTeA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=l-iW_8H39Cs",
     "title": "LOLO - POP POP POP (VIDEO OFICIAL)",
     "duration": 100,
-    "thumbnail": "https://i.ytimg.com/vi/l-iW_8H39Cs/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA5ocl-JvurFUzdnIAXiepGCkJ-IA",
+    "thumbnail": "https://i.ytimg.com/vi/l-iW_8H39Cs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcBdd7bsVvnE87VRDFz8S8pco-lw&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=kkrOZxIPPVI",
     "title": "LOLO - MINI LOLO (VIDEO OFICIAL)",
     "duration": 116,
-    "thumbnail": "https://i.ytimg.com/vi/kkrOZxIPPVI/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDACBCkac5BHeHihhlc_mnVRPk1tw",
+    "thumbnail": "https://i.ytimg.com/vi/kkrOZxIPPVI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2lqtkbahuZ2jOHDV0op0OoqGpCQ&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=Hbb4bf2-CnY",
     "title": "LOLO - NOVIEMBRE (Video Oficial)",
     "duration": 120,
-    "thumbnail": "https://i.ytimg.com/vi/Hbb4bf2-CnY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBpNGVfJROp2KRSIpaqjBCEOnJ8Hw",
+    "thumbnail": "https://i.ytimg.com/vi/Hbb4bf2-CnY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDH16V-J3KGDQx8CKjDAoxyEYMPfA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=hP69Odduzis",
     "title": "LOLO - JESSE PINKMAN (Video Oficial)",
     "duration": 164,
-    "thumbnail": "https://i.ytimg.com/vi/hP69Odduzis/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBReXwrEo0wsXtsd9HYTgeOnr3cMw",
+    "thumbnail": "https://i.ytimg.com/vi/hP69Odduzis/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCq4c58j1liNV4omHxnJizVOMPtFA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=dKzVF-85cNU",
     "title": "LOLO - EMILIA MERNES (Video Oficial)",
     "duration": 117,
-    "thumbnail": "https://i.ytimg.com/vi/dKzVF-85cNU/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDdBQouXnk5rbajSqhHD6tBvXIp0w",
+    "thumbnail": "https://i.ytimg.com/vi/dKzVF-85cNU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1G4wpTtr8eIT7LKjD5y32Sr_7DA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=dztUUstdKwg",
     "title": "LOLO - INIMU (Video Oficial)",
     "duration": 184,
-    "thumbnail": "https://i.ytimg.com/vi/dztUUstdKwg/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA9iEeXhxNIvmMr_hWhgTPXTji4wA",
+    "thumbnail": "https://i.ytimg.com/vi/dztUUstdKwg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbmCuVroI9hBZy2cEB_HJGNjH4SA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=ms2Lt7gqA1M",
     "title": "LOLO - NOCTAMBULO",
     "duration": 171,
-    "thumbnail": "https://i.ytimg.com/vi/ms2Lt7gqA1M/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA6aiDFj4PE4AYeF29YCKpPkymS6g",
+    "thumbnail": "https://i.ytimg.com/vi/ms2Lt7gqA1M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXtc38ca3rfWEAvJn-yCXPAx57qg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=DmUnukaJKq8",
     "title": "LOLO - final boss [GEKKO月光]",
     "duration": 167,
-    "thumbnail": "https://i.ytimg.com/vi/DmUnukaJKq8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAU0F8GRciVgjuhfQjSrDg8aeysiA",
+    "thumbnail": "https://i.ytimg.com/vi/DmUnukaJKq8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBM49-H8IC_mZVD0V5Dw2zzGin2bQ&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=reWLr-i9tKA",
     "title": "LOLO - frio! [GEKKO月光]",
     "duration": 172,
-    "thumbnail": "https://i.ytimg.com/vi/reWLr-i9tKA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCG_H4Ti0Lo2ik9ey-UYhlB-aRb4A",
+    "thumbnail": "https://i.ytimg.com/vi/reWLr-i9tKA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfQdA4QA7YGyr0X2hYu9DT3Ppu1A&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=60OmBGbfaCw",
     "title": "LOLO - diasSs [GEKKO月光]",
     "duration": 108,
-    "thumbnail": "https://i.ytimg.com/vi/60OmBGbfaCw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDibw-xB7xUcgkLhqfVH_pqhl1vlw",
+    "thumbnail": "https://i.ytimg.com/vi/60OmBGbfaCw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASYf_IVw9zszjnk95cCYajx9DOJA&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=CQmVoUtR3G4",
     "title": "LOLO x TRAW - 100to q sto esta bien [GEKKO月光]",
     "duration": 163,
-    "thumbnail": "https://i.ytimg.com/vi/CQmVoUtR3G4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDbTegXajyr2Espov3d0Wm9qre_hw",
+    "thumbnail": "https://i.ytimg.com/vi/CQmVoUtR3G4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCI9KGcI2DhLkNnESZkBaIK2oIpQ&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=t_yuroFzMd8",
     "title": "LOLO -  WINTERLUV",
     "duration": 181,
-    "thumbnail": "https://i.ytimg.com/vi/t_yuroFzMd8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLD5WsT0nY2n00BNAd3DzNoB5g9dKg",
+    "thumbnail": "https://i.ytimg.com/vi/t_yuroFzMd8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqodBpG9kNr4JcH63T3mDVKAYh_w&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=WL1hyLGKoCA",
     "title": "LOLO x ISMALDZ - VOLVERTE A VERﾟ*:･ﾟ★｡･:* (Video Oficial)",
     "duration": 181,
-    "thumbnail": "https://i.ytimg.com/vi/WL1hyLGKoCA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLACp4P5bARx_HBrTR0B87lgZsBNdA",
+    "thumbnail": "https://i.ytimg.com/vi/WL1hyLGKoCA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDK-lWzbxoK9gcM7QIs6BMXBkLQuw&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=LxEbgHE81pA",
     "title": "LOLO - #AmorDeVerano!",
     "duration": 148,
-    "thumbnail": "https://i.ytimg.com/vi/LxEbgHE81pA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCKTU57s4-D8G0LdeSxWS0fkabq7A",
+    "thumbnail": "https://i.ytimg.com/vi/LxEbgHE81pA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwEHw5wk8ycu5OM4ncmapg5t-v-A&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=MmOxmCzOqkk",
     "title": "LOLO - CHICA DE ROSA (Video Oficial)",
     "duration": 191,
-    "thumbnail": "https://i.ytimg.com/vi/MmOxmCzOqkk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDwreelJc5tt4xXI4PW8sYS0YqAkQ",
+    "thumbnail": "https://i.ytimg.com/vi/MmOxmCzOqkk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0VdroaEVe-rub4bCwFsH2EDXt2w&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=TbIj_g5Ty_U",
     "title": "LOLO - 31 de Febrero (Video Oficial)",
     "duration": 190,
-    "thumbnail": "https://i.ytimg.com/vi/TbIj_g5Ty_U/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA7TrgU-iV5EUpMnUrsC_HE3ca6Tg",
+    "thumbnail": "https://i.ytimg.com/vi/TbIj_g5Ty_U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBd28uFsYhmhWFlB6GktuQCZMwYNg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=svBVGQJst8E",
     "title": "LOLO X TRAW - CLOWNY FACE 🤡",
     "duration": 159,
-    "thumbnail": "https://i.ytimg.com/vi/svBVGQJst8E/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAt-Ul6A-dlybkoNMQkcMNd2yxK3w",
+    "thumbnail": "https://i.ytimg.com/vi/svBVGQJst8E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwFGPfFu9qMOyu-F_dvOj1FGXVqw&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=CxT_l1HrBAw",
     "title": "LOLO X KRASH - SUPERBOYS (Video Oficial)",
     "duration": 153,
-    "thumbnail": "https://i.ytimg.com/vi/CxT_l1HrBAw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAgsWFG3tCmPD_BGnpMMxmcDTsLlA",
+    "thumbnail": "https://i.ytimg.com/vi/CxT_l1HrBAw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLArrWvVWyQSeHJiJqGiZYj5U9F91g&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=DCbMHoJVvwc",
     "title": "LOLO - BUU! (Video Oficial)",
     "duration": 139,
-    "thumbnail": "https://i.ytimg.com/vi/DCbMHoJVvwc/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCJ8TXhaZbRZ5Hax3s5XUL6YVfAEw",
+    "thumbnail": "https://i.ytimg.com/vi/DCbMHoJVvwc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUl7K36C0Zpl9oFgGAQH7WfzWBrg&usqp=CBQ",
     "artist": "LOLO"
   },
   {
     "src": "https://www.youtube.com/watch?v=qEXvcnqmNf4",
     "title": "Hepa - En la mochila ft suei",
     "duration": 159,
-    "thumbnail": "https://i.ytimg.com/vi/qEXvcnqmNf4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB5geAAtAFigIMCAAQARhlIFgoSjAP&rs=AOn4CLDbftGfgbfUz0SsCnnhogNSngkqOQ",
+    "thumbnail": "https://i.ytimg.com/vi/qEXvcnqmNf4/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB5geAAtAFigIMCAAQARhlIFgoSjAPuALzGA==&rs=AOn4CLAuQDeLqPRWp5Q07IV4iSGRdtUvjg",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=_WSpSmVfnx0",
     "title": "Hepa - Combo Loco Ft. Nyko [Video Oficial]",
     "duration": 145,
-    "thumbnail": "https://i.ytimg.com/vi/_WSpSmVfnx0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IFIoITAP&rs=AOn4CLDT55P5LWkshaFuvPMH32Wu03bKHA",
+    "thumbnail": "https://i.ytimg.com/vi/_WSpSmVfnx0/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IFIoITAPuALzGA==&rs=AOn4CLC24XhdtzBww5iZjnT48Eqk1i8Ngg",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=UNt8uoLvX78",
     "title": "Hepa - Mary Poppins (Video Oficial)",
     "duration": 94,
-    "thumbnail": "https://i.ytimg.com/vi/UNt8uoLvX78/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAqQFigIMCAAQARhQIGUoYzAP&rs=AOn4CLCn8Z1QejoWGqzoIcTldsb0Tm0Rvg",
+    "thumbnail": "https://i.ytimg.com/vi/UNt8uoLvX78/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAqQFigIMCAAQARhQIGUoYzAPuALzGA==&rs=AOn4CLCZWDfW2U0sDn6IkPFprVjrxxZXkA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=zD1nCoopH_4",
     "title": "Hepa - Oke Oka (video oficial) ",
     "duration": 168,
-    "thumbnail": "https://i.ytimg.com/vi/zD1nCoopH_4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtg8X1jw_lwx700uG7l9Wb7QN1Iw",
+    "thumbnail": "https://i.ytimg.com/vi/zD1nCoopH_4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLD2nnDdeD1K_eSMkhzFzYnS-iRJMA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=7qxK4oR6584",
     "title": "Hepa - Dolor de muela ft @clustercontilde",
     "duration": 132,
-    "thumbnail": "https://i.ytimg.com/vi/7qxK4oR6584/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARgRIFsocjAP&rs=AOn4CLAkh8zSXb-cyq_65xdiOFN67Zd2uQ",
+    "thumbnail": "https://i.ytimg.com/vi/7qxK4oR6584/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARgRIFsocjAPuALzGA==&rs=AOn4CLBGo9hxM_B0pOVYQfRI2elG93qoAQ",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=gjpgaEFlwUY",
     "title": "MI HERMANO SE LAS MANDA FT @nykoo0.",
     "duration": 131,
-    "thumbnail": "https://i.ytimg.com/vi/gjpgaEFlwUY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIGIoPjAP&rs=AOn4CLAtfWcssamDhdNptZ57OIf25Gu5HA",
+    "thumbnail": "https://i.ytimg.com/vi/gjpgaEFlwUY/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIGIoPjAPuALzGA==&rs=AOn4CLDFRjQu80Tt0IqGpXf-rrHkAmGo6A",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=9rlrSQv8TL4",
     "title": "Cuando estás high",
     "duration": 135,
-    "thumbnail": "https://i.ytimg.com/vi/9rlrSQv8TL4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFgoGTAP&rs=AOn4CLDqFjg0l-_V8_huPSKdTm_cX9tLuQ",
+    "thumbnail": "https://i.ytimg.com/vi/9rlrSQv8TL4/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFgoGTAPuALzGA==&rs=AOn4CLCWt3ARVVpyNxZ0yQLW5ruoHuH3OQ",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=YTUhsyVn_zY",
     "title": "Plata mañanera",
     "duration": 123,
-    "thumbnail": "https://i.ytimg.com/vi/YTUhsyVn_zY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFgoGTAP&rs=AOn4CLCdEiOu2q3pHK7QV403bdB7Po15ng",
+    "thumbnail": "https://i.ytimg.com/vi/YTUhsyVn_zY/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFgoGTAPuALzGA==&rs=AOn4CLB52kFaNZGT8Mcvh8COOA7pNLtgDw",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=lnk5qDepcZQ",
     "title": "B2B ft Nyko",
     "duration": 114,
-    "thumbnail": "https://i.ytimg.com/vi/lnk5qDepcZQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFgoGTAP&rs=AOn4CLAPVY3zBgYEWEoxQ-0sfTyUagNvKw",
+    "thumbnail": "https://i.ytimg.com/vi/lnk5qDepcZQ/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIFgoGTAPuALzGA==&rs=AOn4CLBcJwpxvxAHq7kDiTjift00cMDKpQ",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=bLyfExlYKHA",
     "title": "Scooby Doo",
     "duration": 103,
-    "thumbnail": "https://i.ytimg.com/vi/bLyfExlYKHA/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhNIFgoZTAP&rs=AOn4CLA7np3OahUtN8XGGo94PjpoCr9Q1Q",
+    "thumbnail": "https://i.ytimg.com/vi/bLyfExlYKHA/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhNIFgoZTAPuALzGA==&rs=AOn4CLAHUw8tIpokt9q5pSvLRNwETR0Vbw",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=4eD5OSUuyYo",
     "title": "Hepa - GUITAR HERO",
     "duration": 120,
-    "thumbnail": "https://i.ytimg.com/vi/4eD5OSUuyYo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIGQoQjAP&rs=AOn4CLDDS60G4q2TEVlNtbexbHOTWcJgFg",
+    "thumbnail": "https://i.ytimg.com/vi/4eD5OSUuyYo/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIGQoQjAPuALzGA==&rs=AOn4CLBGAqvjvqEVsq6np2PlNDDY4tc1xA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=P2i5wOp3cNk",
     "title": "Hepa - Plata Mañanera (Freak Off)",
     "duration": 126,
-    "thumbnail": "https://i.ytimg.com/vi/P2i5wOp3cNk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKB7DIX-Q8veF6aXqJwj7_LBTJsA",
+    "thumbnail": "https://i.ytimg.com/vi/P2i5wOp3cNk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLA4ZCNy1cQkffOpKj2wP2KiP8OtFA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=FAW-b5T5ktc",
     "title": "Hepa - Sintonizame (Video Oficial)",
     "duration": 151,
-    "thumbnail": "https://i.ytimg.com/vi/FAW-b5T5ktc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhKce0_XNpti-yS20nx2mHpotkyA",
+    "thumbnail": "https://i.ytimg.com/vi/FAW-b5T5ktc/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAhEZEWchz8ckWKCLewbLnSKlzAcQ",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=Vrth-EZ1s0E",
     "title": "Hepa - Si te gusta Naruto (Video Oficial)",
     "duration": 132,
-    "thumbnail": "https://i.ytimg.com/vi/Vrth-EZ1s0E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYkq0jTBqlyGy99FZuNjiJ0Sw3qQ",
+    "thumbnail": "https://i.ytimg.com/vi/Vrth-EZ1s0E/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCqk3PR0lGLPcFGiTp9gekslzGZUA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=CN9OPxEobsQ",
     "title": "Hepa - Con mi cousin (Video Oficial)",
     "duration": 126,
-    "thumbnail": "https://i.ytimg.com/vi/CN9OPxEobsQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTli6FOuatLH3cDIBRhNoPiicp7w",
+    "thumbnail": "https://i.ytimg.com/vi/CN9OPxEobsQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAMop4NXyPCEA4E5CVFeUQpGJe4-A",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=E7HAWSu1tDE",
     "title": "Hepa - Cuando estas high (Video Oficial)",
     "duration": 174,
-    "thumbnail": "https://i.ytimg.com/vi/E7HAWSu1tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2uEiyaBq1rMOHYUHzR15_bSvayA",
+    "thumbnail": "https://i.ytimg.com/vi/E7HAWSu1tDE/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLC54DztyOMXTLRQSRxEiLaDKieIqA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=OmYVvy-f93Y",
     "title": "ATR (Full EP)",
     "duration": 696,
-    "thumbnail": "https://i.ytimg.com/vi/OmYVvy-f93Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQUqw3NUazk262eAuhoSfyKLk5rw",
+    "thumbnail": "https://i.ytimg.com/vi/OmYVvy-f93Y/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLC8d5QuVzcqg1SSAET2vw-KkU42sg",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=tx8DfddN9Hw",
     "title": "Hepa - Tiki Taka (Video Oficial)",
     "duration": 129,
-    "thumbnail": "https://i.ytimg.com/vi/tx8DfddN9Hw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCY0GeM-Rr1hsYKxp0W4r-smI1nDA",
+    "thumbnail": "https://i.ytimg.com/vi/tx8DfddN9Hw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCnjA_hBI8cUYwoZqtNrufxGVx4YA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=KjyNRl3VmZ8",
     "title": "Hepa - ¿Cómo Estás? (Video Oficial)",
     "duration": 143,
-    "thumbnail": "https://i.ytimg.com/vi/KjyNRl3VmZ8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmAN7eWK13KlvULujV0SFAFWlXYw",
+    "thumbnail": "https://i.ytimg.com/vi/KjyNRl3VmZ8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCmL64f4J8rFsbsB25AIH6UA9mrTg",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=wUTNzEnWPcA",
     "title": "Hepa - Carlos Padilla (Video Oficial)",
     "duration": 189,
-    "thumbnail": "https://i.ytimg.com/vi/wUTNzEnWPcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwHIYN1ZKsYzHEzoIUxcBl-QUS8A",
+    "thumbnail": "https://i.ytimg.com/vi/wUTNzEnWPcA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLA5fKhPADhFRC5cBe-zDd0ZxyKWzA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=po0jTmIF64o",
     "title": "Hepa - Vapo / En el Hall (Videos Oficiales)",
     "duration": 196,
-    "thumbnail": "https://i.ytimg.com/vi/po0jTmIF64o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8-RVLGaPBzE-I7zv4wZ8TGHOIJg",
+    "thumbnail": "https://i.ytimg.com/vi/po0jTmIF64o/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDzO8mP05_SrK_I70h7g45QSY3jQg",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=RvbvnRXH3_4",
     "title": "Hepa - Varios Puntos (Video Oficial)",
     "duration": 125,
-    "thumbnail": "https://i.ytimg.com/vi/RvbvnRXH3_4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHbdxmMab-uZYKAdYb3GX3X9aG_g",
+    "thumbnail": "https://i.ytimg.com/vi/RvbvnRXH3_4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAfNl37z8LPkYFjwx2KYmAu1RwnkQ",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=DIFFoRWEM7k",
     "title": "Hepa - Batman (Video Oficial)",
     "duration": 175,
-    "thumbnail": "https://i.ytimg.com/vi/DIFFoRWEM7k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaJZ8SKgIMSOM9pOZqHBLs9sRpNA",
+    "thumbnail": "https://i.ytimg.com/vi/DIFFoRWEM7k/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAQoc0g9igInzJR2NpgCdgKlDhKKw",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=JvDoEjRXizo",
     "title": "HEPA - LANA (video oficial)",
     "duration": 142,
-    "thumbnail": "https://i.ytimg.com/vi/JvDoEjRXizo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCe0uGH36yTHqlQdrLDT6rvu5r__A",
+    "thumbnail": "https://i.ytimg.com/vi/JvDoEjRXizo/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAOFndLUGqy_QxFdn8lxZ96rBhAtA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=w1yn18TkWU8",
     "title": "Hepa - SunShine (Full Album)",
     "duration": 1018,
-    "thumbnail": "https://i.ytimg.com/vi/w1yn18TkWU8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IBUoRzAP&rs=AOn4CLBgGNe2MglvkTcg7H8rpvYQ7maDyw",
+    "thumbnail": "https://i.ytimg.com/vi/w1yn18TkWU8/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IBUoRzAPuALzGA==&rs=AOn4CLA_eTkCR2IemqImHXqlZm8_Qt-4-w",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=rQ1rekJobcw",
     "title": "Hepa x Blagh - Kitty (Video Oficial)",
     "duration": 136,
-    "thumbnail": "https://i.ytimg.com/vi/rQ1rekJobcw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAW4y1q81qbU3vcZdFkuX6N45aNg",
+    "thumbnail": "https://i.ytimg.com/vi/rQ1rekJobcw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBZ9t37fhpqVLMqYk8NFy1k2oOXeA",
     "artist": "Hepa"
   },
   {
     "src": "https://www.youtube.com/watch?v=evg85GFa9Es",
     "title": "Hepa - Sol (Video Oficial )",
     "duration": 139,
-    "thumbnail": "https://i.ytimg.com/vi/evg85GFa9Es/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGzKRM627bUYXglqoSfTfHwyo8lA",
+    "thumbnail": "https://i.ytimg.com/vi/evg85GFa9Es/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLC6bGn0iNleQJ8_96tsID8tOxmGPA",
     "artist": "Hepa"
   },
   {
@@ -5385,9 +5385,9 @@ export const mediaList: MediaEntry[] = [
   },
   {
     "src": "https://www.youtube.com/watch?v=SvvIj5biRqk",
-    "title": "Día Soleado",
+    "title": "Día Soleado (Video Oficial)",
     "duration": 121,
-    "thumbnail": "https://i.ytimg.com/vi/SvvIj5biRqk/hq720_custom_3.jpg?sqp=CLSLsNYG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqWMEgW7LMOUXWc9BNexhuv-1iKg",
+    "thumbnail": "https://i.ytimg.com/vi/SvvIj5biRqk/hq720_custom_2.jpg?sqp=CIyQsNYG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPr5__Kn7z6wh64BpnNOzxQo5_sg",
     "artist": "yyatel"
   },
   {
@@ -6724,231 +6724,231 @@ export const mediaList: MediaEntry[] = [
     "src": "https://www.youtube.com/watch?v=KsvGSluj9lQ",
     "title": "La Secuencia - Uhniko,PanchitoLeFleur (Video Oficial) shot by Jodie",
     "duration": 139,
-    "thumbnail": "https://i.ytimg.com/vi/KsvGSluj9lQ/hq720.jpg?sqp=-oaymwE3CNAFEJQDSFXyq4qpAykIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigINCAAQARiMASBTKBUwDw==&rs=AOn4CLCkK7OuuQuc-LKVh3TcjVETvRwWUA",
+    "thumbnail": "https://i.ytimg.com/vi/KsvGSluj9lQ/hq720.jpg?sqp=-oaymwE7CNAFEJQDSFXyq4qpAy0IARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigINCAAQARiMASBTKBUwD7gC9xg=&rs=AOn4CLC_Nh987AMbUVL0DMM4RzU5tZ--CA",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=6aLked8OQcY",
     "title": "EN MIS MANOS (Video Oficial)",
     "duration": 123,
-    "thumbnail": "https://i.ytimg.com/vi/6aLked8OQcY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrb8ElTQXejzaOqOSUG6CrIZ8O5Q",
+    "thumbnail": "https://i.ytimg.com/vi/6aLked8OQcY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBbILGRX7X_rpsVTaGEhWSVTp9yWQ",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=9uUp6P6VYbk",
     "title": "OTRO PAIS OTRA SEASON Feat @westdubai. (Video Oficial)",
     "duration": 227,
-    "thumbnail": "https://i.ytimg.com/vi/9uUp6P6VYbk/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhaIFooWjAP&rs=AOn4CLB-wNlPM79a5u8jUG-BQWrWA3T3Fw",
+    "thumbnail": "https://i.ytimg.com/vi/9uUp6P6VYbk/hqdefault.jpg?sqp=-oaymwE6COADEI4CSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhaIFooWjAPuAL3GA==&rs=AOn4CLC1jYxjs_3TTIufZTm4mDuUqjocIQ",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=Lit6olWtEDY",
     "title": "MI SANGRE (Video Oficial)",
     "duration": 113,
-    "thumbnail": "https://i.ytimg.com/vi/Lit6olWtEDY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIEUoTjAP&rs=AOn4CLB6euGv_wp2qEZCPGwGep7usx3D5w",
+    "thumbnail": "https://i.ytimg.com/vi/Lit6olWtEDY/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIEUoTjAPuAL3GA==&rs=AOn4CLA73RetwaqxZZSeEmRisdfrJIo9zA",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=6XAqeZuGzvY",
     "title": "Un nuevo año levantando la Copa Feat @KERCHAKzzz  ",
     "duration": 155,
-    "thumbnail": "https://i.ytimg.com/vi/6XAqeZuGzvY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAj4ioJMU571xVdB1xeyJ_EhxDcRg",
+    "thumbnail": "https://i.ytimg.com/vi/6XAqeZuGzvY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDmAEUefuCg4YFgkbL5wim-hYG-Lg",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=X5ld5zT16-I",
     "title": "Donde la sangre sobra Feat @enzocerobulto  (Video Oficial)",
     "duration": 200,
-    "thumbnail": "https://i.ytimg.com/vi/X5ld5zT16-I/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhkIGQoZDAP&rs=AOn4CLBwMbm3T3Ko7bxaZAHtJB4_-gf7Eg",
+    "thumbnail": "https://i.ytimg.com/vi/X5ld5zT16-I/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhkIGQoZDAPuAL3GA==&rs=AOn4CLCzOKuHhSgeOX0ksx5ocSWZxSdXyA",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=JBEvj5zNBZ0",
     "title": "STONERMENTE (Video Oficial)",
     "duration": 118,
-    "thumbnail": "https://i.ytimg.com/vi/JBEvj5zNBZ0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLB9DPhtLTVzaxwY1WylrVihmUh6BA",
+    "thumbnail": "https://i.ytimg.com/vi/JBEvj5zNBZ0/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAPuAL3GA==&rs=AOn4CLCAShSSBxATA7Ahcfr0jGb4MgGqEA",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=dTjJ0I6sAw4",
     "title": "Sigo siendo yo ",
     "duration": 164,
-    "thumbnail": "https://i.ytimg.com/vi/dTjJ0I6sAw4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtzRzMvJog6S7cDMB2q0qryjUm5Q",
+    "thumbnail": "https://i.ytimg.com/vi/dTjJ0I6sAw4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCzEgUH9pIU5aBO3XfvML72RbCsdg",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=1aeKkHKCx6Q",
     "title": "LOSSANOBA ft @lstw0rldwilde (Prod 1millonusd)",
     "duration": 140,
-    "thumbnail": "https://i.ytimg.com/vi/1aeKkHKCx6Q/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhHIFooZTAP&rs=AOn4CLC19dA622JXu_ham5ncYvIJKN43RQ",
+    "thumbnail": "https://i.ytimg.com/vi/1aeKkHKCx6Q/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhHIFooZTAPuAL3GA==&rs=AOn4CLCrU2gosbqMpcyNh9EDqjRY6u5oaQ",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=UvgAWotwyzQ",
     "title": "#0PESOS ",
     "duration": 106,
-    "thumbnail": "https://i.ytimg.com/vi/UvgAWotwyzQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNEddIT00Nbi2Z6oNIR-dsG7Y-Mg",
+    "thumbnail": "https://i.ytimg.com/vi/UvgAWotwyzQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLD5ySqu-ONpi0LTl4C5dZfBPMXZsA",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=5hwmF81U8iQ",
     "title": "EN LA MISMA LINEA ",
     "duration": 148,
-    "thumbnail": "https://i.ytimg.com/vi/5hwmF81U8iQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxX_qhxQxeg4A-I95-6Uz_u1aT8g",
+    "thumbnail": "https://i.ytimg.com/vi/5hwmF81U8iQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLC9q2uIpPG-nJItEChMlgTVhboanA",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=UhdmJEhTfxc",
     "title": "RESIDUO ",
     "duration": 131,
-    "thumbnail": "https://i.ytimg.com/vi/UhdmJEhTfxc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoMjAP&rs=AOn4CLBcjdzleKLvZe5jt2taVgugMoGAKg",
+    "thumbnail": "https://i.ytimg.com/vi/UhdmJEhTfxc/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoMjAPuAL3GA==&rs=AOn4CLAX_1nrHgsQZr43IxtGYw2naVrmaQ",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=SNzZaCpkbRw",
     "title": "CON MUY POCO Feat @enzocerobulto ",
     "duration": 144,
-    "thumbnail": "https://i.ytimg.com/vi/SNzZaCpkbRw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_eIgWVj7k-wIvIr5N26eBs-FWZA",
+    "thumbnail": "https://i.ytimg.com/vi/SNzZaCpkbRw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCVM7GimoW7aJY6w-PfaBBp1FjyMw",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=FbgAeqN5Nu4",
     "title": "STONERLIFE! ",
     "duration": 134,
-    "thumbnail": "https://i.ytimg.com/vi/FbgAeqN5Nu4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFQzyO3sPoYFV4_ra9SMBquuEiXQ",
+    "thumbnail": "https://i.ytimg.com/vi/FbgAeqN5Nu4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCsE-CMvmUUuBqeXhWqaXFmyvIZ3Q",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=eDJ6PBvB2ew",
     "title": "MAMBO STONER (Prod Fresko)",
     "duration": 133,
-    "thumbnail": "https://i.ytimg.com/vi/eDJ6PBvB2ew/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-fd1OE5586e2s18HUqB3WDjQNtg",
+    "thumbnail": "https://i.ytimg.com/vi/eDJ6PBvB2ew/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDkdLwADWa3Z8ts5oCie9C21zY23Q",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=QaIIQqDqQIM",
     "title": "JNCO Feat @kompyyyy ",
     "duration": 126,
-    "thumbnail": "https://i.ytimg.com/vi/QaIIQqDqQIM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGjQTcYSLtOwGGHWMDBubpqw2TIg",
+    "thumbnail": "https://i.ytimg.com/vi/QaIIQqDqQIM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAzXocv_DGoAv4pWhibH8deBClxIw",
     "artist": "PanchitoLeFleur"
   },
   {
     "src": "https://www.youtube.com/watch?v=7xe8vLuhxKo",
     "title": "JUANSSIN - LA VERDADERA CONEXION [prod. laconexion, guzt 808]",
     "duration": 103,
-    "thumbnail": "https://i.ytimg.com/vi/7xe8vLuhxKo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhYIGUoWjAP&rs=AOn4CLDsn1b8FC1IoBHVYmrfl6WZ21Nzhw",
+    "thumbnail": "https://i.ytimg.com/vi/7xe8vLuhxKo/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhYIGUoWjAPuALzGA==&rs=AOn4CLABOEn60sP2gOWaFYrYO2uD8upzEw",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=BACoa2K_t9c",
     "title": "como explicartelo [prod. gott]",
     "duration": 102,
-    "thumbnail": "https://i.ytimg.com/vi/BACoa2K_t9c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjjvEwxspcFkBKGiPHvWYAK5A_uQ",
+    "thumbnail": "https://i.ytimg.com/vi/BACoa2K_t9c/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCpLdfOd4fa9W5fS0sjzAz-QEKO6Q",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=Hogr1_CfQiI",
     "title": "gettin paid [prod. coronabeatz]",
     "duration": 137,
-    "thumbnail": "https://i.ytimg.com/vi/Hogr1_CfQiI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBb8AHCMoWgPs4qG09lleA5a2hF-w",
+    "thumbnail": "https://i.ytimg.com/vi/Hogr1_CfQiI/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBopbkUBG-AHz9nmo2Dlc8PxVwlow",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=_UF9DkjX1mE",
     "title": "2tones [prod. laconexion]",
     "duration": 123,
-    "thumbnail": "https://i.ytimg.com/vi/_UF9DkjX1mE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCl0EbQBajUUTwaNBnyfFo7fJ68NQ",
+    "thumbnail": "https://i.ytimg.com/vi/_UF9DkjX1mE/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCbYdNzD4I6STEiSudx2QrpXSkAFQ",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=xtihd5o1wtk",
     "title": "recen por mi [prod. guzt, mindz, laconexion]",
     "duration": 137,
-    "thumbnail": "https://i.ytimg.com/vi/xtihd5o1wtk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjz3LDmnH6hUT9-SmbZ9Osg8d7MQ",
+    "thumbnail": "https://i.ytimg.com/vi/xtihd5o1wtk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDp61YY0ZI9FnKYuc7eNqyjzB6RWQ",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=j_pPWa583xM",
     "title": "que paso [prod. laconexion]",
     "duration": 137,
-    "thumbnail": "https://i.ytimg.com/vi/j_pPWa583xM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqoma61qLZMvQ0UnjHV0FlYTVR7w",
+    "thumbnail": "https://i.ytimg.com/vi/j_pPWa583xM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCSPZpTMUPRoseuraoVZ6ygcTc07Q",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=wiSMOBabGFU",
     "title": "a lo maldito [prod. guzt, laconexion]",
     "duration": 141,
-    "thumbnail": "https://i.ytimg.com/vi/wiSMOBabGFU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAc1e3r-GvnB5IngtOTwGJXIFEm-Q",
+    "thumbnail": "https://i.ytimg.com/vi/wiSMOBabGFU/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCLOQaDHlDrB2XJi40zqOFE0KjUyA",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=xgrYIOLUMw4",
     "title": "rich n [prod naxy, 1eloyyy]",
     "duration": 99,
-    "thumbnail": "https://i.ytimg.com/vi/xgrYIOLUMw4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtDsUGf9qpAtmdZJbvZ4ak7ZjLCg",
+    "thumbnail": "https://i.ytimg.com/vi/xgrYIOLUMw4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAYCnwGVp7Ow8kVxtLK6aOprkzRYA",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=TVnc8QxUJXM",
     "title": "y si no hay [prod riskedd, finder]",
     "duration": 110,
-    "thumbnail": "https://i.ytimg.com/vi/TVnc8QxUJXM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIKQXbxZNKCFAL5d9F0uCOsNtBvg",
+    "thumbnail": "https://i.ytimg.com/vi/TVnc8QxUJXM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCVszvnXEdST7mBc6sMFNaL___u2w",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=oyuIopSSVVI",
     "title": "Juanssin, Salastkbron - TROPICANA REMIX  (dir @arterofilms)",
     "duration": 162,
-    "thumbnail": "https://i.ytimg.com/vi/oyuIopSSVVI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEsoPjAP&rs=AOn4CLD3MF-PoWvu2McyEsfCL4FWCwj5oQ",
+    "thumbnail": "https://i.ytimg.com/vi/oyuIopSSVVI/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEsoPjAPuALzGA==&rs=AOn4CLAJYW6F830shE1FlxT6LbMtl94oFg",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=erkS-0WifYo",
     "title": "Juanssin - CON LA TANA (shot saturno)",
     "duration": 132,
-    "thumbnail": "https://i.ytimg.com/vi/erkS-0WifYo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-MRPF5s4QYb1gdnHjNTWo6DMPlg",
+    "thumbnail": "https://i.ytimg.com/vi/erkS-0WifYo/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAQwCzg7y8gSedY4mZGzozwDVEAKw",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=jf0xULdinY4",
     "title": "Juanssin - TROPICANA (shot @arterofilms)",
     "duration": 136,
-    "thumbnail": "https://i.ytimg.com/vi/jf0xULdinY4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFR0jeECqT8hxnEk890Ab8MiMzEA",
+    "thumbnail": "https://i.ytimg.com/vi/jf0xULdinY4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLByGPGM7r5i-ER_FdlkKs2LP3sr1g",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=LsgeGZ6xfY8",
     "title": "Juanssin - BANDS (shot @arterofilms)",
     "duration": 118,
-    "thumbnail": "https://i.ytimg.com/vi/LsgeGZ6xfY8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxGYyPoTDDA3KuiCOfPD8LY1cmkg",
+    "thumbnail": "https://i.ytimg.com/vi/LsgeGZ6xfY8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDcxAZRQzaiVqS6GTPy3RiimA1WdQ",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=gwANgavjDN0",
     "title": "Juanssin, PanchitoLeFleur - STONER CONEXION ft. kiett (shot @arterofilms)",
     "duration": 134,
-    "thumbnail": "https://i.ytimg.com/vi/gwANgavjDN0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4pzmGVXIWYe8b975qQQ8IBcWOew",
+    "thumbnail": "https://i.ytimg.com/vi/gwANgavjDN0/hqdefault.jpg?sqp=-oaymwEgCOADEI4CSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLA1C2EGsqCcnsH1MAGsJmoAVOlD-Q",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=WiuAg87bGe4",
     "title": "Juanssin - COMO LOCO (shot @arterofilms)",
     "duration": 169,
-    "thumbnail": "https://i.ytimg.com/vi/WiuAg87bGe4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjlHbYs9M8avbiDenTyhGHBZZNJA",
+    "thumbnail": "https://i.ytimg.com/vi/WiuAg87bGe4/hqdefault.jpg?sqp=-oaymwEgCOADEI4CSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBXv5JyUZUw57sRdRNNRdyVLZC9jQ",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=8j-ta5Mqmvo",
     "title": "Juanssin - CON LA FRENTE EN ALTO (shot @arterofilms)",
     "duration": 122,
-    "thumbnail": "https://i.ytimg.com/vi/8j-ta5Mqmvo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB7geAAtAFigIMCAAQARhlIFsoTzAP&rs=AOn4CLBJtA7otuxqT_Yb_6Jg2H_zxemTiA",
+    "thumbnail": "https://i.ytimg.com/vi/8j-ta5Mqmvo/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB7geAAtAFigIMCAAQARhlIFsoTzAPuALzGA==&rs=AOn4CLAZtiw4BZJziJljOfH2eAqKXSr2Zw",
     "artist": "Juanssin"
   },
   {
     "src": "https://www.youtube.com/watch?v=00zPssXet7w",
     "title": "Juanssin - DELINCUENTE (shot @arterofilms)",
     "duration": 157,
-    "thumbnail": "https://i.ytimg.com/vi/00zPssXet7w/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcfRdSwIIv08PsIfJqEx1Dtwg2jw",
+    "thumbnail": "https://i.ytimg.com/vi/00zPssXet7w/hqdefault.jpg?sqp=-oaymwEgCOADEI4CSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAOTlfK2rLeCkXgSIxEt0P3rN1oig",
     "artist": "Juanssin"
   },
   {
@@ -7391,5 +7391,1993 @@ export const mediaList: MediaEntry[] = [
     "duration": 143,
     "thumbnail": "https://i.ytimg.com/vi/ix3mG7TwN34/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmhdCo1obN9ZYzFm3gEnBGYtiVNA",
     "artist": "choosey"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=9YJvOGvVHmc",
+    "title": "simoncito - cruz del sur (video oficial)",
+    "duration": 117,
+    "thumbnail": "https://i.ytimg.com/vi/9YJvOGvVHmc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFMc7h2rGjR2XdLuyp6iOFX1YBOg",
+    "artist": "simoncito"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=KICl04pWSdY",
+    "title": "simoncito - nocturno a mi barrio",
+    "duration": 140,
+    "thumbnail": "https://i.ytimg.com/vi/KICl04pWSdY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOjBzvyiVqnDaTkCsSfUHmk6T0Pg",
+    "artist": "simoncito"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jOd4cWAW5Xo",
+    "title": "SIMONCITO - DOS SOLES",
+    "duration": 161,
+    "thumbnail": "https://i.ytimg.com/vi/jOd4cWAW5Xo/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvHYqyRnZFwPvqCF4huv_K_QkHIA",
+    "artist": "simoncito"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=-sn2bRzkg9o",
+    "title": "MÚSICA DE CASA EP COMPLETO",
+    "duration": 763,
+    "thumbnail": "https://i.ytimg.com/vi/-sn2bRzkg9o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAtAFigIMCAAQARgRIHIoOjAP&rs=AOn4CLDNszQPqPDECstHgVo25ScoVjIclA",
+    "artist": "simoncito"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=n6_5oI4fuYg",
+    "title": "simoncito, stridah - al³ (videoclip)",
+    "duration": 139,
+    "thumbnail": "https://i.ytimg.com/vi/n6_5oI4fuYg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGUoVjAP&rs=AOn4CLABxk5hqPBC342080xqIYTu3V1mXQ",
+    "artist": "simoncito"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zCoyv5PNRoM",
+    "title": "curiosidad (MV) shot by @lisaju",
+    "duration": 136,
+    "thumbnail": "https://i.ytimg.com/vi/zCoyv5PNRoM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3nF566iV_5WJNyIWesG2CLs9YpQ",
+    "artist": "simoncito"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=6t20FWRUKZI",
+    "title": "rolling.",
+    "duration": 117,
+    "thumbnail": "https://i.ytimg.com/vi/6t20FWRUKZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABltAF-lL7Jhn_Q9lbmbiNSGPrGw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=fnzaWukjCJo",
+    "title": "shawty.",
+    "duration": 138,
+    "thumbnail": "https://i.ytimg.com/vi/fnzaWukjCJo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBDLhqLaCjAkmKlPhHBIbqDcJFVg",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=P0yYIkpyxsY",
+    "title": "ket4mina.",
+    "duration": 152,
+    "thumbnail": "https://i.ytimg.com/vi/P0yYIkpyxsY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDa7CVzBaas54i9QnZ83kU7IBuOw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=oyqI6xXIiPE",
+    "title": "No lo quiero controlar",
+    "duration": 125,
+    "thumbnail": "https://i.ytimg.com/vi/oyqI6xXIiPE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHr0KZfoLEHMySefPuya-jQcOEcg",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zD9A7QWUscA",
+    "title": "Salud Amor Plata y Sexo",
+    "duration": 226,
+    "thumbnail": "https://i.ytimg.com/vi/zD9A7QWUscA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqhoJroo7mJb-d2q_jOF1909VwOQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=E3Wus0IvHI8",
+    "title": "brad&jolie",
+    "duration": 144,
+    "thumbnail": "https://i.ytimg.com/vi/E3Wus0IvHI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7FV7FHKObtnOVdye-ZUu-mieigg",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=N5wbHfoz42c",
+    "title": "ICED #sentitetrap.",
+    "duration": 141,
+    "thumbnail": "https://i.ytimg.com/vi/N5wbHfoz42c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBII52wxU8wdje0dfysW6R1yZZZAw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ShgkdqnONIM",
+    "title": "en el vip",
+    "duration": 118,
+    "thumbnail": "https://i.ytimg.com/vi/ShgkdqnONIM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGGtVpSYDm2pyu2U_R5BXJfFZ-kQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=kX2ufXwo-Ig",
+    "title": "Río",
+    "duration": 125,
+    "thumbnail": "https://i.ytimg.com/vi/kX2ufXwo-Ig/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApoL5NCAr9y5cakvjsmO7LoUrPsQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=1dLs1WzrPWg",
+    "title": "que valga la pena",
+    "duration": 118,
+    "thumbnail": "https://i.ytimg.com/vi/1dLs1WzrPWg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2JWMHRz5PgzxMLCVKvUXqe4obmA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=TZHH5l2fJSA",
+    "title": "roli",
+    "duration": 102,
+    "thumbnail": "https://i.ytimg.com/vi/TZHH5l2fJSA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHWFeEPa3QIBmfWiQatpLpFAWFlg",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=dSkGhHYrPVg",
+    "title": "after en? w/@damnblondein #headswillroll",
+    "duration": 198,
+    "thumbnail": "https://i.ytimg.com/vi/dSkGhHYrPVg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IBYoOjAP&rs=AOn4CLCrGWSA6vnz7Nq-bcPzR7dpsDuVqQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=m9x5Q1beeNA",
+    "title": "una de cal y una de arena",
+    "duration": 115,
+    "thumbnail": "https://i.ytimg.com/vi/m9x5Q1beeNA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5FNytFdxPU39agXPHjfDuovcfOw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=vtRiSXjPdqE",
+    "title": "LA ONDA w/@toni.308",
+    "duration": 119,
+    "thumbnail": "https://i.ytimg.com/vi/vtRiSXjPdqE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkgmBMBKtZzSVzJKbWOGgrIctQDA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=w8Ca9Z3hhwI",
+    "title": "+ linda que ayer - liax",
+    "duration": 122,
+    "thumbnail": "https://i.ytimg.com/vi/w8Ca9Z3hhwI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfvP2lHlSY8yElR3TSxLDOxTjcDw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Fp9fW2X91HU",
+    "title": "FLEXING! Liax w/ @PankkyVvs",
+    "duration": 101,
+    "thumbnail": "https://i.ytimg.com/vi/Fp9fW2X91HU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2OmNvnN44ovI0OTnQ88vIZPWucw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=8q0J6XjW8SM",
+    "title": "Liax - CHIP",
+    "duration": 116,
+    "thumbnail": "https://i.ytimg.com/vi/8q0J6XjW8SM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDd9WjlKyNCcoygYnZuj-AV8D571Q",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jaBE1WArssY",
+    "title": "OTRA VEZ @BALLEWAV (Shot by Vizzualb)",
+    "duration": 171,
+    "thumbnail": "https://i.ytimg.com/vi/jaBE1WArssY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYjJyI8P1TPR9lxMK7E8BJC-d-xw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=f8hc0Vu2rm8",
+    "title": "MANO A MANO @og.sejo17 (Video Oficial)",
+    "duration": 85,
+    "thumbnail": "https://i.ytimg.com/vi/f8hc0Vu2rm8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg1IF0oZTAP&rs=AOn4CLDSbsECtnqgxqXQXKWIEeaZltLW4w",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=yv9vhBPXY3U",
+    "title": "Liax - Carita Linda #MONEYBAG!",
+    "duration": 127,
+    "thumbnail": "https://i.ytimg.com/vi/yv9vhBPXY3U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHLf7CN9Dc1bZNoSMHRp6SGuyUxQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=MCQBz-kvOMg",
+    "title": "#MONEYBAG! (FULL EP)",
+    "duration": 907,
+    "thumbnail": "https://i.ytimg.com/vi/MCQBz-kvOMg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLlnm6j8e2kBgBxK5iMMljaRtWyQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jAIEN1OM1t0",
+    "title": "Liax - Tu Ex (Audio Oficial)",
+    "duration": 157,
+    "thumbnail": "https://i.ytimg.com/vi/jAIEN1OM1t0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLAgM9oIlA6kZDUaTnCeFns7vrznnw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PyS-Clk7k5Y",
+    "title": "Liax - yo te hago venir :)",
+    "duration": 136,
+    "thumbnail": "https://i.ytimg.com/vi/PyS-Clk7k5Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnx6008tszq25GqW66GJKFb_IQcA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=gD6k27pD9tA",
+    "title": "Liax - Corazonadas (Video Oficial)",
+    "duration": 179,
+    "thumbnail": "https://i.ytimg.com/vi/gD6k27pD9tA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1riQSE3QZ9xWRJgqgO0KzGmrKcQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=A5BjjJw5Cqs",
+    "title": "Liax - Del Plan (Video Oficial)",
+    "duration": 153,
+    "thumbnail": "https://i.ytimg.com/vi/A5BjjJw5Cqs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCR48i-4fl61FIf8bmrtdUvklCRnw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=2_sfhUdYp2w",
+    "title": "Liax - HAMBRE DE GLORIA (Video Oficial)",
+    "duration": 137,
+    "thumbnail": "https://i.ytimg.com/vi/2_sfhUdYp2w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjJO7V-1CPIjqowuhDbXZHp0ebBQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Kvl9Y_JXTH4",
+    "title": "Liax - Joven Estrella (Audio Oficial)",
+    "duration": 132,
+    "thumbnail": "https://i.ytimg.com/vi/Kvl9Y_JXTH4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGAoTjAP&rs=AOn4CLDhdB9s-scV-Ul2Zt8muvLqnUk8sw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Qv9BrzjGORw",
+    "title": "Liax - FONROUGE (Audio Oficial)",
+    "duration": 169,
+    "thumbnail": "https://i.ytimg.com/vi/Qv9BrzjGORw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLD4Z3hkHubr4UXs0JmJQ9bPSnenpw",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=36OMCe4fmX8",
+    "title": "Liax - cute newjazz (Audio Oficial)",
+    "duration": 144,
+    "thumbnail": "https://i.ytimg.com/vi/36OMCe4fmX8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLBwsil4c-nyPMdYmTDql8CM2vQEXg",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=MHjEhGyD2eg",
+    "title": "Liax - Si tendría que   (Audio Oficial)",
+    "duration": 159,
+    "thumbnail": "https://i.ytimg.com/vi/MHjEhGyD2eg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLDaoOshUCMXhWdln3CtjqysLwzz2w",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=8KOvyVdRGCQ",
+    "title": "Liax - martin FIERRO (Audio Oficial)",
+    "duration": 109,
+    "thumbnail": "https://i.ytimg.com/vi/8KOvyVdRGCQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLB0o3kguM9ZbdkeqNHyWKtVQsEeMQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=mNTIi2cGsIM",
+    "title": "Liax - prometiéndome no pecar (Audio Oficial)",
+    "duration": 134,
+    "thumbnail": "https://i.ytimg.com/vi/mNTIi2cGsIM/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGAoTjAP&rs=AOn4CLCdJ5KeHnqBDW_0kR1zgBL3rvIdww",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PaOk5FHLO3o",
+    "title": "Liax - delicadeza (Audio Oficial)",
+    "duration": 135,
+    "thumbnail": "https://i.ytimg.com/vi/PaOk5FHLO3o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGAoTTAP&rs=AOn4CLCPGxE_6XLF-We2Q_F3hw2WBUCq7w",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jSfZDvdHPuU",
+    "title": "Liax - Y No se (Audio Oficial)",
+    "duration": 176,
+    "thumbnail": "https://i.ytimg.com/vi/jSfZDvdHPuU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGAoTzAP&rs=AOn4CLDNpDEfHJni4ouKTk_G_WkO7yhAQA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=c9vI1SoGpWU",
+    "title": "Liax - ARKhAM POiNT (Audio Oficial)",
+    "duration": 109,
+    "thumbnail": "https://i.ytimg.com/vi/c9vI1SoGpWU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLD1Uvzcheyy20qmt1ki29MvcdVzDA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=hq5atYsWw3U",
+    "title": "Liax - ASEREJE (Audio Oficial)",
+    "duration": 110,
+    "thumbnail": "https://i.ytimg.com/vi/hq5atYsWw3U/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLCdB59EUrhmcAR5s4dEZkUi-r3HWQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=UmRRKjnO5lk",
+    "title": "Liax - yo t hago venir :) (Audio Oficial)",
+    "duration": 136,
+    "thumbnail": "https://i.ytimg.com/vi/UmRRKjnO5lk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoTzAP&rs=AOn4CLBEryT4U_KG-YOdeemAAeonapVduA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=KjfJsrPDWbk",
+    "title": "Liax - No te engolosiné (Audio Oficial)",
+    "duration": 149,
+    "thumbnail": "https://i.ytimg.com/vi/KjfJsrPDWbk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLA_GXNwLSSgtyzgHT_2YaUxiRWxRA",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=B4hwOpL83Bg",
+    "title": "Liax - Mi felicidad (Audio Oficial)",
+    "duration": 168,
+    "thumbnail": "https://i.ytimg.com/vi/B4hwOpL83Bg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoUDAP&rs=AOn4CLDv8eF0dXDzGXGT7_9WB_gCFAIV2A",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=IL2XMPPBsTw",
+    "title": "LIAX x TONI.308 - ETERNITY (Video Oficial)",
+    "duration": 232,
+    "thumbnail": "https://i.ytimg.com/vi/IL2XMPPBsTw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjBhdx0M3RN_aH-dBX2p1qmv4BDQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=_oZBtpSTzh0",
+    "title": "Liax - a veces POCO es MUCHO (video oficial)",
+    "duration": 170,
+    "thumbnail": "https://i.ytimg.com/vi/_oZBtpSTzh0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4w2V4wr5i-bxoDxehItGkwIe35Q",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=w3urBEaO1ko",
+    "title": "Liax - KEVLAR (Video Oficial)",
+    "duration": 180,
+    "thumbnail": "https://i.ytimg.com/vi/w3urBEaO1ko/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHbrWvM5sN3kdCccqQIcITSO2qgQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=SUoHw1C8GNg",
+    "title": "Liax - CERO (Video Oficial)",
+    "duration": 169,
+    "thumbnail": "https://i.ytimg.com/vi/SUoHw1C8GNg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIE8oSDAP&rs=AOn4CLDnGsN5zwc8Qe3YrEfMcXVZrT2pCQ",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ChRpxwPpti0",
+    "title": "Liax - No Quieran Venir (Lyric Video) #SPANISHDRILL",
+    "duration": 149,
+    "thumbnail": "https://i.ytimg.com/vi/ChRpxwPpti0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIGgoNDAP&rs=AOn4CLA8Xh44nhgTpLrEhj9fn_BNSmz0xg",
+    "artist": "Liax"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=31vperSBQw0",
+    "title": "LINDA NACÍ - HELLOLOLA (VIDEO OFICIAL)",
+    "duration": 226,
+    "thumbnail": "https://i.ytimg.com/vi/31vperSBQw0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR2YlyaIiSCUtCM7B92_H8_avYjQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=rHQV2Kj8S8g",
+    "title": "CULO ILEGAL - HELLOLOLA, LABLACKIE (VIDEO OFICIAL)",
+    "duration": 183,
+    "thumbnail": "https://i.ytimg.com/vi/rHQV2Kj8S8g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsVBYzutf3IQqK-Xctd3q6MWmLkw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=gPBEL90V9o4",
+    "title": "LAS LOKAS - HELLOLOLA  (VIDEO OFICIAL)",
+    "duration": 126,
+    "thumbnail": "https://i.ytimg.com/vi/gPBEL90V9o4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCh1wYU6pvYC8FJOdsOWHEx9mNAeA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ey9zTx9XQSw",
+    "title": "A PELO CON MI WA - HELLOLOLA  (VIDEO OFICIAL)",
+    "duration": 88,
+    "thumbnail": "https://i.ytimg.com/vi/ey9zTx9XQSw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsbggsifNSGFMUBMGDpiIfOj1nIg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=-1Ocy07kPVE",
+    "title": "TU RAXET - HELLOLOLA  (VIDEO OFICIAL)",
+    "duration": 175,
+    "thumbnail": "https://i.ytimg.com/vi/-1Ocy07kPVE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRWg9k5996VGNmVsT9oDXEWbg4Zg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=5HeNK1dn9cE",
+    "title": "ARRANCÁ CON FUERZA - HELLOLOLA  (VIDEO OFICIAL)",
+    "duration": 154,
+    "thumbnail": "https://i.ytimg.com/vi/5HeNK1dn9cE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_u799Rdd0uwtfWJcyeKzkt8hEcA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WrzzuYlWDsQ",
+    "title": "X AMOR - HELLOLOLA X KUINA (VIDEO OFICIAL)",
+    "duration": 175,
+    "thumbnail": "https://i.ytimg.com/vi/WrzzuYlWDsQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzwtWAj9KdFViHLCObPzt6PQf2_A",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=htFIBgh4tYQ",
+    "title": "HELLOLOLA - HOE! CHRISTMAS 3 (SOVEREIGN EDIT)",
+    "duration": 171,
+    "thumbnail": "https://i.ytimg.com/vi/htFIBgh4tYQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbWsZ6QkIzmMC3OmP3NLn2cdJezQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=cCiKKiGg3ik",
+    "title": "BIX AB$OLUTA - HELLOLOLA (OFFICIAL VIDEO)",
+    "duration": 164,
+    "thumbnail": "https://i.ytimg.com/vi/cCiKKiGg3ik/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGRyn1d9cM0x_qQbE8zFbyglLYiQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=83m_EjA4OBU",
+    "title": "HELLOLOLA - PERRA ACTIVA (VIDEO OFICIAL)",
+    "duration": 150,
+    "thumbnail": "https://i.ytimg.com/vi/83m_EjA4OBU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDo5_w2C9f0MEv_IouQljyOEXQAlQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=SSCm8Y1wTEs",
+    "title": "HELLOLOLA, LA CHENNY- TURRA LÁTIGO (VIDEO OFICIAL)",
+    "duration": 123,
+    "thumbnail": "https://i.ytimg.com/vi/SSCm8Y1wTEs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3Uizo_m1LhzIJXnx4QiRG7Jv2HQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xRi3JKUOBPM",
+    "title": "HELLOLOLA, RIXXIA - QUILOMBERA (VIDEO OFICIAL)",
+    "duration": 156,
+    "thumbnail": "https://i.ytimg.com/vi/xRi3JKUOBPM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPtbBx8xH5M6o9JUB1Eh6YV_AMcA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xoYfbu-X8t4",
+    "title": "HELLOLOLA, ASAN - CASI (VIDEO OFICIAL)",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/xoYfbu-X8t4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdT7AcJ4vm1-b1KO_f9NLZF5xLdw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=P9Yd-SyIM2Q",
+    "title": "HELLOLOLA - TODO FREE  (VIDEO OFICIAL)",
+    "duration": 175,
+    "thumbnail": "https://i.ytimg.com/vi/P9Yd-SyIM2Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0GmnCaPrH0WH-NqBeV7rwGD320g",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=B9kWsvobF6I",
+    "title": "HELLOLOLA - DONDE ME ESCUPIAS (SHIBARI) (VIDEO OFICIAL)",
+    "duration": 125,
+    "thumbnail": "https://i.ytimg.com/vi/B9kWsvobF6I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxw27ixQyXGi7UNQZIY0QIFiepNA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=5zqL3aJH1fo",
+    "title": "HELLOLOLA- KISS MA ASS (VIDEO OFICIAL)",
+    "duration": 162,
+    "thumbnail": "https://i.ytimg.com/vi/5zqL3aJH1fo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2bN4ZmX1_sBQSuT_Cpx_sXrlRRw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=2KBRpUpMf8I",
+    "title": "HELLOLOLA- TODO PAGO (VIDEO OFICIAL)",
+    "duration": 174,
+    "thumbnail": "https://i.ytimg.com/vi/2KBRpUpMf8I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKDbOhlzlSwGJSZSkPLZZEKRBAjg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WDoVMqAI9fw",
+    "title": "HELLOLOLA- QLERA (VIDEO OFICIAL)",
+    "duration": 184,
+    "thumbnail": "https://i.ytimg.com/vi/WDoVMqAI9fw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBwrVTodczjmqXlysd8jD7MNQilg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=LMYPuJ3t1wA",
+    "title": "HELLOLOLA-FRIKI FRIKI (VIDEO OFICIAL)",
+    "duration": 130,
+    "thumbnail": "https://i.ytimg.com/vi/LMYPuJ3t1wA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1qABbx1lrt5KdEBcDusL4X-nANw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=4OMYdFS2Wac",
+    "title": "HELLOLOLA-CURTIRME SOLA FT MALANDRO DE AMERICA",
+    "duration": 200,
+    "thumbnail": "https://i.ytimg.com/vi/4OMYdFS2Wac/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBWSpOCaB0ft135mCT-JhNyisCrA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Mx1oXcJ6_eU",
+    "title": "HELLOLOLA- TURRASTORY (VIDEO OFICIAL)",
+    "duration": 220,
+    "thumbnail": "https://i.ytimg.com/vi/Mx1oXcJ6_eU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9NAuo0Fpufh3OztxnNKHym0jTkQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=R7hSWGgr_lI",
+    "title": "HELLOLOLA-ICONIC SHIT ft MILKY DOLLY (audio)",
+    "duration": 114,
+    "thumbnail": "https://i.ytimg.com/vi/R7hSWGgr_lI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyID0oVTAP&rs=AOn4CLAvi4huJVCTJStcuDyH9HthGkOmxA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WPuICoEFWoQ",
+    "title": "HELLOLOLA-ANTISOCIAL (NANANA)(audio)",
+    "duration": 147,
+    "thumbnail": "https://i.ytimg.com/vi/WPuICoEFWoQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIDooUzAP&rs=AOn4CLBYoGR6MaBhDsl8kMN7uJs_LrB1cw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=-5nS-A2Jh2c",
+    "title": "HELLOLOLA- CHETA O NO? (VIDEO OFICIAL)",
+    "duration": 120,
+    "thumbnail": "https://i.ytimg.com/vi/-5nS-A2Jh2c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPKb8lUPve-ncoYTgtr3DxQaHlQA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=JbYys0tmLgk",
+    "title": "HELLOLOLA- TURRA DE VERDAD (audio)",
+    "duration": 139,
+    "thumbnail": "https://i.ytimg.com/vi/JbYys0tmLgk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIDooUzAP&rs=AOn4CLDrkKVUTn-Hazx6VUTWyOb2NRb5uQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=6zam3x2wu34",
+    "title": "HELLOLOLA-OG RAXETA (audio)",
+    "duration": 184,
+    "thumbnail": "https://i.ytimg.com/vi/6zam3x2wu34/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIDooUzAP&rs=AOn4CLD8zEEGUKdXE1RxbZYPs-jQaAqFfg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=A9TtnEsxJJw",
+    "title": "HELLOLOLA- JUST A GYRL (audio)",
+    "duration": 157,
+    "thumbnail": "https://i.ytimg.com/vi/A9TtnEsxJJw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIDkoUzAP&rs=AOn4CLBPmESjJauXNdokuGq3LKGg21k4xw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=FeeoRHQu4Ek",
+    "title": "HELLOLOLA- EW & S*XSHOP (VIDEO OFICIAL)",
+    "duration": 214,
+    "thumbnail": "https://i.ytimg.com/vi/FeeoRHQu4Ek/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDAFuRiDGdVWMD5NCjsp77uhoZeiw",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PIUp0jXJuMQ",
+    "title": "HELLOLOLA- BOTINERA (Audio)",
+    "duration": 158,
+    "thumbnail": "https://i.ytimg.com/vi/PIUp0jXJuMQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEwoRDAP&rs=AOn4CLCrERmK5rKSHL6UjfGP3zhFg-Vmvg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=pZpVCj7D94A",
+    "title": "HELLOLOLA-SHARAPOVA & XXX",
+    "duration": 194,
+    "thumbnail": "https://i.ytimg.com/vi/pZpVCj7D94A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_gWHKnBs632xqo-pzvg4q1ZSgzg",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=hcQXcZ3S2xs",
+    "title": "HELLOLOLA-FAIRYTALES",
+    "duration": 116,
+    "thumbnail": "https://i.ytimg.com/vi/hcQXcZ3S2xs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhZIFkoZTAP&rs=AOn4CLBrlqFgSHWdneXbL4tCM4ZptPhFNQ",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ALCuzG4QAIA",
+    "title": "SABELAMAMII - He Don't Give A Fo (She Don't Give A Fo rmx)",
+    "duration": 200,
+    "thumbnail": "https://i.ytimg.com/vi/ALCuzG4QAIA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHJFcV9qYJ6fqiD8jtXrHcGfZnwA",
+    "artist": "HELLOLOLA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=aKKpyWprWdI",
+    "title": "Zé Pequeña & Taichu - Con Mi B (Video Oficial) Prod. Emirsito ",
+    "duration": 112,
+    "thumbnail": "https://i.ytimg.com/vi/aKKpyWprWdI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQAHREzzlICMLAi7JQgzIVekvPZA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=2pmxUqYq8qI",
+    "title": "Zé Pequeña & Mhtresuno - Vecinos (Video Oficial) ",
+    "duration": 186,
+    "thumbnail": "https://i.ytimg.com/vi/2pmxUqYq8qI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeDR4nKWIM92ejTOFDdK8-jpkAMw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ZD037affBVM",
+    "title": "Zé Pequeña & Vinyltracker - Será Q Nunca Le Sucedió ",
+    "duration": 125,
+    "thumbnail": "https://i.ytimg.com/vi/ZD037affBVM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCR7EmXCsmzsgxV465B0ImUpFysow",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=CUj4Kpi1TZw",
+    "title": "Zé Pequeña & Floyd BM- TARASCA Prod.Rekk ",
+    "duration": 124,
+    "thumbnail": "https://i.ytimg.com/vi/CUj4Kpi1TZw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpI88uwsj-yusi2gUr6SjF2mlmGQ",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=7VJ_5VbZ4ss",
+    "title": "Zé Pequeña & Audigier - VÍO & VAGOS Prod. @SajoBkule ",
+    "duration": 169,
+    "thumbnail": "https://i.ytimg.com/vi/7VJ_5VbZ4ss/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPlHyaweLy4qx705oULtckx8BV_g",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Oi5koILYUl0",
+    "title": "Zé Pequeña & Roxxee - Malo & Mala",
+    "duration": 134,
+    "thumbnail": "https://i.ytimg.com/vi/Oi5koILYUl0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHF2vdVrqEhsicXWvwp6wOIPVgow",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xX25wNv-dyw",
+    "title": "Zé Pequeña & Paul Marmota - CHI CHI ",
+    "duration": 128,
+    "thumbnail": "https://i.ytimg.com/vi/xX25wNv-dyw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPYAfnCViCTz83vKmc5_I-135e7w",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=fD0fUobAP_I",
+    "title": "Zé Pequeña & G La Sosita- CONFETI Prod. @emirsitoooo ",
+    "duration": 125,
+    "thumbnail": "https://i.ytimg.com/vi/fD0fUobAP_I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwYEo8aqyG8aGKMPCVLh-cJeLfTg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=aGIhHBvGzCY",
+    "title": "Zé Pequeña & Emirsito, Tflames - DINERAL ",
+    "duration": 119,
+    "thumbnail": "https://i.ytimg.com/vi/aGIhHBvGzCY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGcQrK0NCE9g95Cp3fbXRIdc1xsA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=D1lrxz4lACo",
+    "title": "Zé Pequeña & Pablo Chill-E - GILA Prod. @SajoBkule ",
+    "duration": 151,
+    "thumbnail": "https://i.ytimg.com/vi/D1lrxz4lACo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdOx7sqmCrhUD1E3wRUJa84UYcKg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=MmsrlBHpTqo",
+    "title": "Zé Pequeña - EXPLOTA Prod. @roxxee ",
+    "duration": 115,
+    "thumbnail": "https://i.ytimg.com/vi/MmsrlBHpTqo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfOr-UFvUNqZYjMlJKK7LwUtPBng",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PiTGe5reX4s",
+    "title": "Zé Pequeña - Estar Con Una Guacha Maldita Prod. @kompyyyy ",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/PiTGe5reX4s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCWADsJ_4liGM9UaPt8JpLUYOd2A",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=STcJL9yD90c",
+    "title": "Zé Pequeña- A lo Mejorr ",
+    "duration": 107,
+    "thumbnail": "https://i.ytimg.com/vi/STcJL9yD90c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9xVo8nMZx6vDH6Uvh7TESxE5h0A",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=EilFX3U63Mg",
+    "title": "Zé Pequeña - Busy ",
+    "duration": 117,
+    "thumbnail": "https://i.ytimg.com/vi/EilFX3U63Mg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDg2eu--7NPKZlhdHbWfatr92396A",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=TG8Y0q-VHvA",
+    "title": "ZÉ PEQUEÑA, JAASU - N.N (Official)",
+    "duration": 126,
+    "thumbnail": "https://i.ytimg.com/vi/TG8Y0q-VHvA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5u-TDeWOiKNGMFSN-0_M4fVXkZg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=QCnb0haHHLo",
+    "title": "Zé Pequeña & Negro Dub - Manny Ribera ",
+    "duration": 149,
+    "thumbnail": "https://i.ytimg.com/vi/QCnb0haHHLo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWOb18qeQUG3ucpLX2h2XECTuB2Q",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=crnLnQMDrM0",
+    "title": "Zé Pequeña - Denigrante (A.T.R)",
+    "duration": 170,
+    "thumbnail": "https://i.ytimg.com/vi/crnLnQMDrM0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPqu3Wf4XW5-JuPpfhFAR30OAgQg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ljgyvgQBq40",
+    "title": "Zé Pequeña - Diciendo Algo (A.T.R)",
+    "duration": 110,
+    "thumbnail": "https://i.ytimg.com/vi/ljgyvgQBq40/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCni-zj08tk-D4q-K2ej-m4fT9cXA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jnvNuDM8k4Y",
+    "title": "Zé Pequeña - Compraste (A.T.R)",
+    "duration": 147,
+    "thumbnail": "https://i.ytimg.com/vi/jnvNuDM8k4Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMPY977xYV1DqMkyzYAaFowX7ytA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=n2kHCsV6Gd0",
+    "title": "Zé Pequeña - Martona (A.T.R)",
+    "duration": 147,
+    "thumbnail": "https://i.ytimg.com/vi/n2kHCsV6Gd0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZRqvNLreAEl-RqYV6kQd5qFYfRw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zFOnR9dHRpc",
+    "title": "Zé Pequeña - 3 Veces (A.T.R)",
+    "duration": 124,
+    "thumbnail": "https://i.ytimg.com/vi/zFOnR9dHRpc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkcoezJWv_BaNmo8w5NtIhRoN-OQ",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=txIgUgVCklo",
+    "title": "Zé Pequeña - La Piba (A.T.R)",
+    "duration": 111,
+    "thumbnail": "https://i.ytimg.com/vi/txIgUgVCklo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIKl-DDSfd1LLLaFHyCvmdFTDZaQ",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=0UmJSQou-TM",
+    "title": "Zé Pequeña - Desde Pobres (A.T.R)",
+    "duration": 135,
+    "thumbnail": "https://i.ytimg.com/vi/0UmJSQou-TM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsLPMwapJm1QZJ6o9dT6jNmBCqYg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PkcSnPrwPi4",
+    "title": "Zé Pequeña, Quedateloo-o (A.T.R)",
+    "duration": 157,
+    "thumbnail": "https://i.ytimg.com/vi/PkcSnPrwPi4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjfA4-FSPBtWsbWyFJOaFO13TAkw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PE70Icdv1dA",
+    "title": "Zé Pequeña - Ajáh (A.T.R)",
+    "duration": 126,
+    "thumbnail": "https://i.ytimg.com/vi/PE70Icdv1dA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIV_43RBvDIwErNamTdNwXyf8z0A",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=4fveBVdahjk",
+    "title": "Zé Pequeña, CRI-CRI (A.T.R)",
+    "duration": 111,
+    "thumbnail": "https://i.ytimg.com/vi/4fveBVdahjk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhMIGEoZTAP&rs=AOn4CLAxC0wtAe3zUnGha6vl1KsSBGgMOg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xwXfxFnTAAo",
+    "title": "ZÉ PEQUEÑA & MALDITO AEROSOL - Riri (Video Oficial)",
+    "duration": 132,
+    "thumbnail": "https://i.ytimg.com/vi/xwXfxFnTAAo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARWrmImRXuXbIiaMUGnGTZ4W_Bqw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=i1OmKCThqMw",
+    "title": "ZÉ PEQUEÑA - Morena & Puntero (Video Oficial)",
+    "duration": 350,
+    "thumbnail": "https://i.ytimg.com/vi/i1OmKCThqMw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlPpe5LvE4PVG-9VA2xQmTSdLV6Q",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WsIKUyLMsMI",
+    "title": "Zé Pequeña & Komp - Problemas Mas Grandes (Video Oficial) Prod. Yamanas",
+    "duration": 149,
+    "thumbnail": "https://i.ytimg.com/vi/WsIKUyLMsMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwe3ZrXD3axlcqN6N9m0alUGOGsA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=0tXygqoK9I0",
+    "title": "Zé Pequeña - CHISPIATE (Video Oficial) Prod. OroDembow & Emirsito",
+    "duration": 144,
+    "thumbnail": "https://i.ytimg.com/vi/0tXygqoK9I0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByoUYhcEmvtyrDD9JmbNd0P6D9EQ",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=o6ZLaW-miqM",
+    "title": "Zé Pequeña & Richh Lou - La Mafia De Las Nenas Lindas (Video Oficial)",
+    "duration": 206,
+    "thumbnail": "https://i.ytimg.com/vi/o6ZLaW-miqM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCO0dESRpp6nRdXmvwcQX7JYG_ZUA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=6vEhcOWwc54",
+    "title": "Zé Pequeña & Bishop One - TORNIQUETE",
+    "duration": 160,
+    "thumbnail": "https://i.ytimg.com/vi/6vEhcOWwc54/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDGz11MPTghXssYIr9MqfjKHQuS-A",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=XPKQpS7LQJs",
+    "title": "Zé Pequeña & Jocbeats- Karioken (EP Oficial)",
+    "duration": 683,
+    "thumbnail": "https://i.ytimg.com/vi/XPKQpS7LQJs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDzbUNYFAnADOB9FyJEXHmn8qFvzg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=7x6NXYVvfiU",
+    "title": "Zé Pequeña, Nn.Carvalho - GORGOJOS (Video Oficial) Prod. @SajoBkule",
+    "duration": 131,
+    "thumbnail": "https://i.ytimg.com/vi/7x6NXYVvfiU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA-xQvDAXwzS8sJPUaK_V7YB6kYUw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=r35JCaRQkKE",
+    "title": "Zé Pequeña, 3M5 • ANTI-​⁠ESTRELLAS (Video Oficial) Prod. JocBeats",
+    "duration": 193,
+    "thumbnail": "https://i.ytimg.com/vi/r35JCaRQkKE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVOyY80HhJOrywstwR38hCJJVPtA",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zLC5DP5e4kg",
+    "title": "Zé Pequeña, Emirsito - TWINZ  (Video Oficial)",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/zLC5DP5e4kg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-kdc-zvKI1KrkiDhfZ6V3deH92w",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=BkRU1Nu5rb8",
+    "title": "Zé Pequeña- CHIRIPÍ (Video Oficial)",
+    "duration": 171,
+    "thumbnail": "https://i.ytimg.com/vi/BkRU1Nu5rb8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4bKRLkjcdY5R__7s9HEQCGpbkWw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=mNCyhsYNrqQ",
+    "title": "Zé Pequeña, Clúster, Doly Flackko - TRES PLUMAS (Video Oficial)",
+    "duration": 274,
+    "thumbnail": "https://i.ytimg.com/vi/mNCyhsYNrqQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0ZCD77Om2Yv83Kab5H3Xl2Sc49Q",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zQClEhDivtU",
+    "title": "Zé Pequeña & Jocbeats - BILLIKEN ",
+    "duration": 250,
+    "thumbnail": "https://i.ytimg.com/vi/zQClEhDivtU/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLBRD-Xgzt1O8kk8RbYg39dnQmB-Yw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Cm9s_FDzAr0",
+    "title": "ZÉ PEQUEÑA  \"SALSA MAMMÁ\" BILLY-G EP COMPLETO",
+    "duration": 907,
+    "thumbnail": "https://i.ytimg.com/vi/Cm9s_FDzAr0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IBMoGzAP&rs=AOn4CLAZWidHPMRHYeBWf2VbOhl1r3Q_0A",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=AmmQLB1j1hQ",
+    "title": "LA ESCENA DEL CRIMEN  L’ PEQEÑA X 947 X H.JODIDO",
+    "duration": 226,
+    "thumbnail": "https://i.ytimg.com/vi/AmmQLB1j1hQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqOYtAw0Wp5HU0boTKqTpR6NFglg",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=TOOCyEwrXvw",
+    "title": "L' PEQEÑA - ABUNDANCIA JOCBEATS",
+    "duration": 199,
+    "thumbnail": "https://i.ytimg.com/vi/TOOCyEwrXvw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBG2W03hDOSlUcGj4pAWkkIWisQ9g",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=DWtHmhnQkK8",
+    "title": "L' PEQEÑA- ESTOY DE PASO",
+    "duration": 223,
+    "thumbnail": "https://i.ytimg.com/vi/DWtHmhnQkK8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIF4oSDAP&rs=AOn4CLA2ytzZ2Cky_7HQwJCsos11rG9YhQ",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=F5H521FE7pE",
+    "title": "L' PEQEÑA- CAMPESINA FLAMBOYANT.",
+    "duration": 214,
+    "thumbnail": "https://i.ytimg.com/vi/F5H521FE7pE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIGUoYzAP&rs=AOn4CLDnd__ntz7KYBRM1rXJGX2U3_kkLw",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=32XVBNfXOHY",
+    "title": "L' PEQEÑA- CONTALA COMO QUIERAS. LA FABRICA ESTUDIO. FREST98.BEATS",
+    "duration": 177,
+    "thumbnail": "https://i.ytimg.com/vi/32XVBNfXOHY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF0oUzAP&rs=AOn4CLBAJuRqoYukuhyW3V3ZEUaEAC5C6g",
+    "artist": "ZÉ PEQUEÑA "
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Lqsu1VmAd3s",
+    "title": "En el Roca (videoclip oficial) @DIGITALDRUMMERZ @CLUBHATS",
+    "duration": 165,
+    "thumbnail": "https://i.ytimg.com/vi/Lqsu1VmAd3s/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBXJMlRTXlgZO-fjyt2U4ikr27Utw",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=kMjQ3UwIN_Y",
+    "title": "En mi mambo (Prod: ‪@ValleyFreshOnSauce & @cheesyflows ) (Dj: ‪@CLUBHATS )",
+    "duration": 78,
+    "thumbnail": "https://i.ytimg.com/vi/kMjQ3UwIN_Y/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBhrZZhjsFTurasSrPfAFZIWwBZWQ",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=w3fA64-KqIk",
+    "title": "Teletubis (prod. @Valley Fresh On Sauce) (Dj. ClubHats)",
+    "duration": 141,
+    "thumbnail": "https://i.ytimg.com/vi/w3fA64-KqIk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBIoiggapPR_7V0T4ZquRpT47LJsg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=90DBoCMMS5o",
+    "title": "Airbnb (ft. ‪@KERCHAKzzz  ‪@clustercontilde  ) (prod. hiident)",
+    "duration": 109,
+    "thumbnail": "https://i.ytimg.com/vi/90DBoCMMS5o/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFAoMzAPuALzGA==&rs=AOn4CLDn0Ss1UfqJY9VHd1rjxsesPszpEg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=vEVvW0hWVa8",
+    "title": "No para (prod. rxcardobands)",
+    "duration": 128,
+    "thumbnail": "https://i.ytimg.com/vi/vEVvW0hWVa8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLB2kWX0Kk-Gz2Zs0o37orx-0ervMA",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=l5V6Kwk9IPk",
+    "title": "Todo tiene un costo, todo tiene un precio (prod. austwinn)",
+    "duration": 148,
+    "thumbnail": "https://i.ytimg.com/vi/l5V6Kwk9IPk/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDaQ95l7O5PgvNgz9-gTFtuYSFT3Q",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WXvJia7DcJI",
+    "title": "Vos donde estás? (prod. austwinn)",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/WXvJia7DcJI/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLD1AZXh8-EsELz0HAXJ2D-bInowlw",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zJA90CvlqhA",
+    "title": "Go stupid (prod. hiident)",
+    "duration": 104,
+    "thumbnail": "https://i.ytimg.com/vi/zJA90CvlqhA/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBDzsedjz2I7Q2SuGiC50zMFSi7qw",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=MdXAlttn2sU",
+    "title": "No se, no vi nada",
+    "duration": 103,
+    "thumbnail": "https://i.ytimg.com/vi/MdXAlttn2sU/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBHLjXwXET6Ou8_KliGgfgR4jxU-A",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xAcnhcfWv-I",
+    "title": "Baby boo",
+    "duration": 69,
+    "thumbnail": "https://i.ytimg.com/vi/xAcnhcfWv-I/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAvI29FFD2tOxoRcbbO5hle3LDwBg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=gInUshgfMAE",
+    "title": "CD (prod. @Valley Fresh On Sauce) (Dj. ClubHats)",
+    "duration": 85,
+    "thumbnail": "https://i.ytimg.com/vi/gInUshgfMAE/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCN1F7x1XW9r-7JNRIwFl3tIqxryg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=i2xtGTpBI-Y",
+    "title": "pila pila (prod. @Valley Fresh On Sauce & Danni juggs) (Dj. ClubHats)",
+    "duration": 98,
+    "thumbnail": "https://i.ytimg.com/vi/i2xtGTpBI-Y/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLABd-4u8AiIFVZq5sdLooHbsP6yUA",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=DwyLBqbYJ8o",
+    "title": "Sube de pitch (ft. @KERCHAKzzz , @clustercontilde ) prod. @CoronaBeatz",
+    "duration": 198,
+    "thumbnail": "https://i.ytimg.com/vi/DwyLBqbYJ8o/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLD7jsGlxOco4ZA7KT1pRYDJ5CcBsg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WzfKOKDDZpM",
+    "title": "Ni me la vuele (prod. @noctizbricks & @austwinn )",
+    "duration": 126,
+    "thumbnail": "https://i.ytimg.com/vi/WzfKOKDDZpM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBdeKcTJn-szupXnvzgb-B37vp2Kg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=7l52Vi56gmQ",
+    "title": "Un picadito ft. turrobaby, KERCHAK, Clúster, Tuw4 (prod. Dagger)",
+    "duration": 206,
+    "thumbnail": "https://i.ytimg.com/vi/7l52Vi56gmQ/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEIoKjAPuALzGA==&rs=AOn4CLDuQqQhdzL2nzjRPeIA80s514XjIg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=yGyOFQJbF2A",
+    "title": "Rolo otro (prod. Kiett)",
+    "duration": 122,
+    "thumbnail": "https://i.ytimg.com/vi/yGyOFQJbF2A/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDwcPOqPDTtWYQGczFMz620QjM_eg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=amuvzWGuaNQ",
+    "title": "Dando la nota ft. Komp (prod. ener)",
+    "duration": 153,
+    "thumbnail": "https://i.ytimg.com/vi/amuvzWGuaNQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLApZFN2e8wdhQfsMT8fERwpdHRrWA",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=zMjP25v2B2g",
+    "title": "Helecho (prod. Trendiyboi)",
+    "duration": 125,
+    "thumbnail": "https://i.ytimg.com/vi/zMjP25v2B2g/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDgB_rfe8MPyZNbiyCWF1VCLf5epw",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=iOUguvpt7l8",
+    "title": "Calidad ft. KERCHAK, Clúster (prod. 1millonusd)",
+    "duration": 157,
+    "thumbnail": "https://i.ytimg.com/vi/iOUguvpt7l8/hq720.jpg?sqp=-oaymwE6CNAFEJQDSFXyq4qpAywIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhPIFkoZTAPuALzGA==&rs=AOn4CLAquujVud5h7IlPTyaQ_hpntzdFRA",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PblQoaSd2cs",
+    "title": "Friki (prod. Tutrex)",
+    "duration": 156,
+    "thumbnail": "https://i.ytimg.com/vi/PblQoaSd2cs/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAHKH0KpuIrx2UKZ14R4yNY0E_wUA",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=moPm9SBHO7Y",
+    "title": "Orgánico ft. JuicyNise (prod. Kiett)",
+    "duration": 137,
+    "thumbnail": "https://i.ytimg.com/vi/moPm9SBHO7Y/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBlgxlVXQ_TMJvQ5RPHNEmsQ7ging",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=KLt0-2qsxNM",
+    "title": "Cuetasos ft. Kidd samu (prod. Dagger)",
+    "duration": 111,
+    "thumbnail": "https://i.ytimg.com/vi/KLt0-2qsxNM/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAHnZ3fgm3oaO4WFNHKyxen5-Oazg",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jEE9AXH2oVw",
+    "title": "Dagger - Cinta métrica (Video oficial)",
+    "duration": 141,
+    "thumbnail": "https://i.ytimg.com/vi/jEE9AXH2oVw/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAcb1DIJyseeE53Zy44nVpjTF0eAw",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=isgPEVEIdpQ",
+    "title": "Tranka en Casa (prod. Kiett)",
+    "duration": 113,
+    "thumbnail": "https://i.ytimg.com/vi/isgPEVEIdpQ/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCKVcap2dpQnuXe8H8zuVHFIL0Q7g",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=p0RS18rckZY",
+    "title": "DAGGER, NACHOTHEPLUG - CORTE ITALIANO",
+    "duration": 168,
+    "thumbnail": "https://i.ytimg.com/vi/p0RS18rckZY/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLANceh3eT9Ef6SWxa6jPUw0wyW3oA",
+    "artist": "Dagger"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=1vqsOqrDXSE",
+    "title": "NIKO ROW - ON THE RADAR (Full Mixtape)",
+    "duration": 690,
+    "thumbnail": "https://i.ytimg.com/vi/1vqsOqrDXSE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLASvWk4a3weWhngb4rDtNMU78t_sg",
+    "artist": "Niko Row"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=HzmDYdOmBtI",
+    "title": "Niko Row - LIBERACE (Video Oficial)",
+    "duration": 120,
+    "thumbnail": "https://i.ytimg.com/vi/HzmDYdOmBtI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXGsn66qLIC3HCAEAF9azu0yrurA",
+    "artist": "Niko Row"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ctGdmxuF3Xk",
+    "title": "Niko Row - Veredicto (Video Oficial)",
+    "duration": 143,
+    "thumbnail": "https://i.ytimg.com/vi/ctGdmxuF3Xk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFe-CPBMlnkNDzorAhLXKxLV9ZQQ",
+    "artist": "Niko Row"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=l33vBgqJmGs",
+    "title": "Niko Row - SI O SI (Video Oficial)",
+    "duration": 178,
+    "thumbnail": "https://i.ytimg.com/vi/l33vBgqJmGs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA91YkqLyyWE3XGEcoUfbvnk50O_Q",
+    "artist": "Niko Row"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=wUZONDkr-9g",
+    "title": "Niko Row - Shake It (Studio Session)",
+    "duration": 176,
+    "thumbnail": "https://i.ytimg.com/vi/wUZONDkr-9g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5u6d_1kNxVZC5oPx5Yx18EzF2Qg",
+    "artist": "Niko Row"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=wW5En05-sqU",
+    "title": "Niko Row, Doly Flackko  - PENSÁNDONOS (video oficial)",
+    "duration": 146,
+    "thumbnail": "https://i.ytimg.com/vi/wW5En05-sqU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaBXVqlWn3uzQPgOaOuM6dRpTf1g",
+    "artist": "Niko Row"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=LdfnNfkWot8",
+    "title": "PERREO MEDUSA - DJNIIKOO",
+    "duration": 181,
+    "thumbnail": "https://i.ytimg.com/vi/LdfnNfkWot8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADKzPtssWNEyjR6h3FNwEUr1iK_g",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=JHWuFGPBe_Y",
+    "title": "DJNIIKOO - PERREO FRIENDZONE",
+    "duration": 132,
+    "thumbnail": "https://i.ytimg.com/vi/JHWuFGPBe_Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0Y3ITYMMus1cJIXlFZ1QBfGxKbg",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=3cKwoyU8bvs",
+    "title": "PERREO LA SENSACIÓN DEL BLOKE - DJNIIKOO",
+    "duration": 143,
+    "thumbnail": "https://i.ytimg.com/vi/3cKwoyU8bvs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhIIBMofzAP&rs=AOn4CLCif0ZzVT97M35dA_kNhr9u2Jpgcw",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=gSIWQDImKb4",
+    "title": "PERREO FRO - DJNIIKOO",
+    "duration": 137,
+    "thumbnail": "https://i.ytimg.com/vi/gSIWQDImKb4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQ0oZoHIYIfAZxvab070Tnib99Ng",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=P0MgSYp7Cys",
+    "title": "DJNIIKOO - OTRA SEDA (AFRO+PERREO)",
+    "duration": 161,
+    "thumbnail": "https://i.ytimg.com/vi/P0MgSYp7Cys/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLCRmqRiaGFKBbtxnwnzWhE8AuuAmw",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=RA6iFkp-E64",
+    "title": "DJNIIKOO - TATIANA (AFRO)",
+    "duration": 121,
+    "thumbnail": "https://i.ytimg.com/vi/RA6iFkp-E64/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhjIGUoUzAP&rs=AOn4CLCBWRLd8zbeOwdD-jVBJVBgCCSnfQ",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=HoCVc9AhpWs",
+    "title": "DJNIIKOO - GIRALO (AFRO)",
+    "duration": 136,
+    "thumbnail": "https://i.ytimg.com/vi/HoCVc9AhpWs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg0IGUoGTAP&rs=AOn4CLA5KLK0z-_K_eElbFqf4E1YF4bo9Q",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=qq7IwSuY_cc",
+    "title": "PERREO ES MIO - DJNIIKOO",
+    "duration": 110,
+    "thumbnail": "https://i.ytimg.com/vi/qq7IwSuY_cc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFEoRzAP&rs=AOn4CLDXFUBOletpIcDbzyGv9iAjOWfC9A",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=SqsPv99p2do",
+    "title": "PERREO LIL PANI | DJNIIKOO",
+    "duration": 107,
+    "thumbnail": "https://i.ytimg.com/vi/SqsPv99p2do/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhGIGUoXDAP&rs=AOn4CLAznHY6mq7abk0wFSMiEKRBU6p2nw",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=tPVMshQj5w8",
+    "title": "PERREO SC #1 (turrobaby, tuw4, keloo)- DJNIIKOO",
+    "duration": 136,
+    "thumbnail": "https://i.ytimg.com/vi/tPVMshQj5w8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDC0HNTUirJC8qPmEyeE9ipCViF3g",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=UVnqlg9pzJo",
+    "title": "🩸 PERREO DOLY FLACKKO 🩸 - DJNIIKOO",
+    "duration": 94,
+    "thumbnail": "https://i.ytimg.com/vi/UVnqlg9pzJo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IBMoGDAP&rs=AOn4CLCaGHgKKpKVJNzvIEx0MAIT-lXnAw",
+    "artist": "DJNIIKOO"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=aJnHc6WHkvg",
+    "title": "arrancacorazones (video oficial)",
+    "duration": 165,
+    "thumbnail": "https://i.ytimg.com/vi/aJnHc6WHkvg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCk9wQ4-qoSfEG8d5gmz-kLv42sHQ",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=V-y-NEUig0U",
+    "title": "rojo y azul (bendibesos) (tegocalderon)",
+    "duration": 133,
+    "thumbnail": "https://i.ytimg.com/vi/V-y-NEUig0U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPDVXbiYLKXl-LZIDSBjzWiG7_XQ",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=6LenvbCtSi4",
+    "title": "ya nose lo que esperar (lo q veo)",
+    "duration": 126,
+    "thumbnail": "https://i.ytimg.com/vi/6LenvbCtSi4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtApJGkjgP3uzkJmVhF9Olxc3zMA",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ge4kIhMZoUU",
+    "title": "sin un plan (tegocalderon)",
+    "duration": 119,
+    "thumbnail": "https://i.ytimg.com/vi/ge4kIhMZoUU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZFIBH6VEVbHQFt1Lyz0GZDgBPvA",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xEnWISGqPaQ",
+    "title": "contame",
+    "duration": 140,
+    "thumbnail": "https://i.ytimg.com/vi/xEnWISGqPaQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlY0OP6jqAr-WAzEFyLbuP00tf6g",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=aSYu8gWDK9Y",
+    "title": "ISMA - ¿Cuanto va a pasar? (Video Oficial)",
+    "duration": 113,
+    "thumbnail": "https://i.ytimg.com/vi/aSYu8gWDK9Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoZxFszTERuPLrOXHSBVWYGdr7xg",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=NzoXRs3uM3s",
+    "title": "ISMA, LOLO - cual es tu plan?? (Video Oficial)",
+    "duration": 112,
+    "thumbnail": "https://i.ytimg.com/vi/NzoXRs3uM3s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDo4oeVUFY2A7PvuD-vfFPrTQ9tJA",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=D4EzhRDFWig",
+    "title": "ISMA - 2037 (Video Oficial) #PRISMA",
+    "duration": 149,
+    "thumbnail": "https://i.ytimg.com/vi/D4EzhRDFWig/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJX0yroztVpMyNJlHPqR04_dwZjw",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=wQEWv0wwfGQ",
+    "title": "ISMA - ADL20 (MV)",
+    "duration": 134,
+    "thumbnail": "https://i.ytimg.com/vi/wQEWv0wwfGQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmhAxIBlYreKl5eABppozSa7XmiQ",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=h_Cd_jomTm4",
+    "title": "Anovus",
+    "duration": 697,
+    "thumbnail": "https://i.ytimg.com/vi/h_Cd_jomTm4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCOshZbUKVjtu-dBNwX6uwogZWpQ",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=NjlgndpwyiY",
+    "title": "ISMA - Antes del Amanecer (Video Oficial)",
+    "duration": 118,
+    "thumbnail": "https://i.ytimg.com/vi/NjlgndpwyiY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2_OZLQkcY5GJ2SqXAxXrc_jSIlA",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=322Vmiek6BI",
+    "title": "ISMA - 0444 (Video Oficial)",
+    "duration": 148,
+    "thumbnail": "https://i.ytimg.com/vi/322Vmiek6BI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVPpI46-Jt8JrdKWYin3VpE7hp6A",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=1b4DIribUCA",
+    "title": "ISMA - DELIRAR (Video Oficial)",
+    "duration": 183,
+    "thumbnail": "https://i.ytimg.com/vi/1b4DIribUCA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCCxvHiEp9ikvmuz8kEjxNdLXg7gw",
+    "artist": "ISMA"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=VU_aI3Hg-lc",
+    "title": "JOSHU JOSHU - 27 CLUB PROD CLAMS CASINO",
+    "duration": 245,
+    "thumbnail": "https://i.ytimg.com/vi/VU_aI3Hg-lc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEcoLzAP&rs=AOn4CLD0vrLFF_E4n7P6g4DM1GVHVbYuoQ",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=VlokASL1SLA",
+    "title": "1JOSHU - AFFLICTION PROD DAYVAN",
+    "duration": 120,
+    "thumbnail": "https://i.ytimg.com/vi/VlokASL1SLA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnnOMuy3TaS6399UW9kcQyntZHfA",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=rPdB6ui-g9Q",
+    "title": "1JOSHU - NO ME ARREPIENTO PROD DAYVAN",
+    "duration": 102,
+    "thumbnail": "https://i.ytimg.com/vi/rPdB6ui-g9Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZc7xuBZcT8GZP3dV3pR-CeOpteA",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Okolu5-wzyk",
+    "title": "Joshu Joshu - PADUA ANGEL (Full EP)",
+    "duration": 706,
+    "thumbnail": "https://i.ytimg.com/vi/Okolu5-wzyk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAAtAFigIMCAAQARhVIF0oZTAP&rs=AOn4CLCchG9q3jMACsfNiFF__phE4rukpg",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=mYzCRsiR1d4",
+    "title": "Joshu Joshu & Sa!koro - MÁS ALTO / SUELA ROJA prod. SIRŸA, amltomi",
+    "duration": 112,
+    "thumbnail": "https://i.ytimg.com/vi/mYzCRsiR1d4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFYoSDAP&rs=AOn4CLB_gYEEnSyelLTUYnOLtiWyYKjEnw",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jeq5n-gc_fs",
+    "title": "SWAGGERBOYZ, SERANE, JOSHU JOSHU - NO CAIGO  PROD PERC40",
+    "duration": 136,
+    "thumbnail": "https://i.ytimg.com/vi/jeq5n-gc_fs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLasrldazsuW4mK-mRd_bRsUIfKQ",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=l5hVnMHTnWU",
+    "title": "1JOSHU - EDUARDO FEINMANN PROD 0-600",
+    "duration": 121,
+    "thumbnail": "https://i.ytimg.com/vi/l5hVnMHTnWU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkmiIDA-UbvUKHEC6hETge8MBhng",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=t-UEr5ahZ_E",
+    "title": "JOSHU JOSHU - FUKK DA CLOUT",
+    "duration": 143,
+    "thumbnail": "https://i.ytimg.com/vi/t-UEr5ahZ_E/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFgoRDAP&rs=AOn4CLDC5d4XSU4hGOkShEo2fp8rWXF0FQ",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Psw-H07eFcw",
+    "title": "1JOSHU - 2025",
+    "duration": 116,
+    "thumbnail": "https://i.ytimg.com/vi/Psw-H07eFcw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1de-WcVge7lFfplBXPy8gAycS8w",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=rqF0-Y6sfRs",
+    "title": "1JOSHU x STIFFY - DOMANDO LA INDUSTRIA (FULL MIXTAPE)",
+    "duration": 440,
+    "thumbnail": "https://i.ytimg.com/vi/rqF0-Y6sfRs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMconSUCba3tL8p9Nfht20rX1oDg",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=bmpVRLRUgEU",
+    "title": "JOSHU JOSHU - EL BASEMENT PROD SIRŸA",
+    "duration": 75,
+    "thumbnail": "https://i.ytimg.com/vi/bmpVRLRUgEU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEUCpRua9AiY95EP-kq1-morZFVw",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=F-DylxYA4nM",
+    "title": "JOSHU JOSHU - WHAT IS LUVV  (Video Oficial)",
+    "duration": 158,
+    "thumbnail": "https://i.ytimg.com/vi/F-DylxYA4nM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCphF0hH_0gFUZhOiNXOa11rpe6fg",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=yfwqy0Z33Mg",
+    "title": "JOSHU JOSHU - ESTE AÑO CORONO (Video Oficial)",
+    "duration": 114,
+    "thumbnail": "https://i.ytimg.com/vi/yfwqy0Z33Mg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmWBbTo7dt8gImudU94apGdE-sZw",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WpUpnRCJS5M",
+    "title": "JOSHU JOSHU - BROKE AF / BILLIE JEAN (Video Oficial)",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/WpUpnRCJS5M/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAp-rPJI4oix8qRThVar8aZtTzhEw",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ZqxzxtERMow",
+    "title": "JOSHU JOSHU - DA REAL 4 REAL  (Video x @ezewkiel)",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/ZqxzxtERMow/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-swTNxWdWF59krpiok6PCpf3n6Q",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ibz4RF-CJfw",
+    "title": "JOSHU JOSHU - PAYPAL JESUS (FULL MIXTAPE)",
+    "duration": 1101,
+    "thumbnail": "https://i.ytimg.com/vi/ibz4RF-CJfw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmaj967L-Wrw6Pazqs8cg7GCIetQ",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=sxRUl9clmew",
+    "title": "Joshu Joshu, 372luca - DI MARIA (POMBERITO LYFESTYLE)",
+    "duration": 110,
+    "thumbnail": "https://i.ytimg.com/vi/sxRUl9clmew/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwsBnJqYnUfA8cohKR2p1GH_96xg",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=YONZP5MWoKU",
+    "title": "LACONCHADEMIHRNAAAAAAAAAA",
+    "duration": 146,
+    "thumbnail": "https://i.ytimg.com/vi/YONZP5MWoKU/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFwoTzAP&rs=AOn4CLDI9v5YPDVWDqfMkSSGT-cssaeo1A",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ZUQ-wI7mgF4",
+    "title": "JOSHU JOSHU x STIFFY - BAXKWOODZ ANGELZ",
+    "duration": 120,
+    "thumbnail": "https://i.ytimg.com/vi/ZUQ-wI7mgF4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFgoODAP&rs=AOn4CLA97m4JQhcUFr5AZbhqmWoEO7FJ8Q",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=nfcTMXikkDA",
+    "title": "Joshu Joshu, 372luca - LUCES / CUCHILLOS EN MI ESPALDA",
+    "duration": 123,
+    "thumbnail": "https://i.ytimg.com/vi/nfcTMXikkDA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB19SueQ9RqeYgAjDiFYAkNmb_A0w",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=-YROD7QQwf4",
+    "title": "Joshu Joshu, 372luca - 372JOSHU (FULL MIXTAPE)",
+    "duration": 824,
+    "thumbnail": "https://i.ytimg.com/vi/-YROD7QQwf4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLBfpbhhCG3_F7KE8_dD0far7pU6Mg",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=jA1ZsazzoYo",
+    "title": "Joshu Joshu, 372luca - MASTERCARD",
+    "duration": 122,
+    "thumbnail": "https://i.ytimg.com/vi/jA1ZsazzoYo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvgqfXMZqhtZlcdhZpkFrrG3yU3g",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=cPLkM_GKZ3w",
+    "title": "Joshu Joshu, 372luca - GUILLERMO",
+    "duration": 118,
+    "thumbnail": "https://i.ytimg.com/vi/cPLkM_GKZ3w/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0IJIoDBt-fXlvAc8FdcgghQR_CA",
+    "artist": "JOSHU JOSHU"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=-wA-tF__7PM",
+    "title": "agusdelusion - DASH",
+    "duration": 128,
+    "thumbnail": "https://i.ytimg.com/vi/-wA-tF__7PM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTLvd6noJplWWFrcmKe6_g9KXq1g",
+    "artist": "agusdelusion"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=orpDoLsPx0U",
+    "title": "agusdelusion - DEMASIADO WAVY",
+    "duration": 156,
+    "thumbnail": "https://i.ytimg.com/vi/orpDoLsPx0U/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIF0oSDAP&rs=AOn4CLDvf2f-1qDgitQJyBWAejB2FfX2Pw",
+    "artist": "agusdelusion"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=lCZhzfrxjDM",
+    "title": "agusdelusion - FFL | #AntesDeMiTurno",
+    "duration": 133,
+    "thumbnail": "https://i.ytimg.com/vi/lCZhzfrxjDM/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhMIGEoZTAP&rs=AOn4CLCbV0TsBIT11eDBDeK3YLQ4_g-qNw",
+    "artist": "agusdelusion"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ydkt17Zw6fQ",
+    "title": "Cowmelek - La elegida (Videoclip)",
+    "duration": 130,
+    "thumbnail": "https://i.ytimg.com/vi/ydkt17Zw6fQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZDQmB7Kq4yzS5w66X9jVWtcPabQ",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Sac8f3WXfFI",
+    "title": "Cowmelek - Vegas (Video Oficial)",
+    "duration": 123,
+    "thumbnail": "https://i.ytimg.com/vi/Sac8f3WXfFI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9r8NLTqADxKopePZYaFCtjSh74g",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=s-qrnrvJDiY",
+    "title": "Cowmelek - Los Simpson (Video Oficial)",
+    "duration": 117,
+    "thumbnail": "https://i.ytimg.com/vi/s-qrnrvJDiY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjDsCZMSRwZ9Py7VXD74zdTreXWw",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=5xD2JFg3120",
+    "title": "Cowmelek - El precio de amar (Videoclip)",
+    "duration": 51,
+    "thumbnail": "https://i.ytimg.com/vi/5xD2JFg3120/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGQoTzAP&rs=AOn4CLCQYnFiOv1C11JrvaJ9_4kxeQ0A4g",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PQkP1syWkFY",
+    "title": "Cowmelek - Pero yo no (Video Oficial)",
+    "duration": 166,
+    "thumbnail": "https://i.ytimg.com/vi/PQkP1syWkFY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9XKejU5nxN_k8tyg5eobgeDHpHQ",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WO5dB08D34g",
+    "title": "Cowmelek - Flaca (Video Oficial)",
+    "duration": 134,
+    "thumbnail": "https://i.ytimg.com/vi/WO5dB08D34g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4AY3aCTausdJWKRFFpupwnANxxw",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=xva9GzCsEKU",
+    "title": "Cowmelek, Tavi - Bosque (Video Oficial)",
+    "duration": 170,
+    "thumbnail": "https://i.ytimg.com/vi/xva9GzCsEKU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2ab9LbPDXKOp5jPyJY1MeERSEbA",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=t_nr8nvEfwc",
+    "title": "Cowmelek - Parpados (Video Oficial)",
+    "duration": 97,
+    "thumbnail": "https://i.ytimg.com/vi/t_nr8nvEfwc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgC3KRe9cV2wkaZJ7jPP_8rVsykA",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=x-mnmq9dggc",
+    "title": "Cowmelek - Cicatrices (Video Oficial)",
+    "duration": 160,
+    "thumbnail": "https://i.ytimg.com/vi/x-mnmq9dggc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMB25_AlU_Teel1OEG4eUaHP2BGw",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ETl4Dm7aLlo",
+    "title": "Cowmelek - Prueba De Sonido (Video Oficial)",
+    "duration": 77,
+    "thumbnail": "https://i.ytimg.com/vi/ETl4Dm7aLlo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVugcBE3RToFzRXCk8EFxSaU_3RA",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=nfvUSFSG5rg",
+    "title": "Cowmelek, Tavi - Problemas (Video Oficial)",
+    "duration": 130,
+    "thumbnail": "https://i.ytimg.com/vi/nfvUSFSG5rg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuoDQTd2n-zM52eHEFt7i6qzZTwg",
+    "artist": "Cowmelek"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=MvlPmG55jp0",
+    "title": "Underaiki - Se me ha cumplido",
+    "duration": 149,
+    "thumbnail": "https://i.ytimg.com/vi/MvlPmG55jp0/hq720_custom_1.jpg?sqp=CIyQsNYG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9QVlgTgQ9-wOSSHb_D61YZRcNuw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=a-acai9pbI4",
+    "title": "Underaiki - Ay Q Dolor",
+    "duration": 123,
+    "thumbnail": "https://i.ytimg.com/vi/a-acai9pbI4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARXYXVeCy2FF8K13yGfhnT0mTpOA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=3JUCSAnQvvU",
+    "title": "Underaiki - Agarraos de la Mano",
+    "duration": 145,
+    "thumbnail": "https://i.ytimg.com/vi/3JUCSAnQvvU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-Cfa1zObGqRalBPYyf642XxVKrg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=6l3x0me6woc",
+    "title": "Underaiki - Y Porfa",
+    "duration": 143,
+    "thumbnail": "https://i.ytimg.com/vi/6l3x0me6woc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDG-UMA5Zd4M5HELfbE81sRxrOm1A",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=dKQQDh37xZ8",
+    "title": "Underaiki - Batea ",
+    "duration": 138,
+    "thumbnail": "https://i.ytimg.com/vi/dKQQDh37xZ8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIFkoXDAP&rs=AOn4CLBFGy6HpW5IbtXB7T-wwZH6CBL2-Q",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=FXOAExP38HY",
+    "title": "Underaiki - Nara",
+    "duration": 147,
+    "thumbnail": "https://i.ytimg.com/vi/FXOAExP38HY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEMoMTAP&rs=AOn4CLB5CO4PV3ISxEJo0medI1I65JHdMg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=rVq7rVsOFX8",
+    "title": "Underaiki - pami",
+    "duration": 101,
+    "thumbnail": "https://i.ytimg.com/vi/rVq7rVsOFX8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIGVBjRHhx92ihmyTxydFRvXLJNA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=IQNjz8Qh4kY",
+    "title": "Underaiki - Dookie",
+    "duration": 119,
+    "thumbnail": "https://i.ytimg.com/vi/IQNjz8Qh4kY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAWB2Ls2julfJwd5h3SXz20rlClg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=sgE-RN6Kxk4",
+    "title": "Underaiki - Edras (feat. Akapellah)",
+    "duration": 162,
+    "thumbnail": "https://i.ytimg.com/vi/sgE-RN6Kxk4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg7IGEoZTAP&rs=AOn4CLDFkbh2SUnF7a61hA5zJFNBuojtXQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=9xFL4pojqVQ",
+    "title": "Majora",
+    "duration": 140,
+    "thumbnail": "https://i.ytimg.com/vi/9xFL4pojqVQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBD7V7BelAZhynsCEK9UAeyQWxJXQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=UQV0htvvC4s",
+    "title": "No Es Personal",
+    "duration": 115,
+    "thumbnail": "https://i.ytimg.com/vi/UQV0htvvC4s/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgvIFsofzAP&rs=AOn4CLDGzRDAJuwZmn-686TZa8628WOy-w",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=XCper2CIDv8",
+    "title": "cigo",
+    "duration": 101,
+    "thumbnail": "https://i.ytimg.com/vi/XCper2CIDv8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIE8oPjAP&rs=AOn4CLDH6TJu31BLaVmtbXVbRCbDhMEmKA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=lt8L0vEXwio",
+    "title": "fuli",
+    "duration": 84,
+    "thumbnail": "https://i.ytimg.com/vi/lt8L0vEXwio/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgkIGUoYjAP&rs=AOn4CLBV74dcmJr2vs5SFJR_6XSnNcRWNQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=9v1CojWK6ts",
+    "title": "Underaiki - amm",
+    "duration": 106,
+    "thumbnail": "https://i.ytimg.com/vi/9v1CojWK6ts/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtnRo-l9iwkA7_SbGC_v5KmNipaQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=SDnvxjqBaSg",
+    "title": "Underaiki, Suei - Marceline",
+    "duration": 173,
+    "thumbnail": "https://i.ytimg.com/vi/SDnvxjqBaSg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABA5oOnGsM_GgbL_p_X9nRqzF9bw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=NmmB8P9dEQo",
+    "title": "18",
+    "duration": 101,
+    "thumbnail": "https://i.ytimg.com/vi/NmmB8P9dEQo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5hdjwDOtAdtCQjfuDTTxDimvHiA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=DPIbs_XtNg8",
+    "title": "borsi",
+    "duration": 95,
+    "thumbnail": "https://i.ytimg.com/vi/DPIbs_XtNg8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAtAFigIMCAAQARhlIE0oOzAP&rs=AOn4CLBuqJ_puMGQeccte3A_5wI_S5xtVA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=c3_XCB2QtqI",
+    "title": "cualto",
+    "duration": 108,
+    "thumbnail": "https://i.ytimg.com/vi/c3_XCB2QtqI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB7AiAAtAFigIMCAAQARhyID0oOzAP&rs=AOn4CLCrZWsgnLB1KNxiw1Rwe8M0R0S_jg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=nqJMLOlG6nM",
+    "title": "lore",
+    "duration": 102,
+    "thumbnail": "https://i.ytimg.com/vi/nqJMLOlG6nM/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhyIGAoJjAP&rs=AOn4CLA3d4CjPuE7B7AP49mGpXX80TAwZw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Y0YmFMpXU0Q",
+    "title": "moco",
+    "duration": 101,
+    "thumbnail": "https://i.ytimg.com/vi/Y0YmFMpXU0Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEJoXw9AfSetOMvUQQgD-J0eqzRg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=WDd_s2-R_-o",
+    "title": "Underaiki - Too Late",
+    "duration": 102,
+    "thumbnail": "https://i.ytimg.com/vi/WDd_s2-R_-o/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB2AiAAtAFigIMCAAQARhVIF4oZTAP&rs=AOn4CLBt1lyVu9YvMMQL3XYYMir-9CecRA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=2TsSgzx5BcA",
+    "title": "RAFA",
+    "duration": 121,
+    "thumbnail": "https://i.ytimg.com/vi/2TsSgzx5BcA/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg_IGMoZTAP&rs=AOn4CLDw7pWeVTEujepyjzQ8JhdzluAruA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=GcdQLUrvgcc",
+    "title": "cupcakes",
+    "duration": 98,
+    "thumbnail": "https://i.ytimg.com/vi/GcdQLUrvgcc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGEoTTAP&rs=AOn4CLDaYveM7EhKNNsrWEr38cwVwEt7TA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=EH4TjVjKL9E",
+    "title": "Underaiki - #DONUT",
+    "duration": 79,
+    "thumbnail": "https://i.ytimg.com/vi/EH4TjVjKL9E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOjMsacpISC1fSTVlkXiXT6t7jvQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=_GIyB2yEk4Y",
+    "title": "Underaiki - Otanki",
+    "duration": 124,
+    "thumbnail": "https://i.ytimg.com/vi/_GIyB2yEk4Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBF-bttkZu8ur_EfClR24Td9xcM8A",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ICjAueYt2Ns",
+    "title": "Underaiki, Big Soto, Skisia2 & AG SixTeen - DORIS",
+    "duration": 162,
+    "thumbnail": "https://i.ytimg.com/vi/ICjAueYt2Ns/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCvBlxvItqt9mKgPGX2UD4K9jyng",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=S2Dy-ksdbjc",
+    "title": "polka",
+    "duration": 109,
+    "thumbnail": "https://i.ytimg.com/vi/S2Dy-ksdbjc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBESVj8q4vs9blLrAY4fcV4k_YtBw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=YQzZeUqQK9g",
+    "title": "okay",
+    "duration": 112,
+    "thumbnail": "https://i.ytimg.com/vi/YQzZeUqQK9g/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIFEoSTAP&rs=AOn4CLDkL-r5G99lWO4xxUKo6rAMIBUQ2g",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=mKzNwK2-C-E",
+    "title": "mugi",
+    "duration": 117,
+    "thumbnail": "https://i.ytimg.com/vi/mKzNwK2-C-E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlK9_x-eybMme5H3QkujOM8C1kUQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=bukkTWKNGQg",
+    "title": "Brujeria (Audio)",
+    "duration": 146,
+    "thumbnail": "https://i.ytimg.com/vi/bukkTWKNGQg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhKIGUoZTAP&rs=AOn4CLB0SUupdhUDpyBOA0jL_bAMeLdiOQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=BVkJ6_8b_h0",
+    "title": "yugi",
+    "duration": 113,
+    "thumbnail": "https://i.ytimg.com/vi/BVkJ6_8b_h0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEkoQTAP&rs=AOn4CLDWKcV3w7QPPVip9qdtsosqTX9MRg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=LKQbeZ528ds",
+    "title": "radio",
+    "duration": 148,
+    "thumbnail": "https://i.ytimg.com/vi/LKQbeZ528ds/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhgIGUoUzAP&rs=AOn4CLDyi0egfLA_w3y-m_NsYKfFhVggnw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=T_YDO4MJkSY",
+    "title": "nolov",
+    "duration": 107,
+    "thumbnail": "https://i.ytimg.com/vi/T_YDO4MJkSY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAN82-lw9_I3tC1MCqR14umfe9FBw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Y1X6hGejbqg",
+    "title": "RAX",
+    "duration": 109,
+    "thumbnail": "https://i.ytimg.com/vi/Y1X6hGejbqg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWd8oZjNfMKYC_KDNTCGAQrHfW7w",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=4--NDm2mlVc",
+    "title": "17",
+    "duration": 82,
+    "thumbnail": "https://i.ytimg.com/vi/4--NDm2mlVc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhNIFYoZTAP&rs=AOn4CLAcwZFi6W0PaQsPD5Spv1v1nLG9bA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=mmqqWf7JC_w",
+    "title": "surreal 2",
+    "duration": 121,
+    "thumbnail": "https://i.ytimg.com/vi/mmqqWf7JC_w/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUs423lXTv5LyhaEAKB_q2ZSu3Vg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=LQ55MapqoHQ",
+    "title": "cerca",
+    "duration": 107,
+    "thumbnail": "https://i.ytimg.com/vi/LQ55MapqoHQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEsoKzAP&rs=AOn4CLBTGq0gVr8ZcFfkc9L8Q5RwHCApXA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=CjircpatLOw",
+    "title": "a love letter + kiko",
+    "duration": 221,
+    "thumbnail": "https://i.ytimg.com/vi/CjircpatLOw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBy0dADVNvQf-F9fkbcsdpm1HZA6g",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=3Jbhm4jodJg",
+    "title": "toxic",
+    "duration": 97,
+    "thumbnail": "https://i.ytimg.com/vi/3Jbhm4jodJg/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDJIKOXjj59hkJvtZxTZY5rP6-AkQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=_B7yf8aMTIs",
+    "title": "gas 2",
+    "duration": 98,
+    "thumbnail": "https://i.ytimg.com/vi/_B7yf8aMTIs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1jLpQu7ackDLRlVgOAO4YrtyGUw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=KGg8cseJGv8",
+    "title": "por la morning (dumb)",
+    "duration": 71,
+    "thumbnail": "https://i.ytimg.com/vi/KGg8cseJGv8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLC0oILX6DMBy-_GCSTxbz_MhAX8BA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=GxV_bYl0sBg",
+    "title": "bloki",
+    "duration": 77,
+    "thumbnail": "https://i.ytimg.com/vi/GxV_bYl0sBg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCX_ArXTgjJGrm-0KQFqhytGV56vA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=CwkTU1t8ic8",
+    "title": "pop",
+    "duration": 84,
+    "thumbnail": "https://i.ytimg.com/vi/CwkTU1t8ic8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLCl-bTyniE5wlxQx7qiALQx5pmmZw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=2ieVwl2_egE",
+    "title": "woa",
+    "duration": 118,
+    "thumbnail": "https://i.ytimg.com/vi/2ieVwl2_egE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFUoXzAP&rs=AOn4CLAyK2QdeD0l1dG1IgF-v9erFcKk3g",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=mMD8qE6cJas",
+    "title": "han",
+    "duration": 133,
+    "thumbnail": "https://i.ytimg.com/vi/mMD8qE6cJas/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhlIGUoZTAP&rs=AOn4CLBxPql_FNZI7E8k9lsfRo8yo2seVA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=bM--PJ0Xsao",
+    "title": "sushi",
+    "duration": 140,
+    "thumbnail": "https://i.ytimg.com/vi/bM--PJ0Xsao/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhlIGAoSTAP&rs=AOn4CLB9hNFBSh9tXT-xj1mCFwj26KueYw",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=hK33RMJ455Q",
+    "title": "tomm",
+    "duration": 117,
+    "thumbnail": "https://i.ytimg.com/vi/hK33RMJ455Q/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEsoMjAP&rs=AOn4CLBxDhhB_UJvYAMnCynOSK57bqF_KQ",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=LrWd3KNdbzc",
+    "title": "nasti nasti",
+    "duration": 103,
+    "thumbnail": "https://i.ytimg.com/vi/LrWd3KNdbzc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg_IFcoZTAP&rs=AOn4CLB6cuPTprypyirJoZfra_Pl_5l30w",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=bK1SjFMxAd0",
+    "title": "u+me",
+    "duration": 119,
+    "thumbnail": "https://i.ytimg.com/vi/bK1SjFMxAd0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNh12u_fkrspbgUi621yawgZZAZA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ma4mqFVdKtA",
+    "title": "run",
+    "duration": 103,
+    "thumbnail": "https://i.ytimg.com/vi/ma4mqFVdKtA/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARh2ICAofzAP&rs=AOn4CLC0qVyq450cxcs5Nixsv7NXkDWb5g",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=TSGvrOuo5rc",
+    "title": "alma eterna",
+    "duration": 190,
+    "thumbnail": "https://i.ytimg.com/vi/TSGvrOuo5rc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6lOR1Ndh3yMBJNBBscTeX3tpfzg",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=IGXpfAnndVM",
+    "title": "ok!ok!",
+    "duration": 120,
+    "thumbnail": "https://i.ytimg.com/vi/IGXpfAnndVM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEpcLsih0_drQKw8Q4-gwskrHslA",
+    "artist": "underaiki"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=kgO98Wx4E28",
+    "title": "apex cloud (crystal vista) - jovenalien, ISMA, White!",
+    "duration": 284,
+    "thumbnail": "https://i.ytimg.com/vi/kgO98Wx4E28/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ6OpQBOUyd1yhP0CCvJZYjk0PrQ",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=9OchX9LAmjQ",
+    "title": "jovenalien, polus - OAA (official video)",
+    "duration": 163,
+    "thumbnail": "https://i.ytimg.com/vi/9OchX9LAmjQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFELpfJ-SZIs81pB708Tse-8srNQ",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=KW0lLoqAOmQ",
+    "title": "RUIDO HORRIBLE (full ep)",
+    "duration": 516,
+    "thumbnail": "https://i.ytimg.com/vi/KW0lLoqAOmQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhSIGUoXDAP&rs=AOn4CLANsjPkwHKs6HITs9hkXdFBej8Ugw",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=PAodU6KORfI",
+    "title": "brainrot (sacude)",
+    "duration": 87,
+    "thumbnail": "https://i.ytimg.com/vi/PAodU6KORfI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIDwoMzAP&rs=AOn4CLCixY1jwSEF76WSH-PljSMMhcMBEw",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=TI-HNTH97cw",
+    "title": "ni2mil freestyle",
+    "duration": 58,
+    "thumbnail": "https://i.ytimg.com/vi/TI-HNTH97cw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhDIGAoZTAP&rs=AOn4CLDK9EKoHiND1GIXulHJ9eRytX0nWQ",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=E24Sp6JMVHw",
+    "title": "OAAA - jovenalien x polus (audio oficial)",
+    "duration": 146,
+    "thumbnail": "https://i.ytimg.com/vi/E24Sp6JMVHw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEEoOTAP&rs=AOn4CLAnrefDtaKRcqrS90SCjiOOdocWLA",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=shbBmIW8mYQ",
+    "title": "desagradecido/tan fuerte - jovenalien",
+    "duration": 156,
+    "thumbnail": "https://i.ytimg.com/vi/shbBmIW8mYQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhLIGUoWDAP&rs=AOn4CLDh_btFNmSG3ZLyiMjCABDdz9t5SA",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=KFJDu2vbtzE",
+    "title": "solo - jovenalien",
+    "duration": 122,
+    "thumbnail": "https://i.ytimg.com/vi/KFJDu2vbtzE/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhaIFQoZTAP&rs=AOn4CLAIM4nW9TTWTEgo7AIBYJ56tiqtnA",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=F0AdGJrUBws",
+    "title": "25 freestyle",
+    "duration": 151,
+    "thumbnail": "https://i.ytimg.com/vi/F0AdGJrUBws/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF8oSjAP&rs=AOn4CLATsBq5l82UW5I4VH59y8eAR6p55A",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=H5PnHFRi_Pc",
+    "title": "tengo hambre - jovenalien (video oficial)",
+    "duration": 129,
+    "thumbnail": "https://i.ytimg.com/vi/H5PnHFRi_Pc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxp3Yl09mplzRXc9LUAyLvMRuKRA",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=kDcmAlgxaPE",
+    "title": "No vale la pena enojarse - jovenalien",
+    "duration": 151,
+    "thumbnail": "https://i.ytimg.com/vi/kDcmAlgxaPE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAywC-CH_cJlGF7xtTrFR5Y1KRQQw",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=ZjW0Q9bqfB8",
+    "title": "ME PASO LA SEMANA - jovenalien",
+    "duration": 163,
+    "thumbnail": "https://i.ytimg.com/vi/ZjW0Q9bqfB8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDr7nhte7v-NfOXWBymzpU4mLg1A",
+    "artist": "jovenalien"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=Y7BqYRWfbwk",
+    "title": "Ni ahí con tus quilombos - jovenalien",
+    "duration": 143,
+    "thumbnail": "https://i.ytimg.com/vi/Y7BqYRWfbwk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg6IGUoOjAP&rs=AOn4CLDN-yu5GiwG3a0nGjyh2gSVcsoAyA",
+    "artist": "jovenalien"
   }
 ];
